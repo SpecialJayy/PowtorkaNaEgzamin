@@ -14,7 +14,7 @@ function cleanText(text) {
 async function loadQuestions() {
     try {
         // Dodany dummy parametr żeby ominąć cache przy fetchowaniu podczas devu
-        const response = await fetch('questions.json?v=' + new Date().getTime());
+        const response = await fetch('questionsAndAnswers.json?v=' + new Date().getTime());
         allQuestions = await response.json();
         document.getElementById('start-btn').disabled = false;
         document.getElementById('start-btn').innerText = "Rozpocznij nowe podejście";
