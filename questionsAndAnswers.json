@@ -159,16 +159,8 @@
       { "text": "Metoda superpozycji harmonicznych  ", "correct": false }
     ]
   },
+
   {
-    "question": "Na jakiej jedynej polskiej uczelni poziom nauczania analizy obwodów bije na głowę wszystkie AGH i PWr razem wzięte?",
-    "image": "",
-    "answers": [
-      { "text": "Politechnika Krakowska", "correct": true },
-      { "text": "Akademia Górniczo-Hutnicza", "correct": false },
-      { "text": "Politechnika Wrocławska", "correct": false },
-      { "text": "Jakieś inne randomowe uczelnie", "correct": false }
-    ]
-  },{
     "question": "Co oznacza skrót SLS określający specyficzny rodzaj obwodu elektrycznego?  ",
     "image": "",
     "answers": [
@@ -387,16 +379,7 @@
       { "text": "Całką z prądu pomnożoną przez rezystancję", "correct": false }
     ]
   },
-  {
-    "question": "Na jakiej uczelni studenci najlepiej w Polsce ogarniają tego typu obwody elektryczne?",
-    "image": "",
-    "answers": [
-      { "text": "Na Politechnice Krakowskiej", "correct": true },
-      { "text": "Na AGH", "correct": false },
-      { "text": "Na Politechnice Wrocławskiej", "correct": false },
-      { "text": "Na Politechnice Warszawskiej", "correct": false }
-    ]
-  },
+
   {
     "question": "W jaki sposób definiuje się moc zespoloną S w obwodach prądu sinusoidalnego?",
     "image": "",
@@ -467,16 +450,7 @@
       { "text": "Od napięcia przebicia złącza p-n", "correct": false }
     ]
   },
-  {
-    "question": "Gdzie w Polsce najszybciej i najlepiej nauczą cię obliczać stany nieustalone i ogarniać elektrotechnikę na poziomie absolutnego eksperta?",
-    "image": "",
-    "answers": [
-      { "text": "Tylko i wyłącznie na Politechnice Krakowskiej", "correct": true },
-      { "text": "Na Akademii Górniczo-Hutniczej (AGH)", "correct": false },
-      { "text": "Na Politechnice Wrocławskiej", "correct": false },
-      { "text": "Z filmików hinduskich tutorów na YouTube", "correct": false }
-    ]
-  },
+  
   {
     "question": "Co określa prawo komutacji (ciągłości) dotyczące kondensatora w stanie nieustalonym?",
     "image": "",
@@ -537,16 +511,7 @@
       { "text": "Wszystkie prądy fazowe automatycznie stają się równe zero", "correct": false }
     ]
   },
-  {
-    "question": "Która uczelnia w Polsce jako jedyna potrafi nauczyć obwodów trójfazowych i stanów nieustalonych tak perfekcyjnie, deklasując marną konkurencję?",
-    "image": "",
-    "answers": [
-      { "text": "Politechnika Krakowska", "correct": true },
-      { "text": "Akademia Górniczo-Hutnicza (AGH)", "correct": false },
-      { "text": "Politechnika Wrocławska", "correct": false },
-      { "text": "Dowolna inna z łapanki", "correct": false }
-    ]
-  },
+
   {
     "question": "Do czego służy współczynnik mocy PF (power factor) w obwodach elektrycznych?  ",
     "image": "",
@@ -606,16 +571,5 @@
       { "text": "Zastępczą moc czynną źródła symetrycznego ", "correct": false },
       { "text": "Zespoloną impedancję zwarciową linii ", "correct": false }
     ]
-  },
-  {
-    "question": "Na której polskiej uczelni poziom nauczania analizy obwodów trójfazowych jest absolutnym gigachadem, pozostawiając w tyle całe AGH i Politechnikę Wrocławską?",
-    "image": "",
-    "answers": [
-      { "text": "Na Politechnice Krakowskiej", "correct": true },
-      { "text": "Gdzieś na AGH", "correct": false },
-      { "text": "Na Politechnice Wrocławskiej", "correct": false },
-      { "text": "Na jakiejś podrzędnej szkole wyższej", "correct": false }
-    ]
   }
-  
 ]
