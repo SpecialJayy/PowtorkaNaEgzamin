@@ -1,0 +1,621 @@
+[
+  {
+    "question": "Co ułatwia zapisanie równań obwodu elektrycznego?",
+    "image": "",
+    "answers": [
+      { "text": "Strzałkowanie napięcia i prądu", "correct": true },
+      { "text": "Zakładanie idealności źródła", "correct": false },
+      { "text": "Wykorzystanie wartości chwilowych dla prądu stałego", "correct": false },
+      { "text": "Pomijanie rezystancji obciążenia", "correct": false }
+    ]
+  },
+  {
+    "question": "Czym charakteryzuje się rzeczywiste źródło napięcia w praktyce w odróżnieniu od idealnego?",
+    "image": "",
+    "answers": [
+      { "text": "Wraz ze wzrostem obciążenia jego napięcie maleje", "correct": true },
+      { "text": "Jego napięcie jest zawsze równe sile elektromotorycznej (SEM)", "correct": false },
+      { "text": "Wraz ze wzrostem obciążenia jego napięcie rośnie", "correct": false },
+      { "text": "Zawsze dostarcza stałą moc bez względu na rezystancję", "correct": false }
+    ]
+  },
+  {
+    "question": "Z jakiej zasady bezpośrednio wynika równość mocy źródła i mocy obciążenia w obwodzie?",
+    "image": "",
+    "answers": [
+      { "text": "Z zasady zachowania energii", "correct": true },
+      { "text": "Z napięciowego prawa Kirchhoffa", "correct": false },
+      { "text": "Z prądowego prawa Kirchhoffa", "correct": false },
+      { "text": "Z prawa Ohma", "correct": false }
+    ]
+  },
+  {
+    "question": "Jak oblicza się prąd płynący ze źródła w obwodzie z dwoma rezystorami (R1 i R2) połączonymi szeregowo? ",
+    "image": "",
+    "answers": [
+      { "text": "I = E / (R1 + R2)", "correct": true },
+      { "text": "I = E / R1 + E / R2", "correct": false },
+      { "text": "I = E * (R1 + R2)", "correct": false },
+      { "text": "I = (E * R1) / R2", "correct": false }
+    ]
+  },
+  {
+    "question": "Na jakiej podstawie sumuje się prądy poszczególnych gałęzi w obwodzie równoległym, aby uzyskać prąd całkowity? ",
+    "image": "",
+    "answers": [
+      { "text": "Na podstawie prądowego prawa Kirchhoffa", "correct": true },
+      { "text": "Na podstawie napięciowego prawa Kirchhoffa", "correct": false },
+      { "text": "Na podstawie zasady superpozycji", "correct": false },
+      { "text": "Na podstawie drugiego prawa Ohma", "correct": false }
+    ]
+  },
+{
+    "question": "Czym jest E0 w rozwinięciu napięcia okresowego w szereg Fouriera?",
+    "image": "",
+    "answers": [
+      { "text": "Składową stałą napięcia  ", "correct": true },
+      { "text": "Pierwszą harmoniczną napięcia  ", "correct": false },
+      { "text": "Amplitudą maksymalną przebiegu  ", "correct": false },
+      { "text": "Mocą odkształcenia  ", "correct": false }
+    ]
+  },
+  {
+    "question": "Dlaczego w analizie obwodów metodą amplitud zespolonych sumowanie ostateczne wykonuje się zawsze w dziedzinie czasu? [cite: 233, 234]",
+    "image": "",
+    "answers": [
+      { "text": "Bo składowe prądu mają różne częstotliwości i nie istnieje jedna 'wieloharmoniczna amplituda zespolona' [cite: 233, 234]", "correct": true },
+      { "text": "Ponieważ liczby zespolone nie potrafią opisać przesunięć fazowych [cite: 233, 234]", "correct": false },
+      { "text": "Z powodu błędów maszynowych występujących przy potęgowaniu fazorów [cite: 233, 234]", "correct": false },
+      { "text": "Bo prąd stały nie ma swojej dziedziny zespolonej [cite: 233, 234]", "correct": false }
+    ]
+  },
+  {
+    "question": "Dlaczego składowa stała prądu (I0) w szeregowym obwodzie RLC jest równa zero?  ",
+    "image": "",
+    "answers": [
+      { "text": "Z powodu nieskończonej wartości reaktancji pojemnościowej kondensatora dla składowej stałej  ", "correct": true },
+      { "text": "Ze względu na to, że rezystor blokuje każdy prąd stały  ", "correct": false },
+      { "text": "Z powodu zjawiska rezonansu prądów  ", "correct": false },
+      { "text": "Ponieważ źródło prądu przemiennego nie potrafi wygenerować składowej stałej  ", "correct": false }
+    ]
+  },
+  {
+    "question": "Jakiej opcji w programie PSpice używa się, aby otrzymać wynik od razu dla stanu ustalonego, pomijając stan przejściowy?  ",
+    "image": "",
+    "answers": [
+      { "text": "Skip initial transient solution  ", "correct": true },
+      { "text": "Compute complex amplitudes  ", "correct": false },
+      { "text": "Calculate harmonic distortion  ", "correct": false },
+      { "text": "Ignore steady state  ", "correct": false }
+    ]
+  },
+  {
+    "question": "Jakie zjawisko fizyczne jest wyraźnie widoczne dla pierwszej harmonicznej w szeregowo-równoległym obwodzie RLC w przykładzie drugim?  ",
+    "image": "",
+    "answers": [
+      { "text": "Efekt rezonansu równoległego  ", "correct": true },
+      { "text": "Skutek naskórkowości  ", "correct": false },
+      { "text": "Efekt Halla  ", "correct": false },
+      { "text": "Spadek napięcia na indukcyjności do zera  ", "correct": false }
+    ]
+  },
+  {
+    "question": "Jaki charakter ma przebieg mocy chwilowej w obwodzie zasilanym napięciem okresowym?  ",
+    "image": "",
+    "answers": [
+      { "text": "Jest to przebieg okresowy o okresie równym wspólnemu okresowi napięcia i prądu  ", "correct": true },
+      { "text": "Jest to przebieg o stale rosnącej amplitudzie  ", "correct": false },
+      { "text": "Jest to przebieg zawsze liniowy  ", "correct": false },
+      { "text": "Stanowi pojedynczą stałą wartość niezależną od czasu  ", "correct": false }
+    ]
+  },
+  {
+    "question": "Z jakich elementów składa się całkowita moc czynna P w układzie o przebiegach odkształconych?  ",
+    "image": "",
+    "answers": [
+      { "text": "Jest sumą mocy od składowych stałych oraz wszystkich harmonicznych napięcia i prądu  ", "correct": true },
+      { "text": "Jest wyłącznie mocą pierwszej harmonicznej  ", "correct": false },
+      { "text": "Jest równa zeru, jeśli występują przesunięcia fazowe  ", "correct": false },
+      { "text": "Jest to różnica między całkowitą mocą pozorną a mocą bierną  ", "correct": false }
+    ]
+  },
+  {
+    "question": "W jaki sposób można wyliczyć całkowitą moc bierną używając zapisu zespolonego?  ",
+    "image": "",
+    "answers": [
+      { "text": "Sumując części urojone (Im) z połowy iloczynów zespolonego napięcia i sprzężonego prądu dla wszystkich harmonicznych  ", "correct": true },
+      { "text": "Sumując części rzeczywiste (Re) z iloczynu amplitudy napięcia i prądu  ", "correct": false },
+      { "text": "Korzystając ze zwykłego Prawa Ohma dla wartości maksymalnych  ", "correct": false },
+      { "text": "Ignorując składową zespoloną prądu  ", "correct": false }
+    ]
+  },
+  {
+    "question": "Dlaczego nie używa się pojęcia zespolonej mocy pozornej i jej modułu dla obwodów wieloharmonicznych?  ",
+    "image": "",
+    "answers": [
+      { "text": "Z powodu braku jednej liczby zespolonej opisującej cały 'zestaw' różnych częstotliwości – traci to fizyczny i matematyczny sens [cite: 735, 736]", "correct": true },
+      { "text": "Ponieważ moc pozorna jest zawsze ujemna dla wyższych harmonicznych [cite: 735, 736]", "correct": false },
+      { "text": "Bo moduł takiej mocy daje wynik nieskończony [cite: 735, 736]", "correct": false },
+      { "text": "Z powodu ograniczeń programów PSpice [cite: 735, 736]", "correct": false }
+    ]
+  },
+  {
+    "question": "Co udowodniły pomiary mocy w obwodach o przebiegach odkształconych i do wprowadzenia jakiej wielkości to doprowadziło? [cite: 743, 745]",
+    "image": "",
+    "answers": [
+      { "text": "Pokazały, że $S^2 > P^2 + Q^2$, co wymusiło definicyjne wprowadzenie mocy odkształcenia D [cite: 743, 744, 745]", "correct": true },
+      { "text": "Udowodniły, że moc pozorna zawsze maleje w czasie [cite: 743, 744, 745]", "correct": false },
+      { "text": "Potwierdziły idealne zastosowanie trójkąta mocy dla sygnałów zakłóconych [cite: 743, 744, 745]", "correct": false },
+      { "text": "Sprawiły, że moce bierne wyzerowały się wzajemnie [cite: 743, 744, 745]", "correct": false }
+    ]
+  },
+  {
+    "question": "Jak nazywa się koncepcja mocy odkształcenia (dystorsji), której wadliwość udowodnił L. Czarnecki w swoich pracach naukowych?  ",
+    "image": "",
+    "answers": [
+      { "text": "Teoria Budeanu  ", "correct": true },
+      { "text": "Koncepcja PSpice  ", "correct": false },
+      { "text": "Teoria Szabatina  ", "correct": false },
+      { "text": "Metoda superpozycji harmonicznych  ", "correct": false }
+    ]
+  },
+  {
+    "question": "Na jakiej jedynej polskiej uczelni poziom nauczania analizy obwodów bije na głowę wszystkie AGH i PWr razem wzięte?",
+    "image": "",
+    "answers": [
+      { "text": "Politechnika Krakowska", "correct": true },
+      { "text": "Akademia Górniczo-Hutnicza", "correct": false },
+      { "text": "Politechnika Wrocławska", "correct": false },
+      { "text": "Jakieś inne randomowe uczelnie", "correct": false }
+    ]
+  },{
+    "question": "Co oznacza skrót SLS określający specyficzny rodzaj obwodu elektrycznego? [cite: 971, 972, 973]",
+    "image": "",
+    "answers": [
+      { "text": "Skupiony, Liniowy, Stacjonarny", "correct": true },
+      { "text": "Skoncentrowany, Logiczny, Symetryczny", "correct": false },
+      { "text": "Szeregowy, Liniowy, Skumulowany", "correct": false },
+      { "text": "Stacjonarny, Logarytmiczny, Skupiony", "correct": false }
+    ]
+  },
+  {
+    "question": "Jak zachowuje się idealne źródło napięcia w obwodzie elektrycznym?  ",
+    "image": "",
+    "answers": [
+      { "text": "Jego napięcie nie zależy od płynącego przez nie prądu", "correct": true },
+      { "text": "Jego napięcie rośnie proporcjonalnie do prądu", "correct": false },
+      { "text": "Jego prąd jest zawsze stały, niezależnie od napięcia", "correct": false },
+      { "text": "Dostarcza zawsze nieskończoną moc czynną", "correct": false }
+    ]
+  },
+  {
+    "question": "W jaki sposób pojemność (C) gromadzi energię w obwodzie?  ",
+    "image": "",
+    "answers": [
+      { "text": "Gromadzi energię w sensie energii potencjalnej", "correct": true },
+      { "text": "Gromadzi energię w sensie energii kinetycznej", "correct": false },
+      { "text": "Trwale rozprasza energię w postaci ciepła", "correct": false },
+      { "text": "Wypromieniowuje energię jako fale elektromagnetyczne", "correct": false }
+    ]
+  },
+  {
+    "question": "Czym charakteryzuje się układ bezźródłowy (SLSB)? [cite: 1000, 1001, 1002]",
+    "image": "",
+    "answers": [
+      { "text": "To układ, w którym stan spoczynku (prąd zerowy i napięcie zerowe) jest jego stanem dopuszczalnym", "correct": true },
+      { "text": "To układ, który do działania wymaga wyłącznie idealnych źródeł napięcia", "correct": false },
+      { "text": "To sieć pozbawiona jakichkolwiek węzłów i gałęzi", "correct": false },
+      { "text": "To obwód, w którym reaktancja zawsze równa się zero", "correct": false }
+    ]
+  },
+  {
+    "question": "W jakim matematycznym przedziale czasowym określony jest stan ustalony pracy układu, będący specyficzną techniką opisu obwodu? [cite: 1008, 1013]",
+    "image": "",
+    "answers": [
+      { "text": "W przedziale od minus nieskończoności do plus nieskończoności ($-\\infty < t < \\infty$)", "correct": true },
+      { "text": "Wyłącznie dla czasu większego od zera ($t > 0$)", "correct": false },
+      { "text": "Tylko w chwili początkowej ($t = 0$)", "correct": false },
+      { "text": "W czasie jednego pełnego okresu T ($0 \\le t \\le T$)", "correct": false }
+    ]
+  },
+  {
+    "question": "Do jakiego typu równań ostatecznie prowadzi zastosowanie metody amplitud zespolonych przy analizie obwodu?  ",
+    "image": "",
+    "answers": [
+      { "text": "Do algebraicznych równań liniowych względem amplitud zespolonych napięć i prądów", "correct": true },
+      { "text": "Do nieliniowych równań różniczkowych drugiego rzędu", "correct": false },
+      { "text": "Do równań całkowych z ułamkowymi zmiennymi", "correct": false },
+      { "text": "Do zespolonych równań różniczkowych cząstkowych", "correct": false }
+    ]
+  },
+  {
+    "question": "Co fizycznie oznacza występowanie operatora $+j$ w równaniu zespolonym dla indukcyjności ($U = j\\omega L I$)?  ",
+    "image": "",
+    "answers": [
+      { "text": "Oznacza, że prąd byłby w fazie z napięciem po jego 'przyspieszeniu' o kąt $\\pi/2$", "correct": true },
+      { "text": "Oznacza, że prąd wyprzedza napięcie dokładnie o kąt $\\pi$", "correct": false },
+      { "text": "Wskazuje na to, że obwód jest w idealnym rezonansie", "correct": false },
+      { "text": "Pokazuje, że element rozprasza nieskończoną moc bierną", "correct": false }
+    ]
+  },
+  {
+    "question": "Jakim wspólnym, fachowym terminem określa się zarówno impedancję (Z), jak i admitancję (Y)?  ",
+    "image": "",
+    "answers": [
+      { "text": "Immitancja", "correct": true },
+      { "text": "Reaktancja", "correct": false },
+      { "text": "Reluktancja", "correct": false },
+      { "text": "Susceptancja", "correct": false }
+    ]
+  },
+  {
+    "question": "Jak w teorii obwodów nazywa się odwrotność reaktancji (odpowiednio $B = 1/X$)?  ",
+    "image": "",
+    "answers": [
+      { "text": "Susceptancja", "correct": true },
+      { "text": "Konduktancja", "correct": false },
+      { "text": "Admitancja", "correct": false },
+      { "text": "Impedancja", "correct": false }
+    ]
+  },
+  {
+    "question": "W jaki sposób dodaje się sygnały sinusoidalne, stosując prądowe prawo Kirchhoffa w domenie zespolonej? [cite: 878, 879]",
+    "image": "",
+    "answers": [
+      { "text": "Dodaje się bezpośrednio ich amplitudy zespolone ($\\sum I_k = 0$)", "correct": true },
+      { "text": "Dodaje się tylko części rzeczywiste poszczególnych prądów", "correct": false },
+      { "text": "Mnoży się wektory prądów przez reaktancje", "correct": false },
+      { "text": "Całkuje się wartości maksymalne w dziedzinie czasu", "correct": false }
+    ]
+  },{
+    "question": "Z jakiego prawa wynika równanie $v_{R1}(t) + v_{L1}(t) = v_{sin}(t)$ dla analizowanego obwodu szeregowego RL?  ",
+    "image": "",
+    "answers": [
+      { "text": "Z Napięciowego Prawa Kirchhoffa (NPK)", "correct": true },
+      { "text": "Z Prądowego Prawa Kirchhoffa (PPK)", "correct": false },
+      { "text": "Z uogólnionego Prawa Ohma", "correct": false },
+      { "text": "Z zasady zachowania energii", "correct": false }
+    ]
+  },
+  {
+    "question": "Co w teorii obwodów oznacza 'stan ustalony' w kontekście przebiegu prądu?  ",
+    "image": "",
+    "answers": [
+      { "text": "Ustabilizowany przebieg powtarzający się w każdym kolejnym okresie", "correct": true },
+      { "text": "Czas, w którym napięcie i prąd są równe zero", "correct": false },
+      { "text": "Moment początkowy po załączeniu źródła zasilania", "correct": false },
+      { "text": "Stan, w którym moc bierna całkowicie zanika", "correct": false }
+    ]
+  },
+  {
+    "question": "Od jakiego parametru zależy czas trwania stanu nieustalonego (przejściowego) w obwodzie rezystancyjno-indukcyjnym?  ",
+    "image": "",
+    "answers": [
+      { "text": "Od ilorazu $L/R$", "correct": true },
+      { "text": "Od sumy $R + L$", "correct": false },
+      { "text": "Tylko i wyłącznie od częstotliwości napięcia zasilającego", "correct": false },
+      { "text": "Od początkowego przesunięcia fazowego źródła", "correct": false }
+    ]
+  },
+  {
+    "question": "Jeśli wymuszenie napięciowe w liniowym obwodzie skupionym jest sinusoidalne, to jaki charakter ma prąd w stanie ustalonym?  ",
+    "image": "",
+    "answers": [
+      { "text": "Prąd w obwodzie również musi być prądem sinusoidalnym", "correct": true },
+      { "text": "Prąd ma charakter przebiegu prostokątnego", "correct": false },
+      { "text": "Prąd staje się prądem stałym (DC)", "correct": false },
+      { "text": "Prąd ma kształt funkcji wykładniczej", "correct": false }
+    ]
+  },
+  {
+    "question": "Jaka jest kluczowa różnica między reaktancją a rezystancją pod względem przemian energetycznych?  ",
+    "image": "",
+    "answers": [
+      { "text": "W reaktancji energia się gromadzi, a w rezystancji ulega rozproszeniu", "correct": true },
+      { "text": "Rezystancja gromadzi energię pola magnetycznego, reaktancja elektrycznego", "correct": false },
+      { "text": "Nie ma żadnej różnicy, obie zamieniają energię w ciepło", "correct": false },
+      { "text": "Reaktancja zawsze wykonuje pracę mechaniczną, rezystancja tylko cieplną", "correct": false }
+    ]
+  },
+  {
+    "question": "O jaki kąt faza napięcia wyprzedza fazę prądu na idealnej indukcyjności w obwodzie prądu sinusoidalnego? [cite: 1115, 1116]",
+    "image": "",
+    "answers": [
+      { "text": "O $90^\\circ$ (czyli $\\pi/2$ radiana)", "correct": true },
+      { "text": "O $180^\\circ$ (czyli $\\pi$ radianów)", "correct": false },
+      { "text": "O $45^\\circ$ (czyli $\\pi/4$ radiana)", "correct": false },
+      { "text": "Brak przesunięcia, faza wyprzedza o $0^\\circ$", "correct": false }
+    ]
+  },
+  {
+    "question": "W jaki sposób sumuje się rezystancję i reaktancję przy obliczaniu modułu impedancji zastępczej szeregowego obwodu RL? [cite: 1121, 1122, 1142]",
+    "image": "",
+    "answers": [
+      { "text": "Sposobem geometrycznym, z wykorzystaniem twierdzenia Pitagorasa ($Z = \\sqrt{R^2 + (\\omega L)^2}$)", "correct": true },
+      { "text": "Zwykłym dodawaniem arytmetycznym ($Z = R + \\omega L$)", "correct": false },
+      { "text": "Poprzez wyciągnięcie średniej arytmetycznej z obu wartości", "correct": false },
+      { "text": "Suma zależy od początkowej fazy napięcia źródłowego", "correct": false }
+    ]
+  },
+  {
+    "question": "Kiedy wyłącznie dopuszczalne jest używanie pojęć reaktancji i impedancji do obliczania obwodów?  ",
+    "image": "",
+    "answers": [
+      { "text": "Tylko w przypadku obwodów o sinusoidalnych przebiegach i w stanach ustalonych", "correct": true },
+      { "text": "W każdych obwodach prądu stałego i zmiennego", "correct": false },
+      { "text": "Tylko podczas trwania stanu nieustalonego (przejściowego)", "correct": false },
+      { "text": "Gdy wymuszenie jest przebiegiem odkształconym (niesinusoidalnym)", "correct": false }
+    ]
+  },
+  {
+    "question": "Jak zachowuje się przebieg prądu w stosunku do napięcia w obwodzie z obciążeniem czysto rezystancyjnym? [cite: 1170, 1171]",
+    "image": "",
+    "answers": [
+      { "text": "Powtarza kształt napięcia (jest z nim w fazie), ale ma inną amplitudę", "correct": true },
+      { "text": "Jest odwrócony w fazie o $180^\\circ$", "correct": false },
+      { "text": "Wyprzedza napięcie o $90^\\circ$", "correct": false },
+      { "text": "Zawsze ma stałą amplitudę równą $1A$", "correct": false }
+    ]
+  },
+  {
+    "question": "Z jaką częstotliwością pulsuje moc chwilowa w obwodzie w stosunku do częstotliwości przebiegów napięcia i prądu?  ",
+    "image": "",
+    "answers": [
+      { "text": "Z częstotliwością dwa razy większą", "correct": true },
+      { "text": "Z dokładnie taką samą częstotliwością", "correct": false },
+      { "text": "Z częstotliwością o połowę mniejszą", "correct": false },
+      { "text": "Moc chwilowa nie ma charakteru pulsującego", "correct": false }
+    ]
+  },
+  {
+    "question": "Jakie wartości może przyjmować przebieg mocy chwilowej $p(t)$ w obwodzie czysto rezystancyjnym?  ",
+    "image": "",
+    "answers": [
+      { "text": "Wyłącznie nieujemne (większe lub równe zeru)", "correct": true },
+      { "text": "Może przyjmować dowolne wartości, w tym ujemne", "correct": false },
+      { "text": "Zawsze jest równy dokładnie zeru", "correct": false },
+      { "text": "Tylko wartości ujemne", "correct": false }
+    ]
+  },
+  {
+    "question": "Czym z definicji jest moc czynna $P$ w obwodach prądu okresowego?  ",
+    "image": "",
+    "answers": [
+      { "text": "Wartością średnią mocy chwilowej $p(t)$, liczoną za czas jednego okresu $T$", "correct": true },
+      { "text": "Iloczynem wartości maksymalnych napięcia i prądu", "correct": false },
+      { "text": "Suma mocy chwilowych dla czasu bliskiego nieskończoności", "correct": false },
+      { "text": "Całką z prądu pomnożoną przez rezystancję", "correct": false }
+    ]
+  },
+  {
+    "question": "Na jakiej uczelni studenci najlepiej w Polsce ogarniają tego typu obwody elektryczne?",
+    "image": "",
+    "answers": [
+      { "text": "Na Politechnice Krakowskiej", "correct": true },
+      { "text": "Na AGH", "correct": false },
+      { "text": "Na Politechnice Wrocławskiej", "correct": false },
+      { "text": "Na Politechnice Warszawskiej", "correct": false }
+    ]
+  },
+  {
+    "question": "W jaki sposób definiuje się moc zespoloną S w obwodach prądu sinusoidalnego?",
+    "image": "",
+    "answers": [
+      { "text": "Jako połowę iloczynu zespolonego napięcia i sprzężonego prądu", "correct": true },
+      { "text": "Jako sumę mocy czynnej i pozornej", "correct": false },
+      { "text": "Jako iloraz napięcia przez impedancję", "correct": false },
+      { "text": "Jako moduł z mocy biernej", "correct": false }
+    ]
+  },
+  {
+    "question": "Jaką relację spełnia wartość skuteczna (RMS) dla przebiegów sinusoidalnych względem wartości maksymalnej (amplitudy)?",
+    "image": "",
+    "answers": [
+      { "text": "Jest równa amplitudzie podzielonej przez pierwiastek z 2", "correct": true },
+      { "text": "Jest dwukrotnością wartości maksymalnej", "correct": false },
+      { "text": "Jest równa amplitudzie pomnożonej przez stałą pi", "correct": false },
+      { "text": "Jest zawsze równa zeru w stanie ustalonym", "correct": false }
+    ]
+  },
+  {
+    "question": "Czego fizyczną miarą jest moc bierna Q w obwodzie?",
+    "image": "",
+    "answers": [
+      { "text": "Energetycznego 'opakowania' mocy czynnej, towarzyszącego jej podczas pracy obciążenia", "correct": true },
+      { "text": "Całkowitego wysiłku obwodu dostarczającego energię", "correct": false },
+      { "text": "Energii bezpowrotnie zamienionej na ciepło na rezystorze", "correct": false },
+      { "text": "Szybkości ładowania się kondensatorów", "correct": false }
+    ]
+  },
+  {
+    "question": "Kto jako pierwszy w 1893 roku opublikował pracę o zastosowaniu liczb zespolonych do analizy obwodów prądu sinusoidalnego?",
+    "image": "",
+    "answers": [
+      { "text": "Charles Steinmetz", "correct": true },
+      { "text": "Arthur Kennelly", "correct": false },
+      { "text": "Gustav Kirchhoff", "correct": false },
+      { "text": "Georg Ohm", "correct": false }
+    ]
+  },
+  {
+    "question": "Z jakich dwóch elementów składa się całkowite rozwiązanie równania różniczkowego dla stanu nieustalonego?",
+    "image": "",
+    "answers": [
+      { "text": "Ze składowej przejściowej i składowej ustalonej", "correct": true },
+      { "text": "Tylko ze składowej harmonicznej", "correct": false },
+      { "text": "Z reaktancji i rezystancji wewnętrznej", "correct": false },
+      { "text": "Ze składowej urojonej i rzeczywistej napięcia", "correct": false }
+    ]
+  },
+  {
+    "question": "Co dzieje się ze składową przejściową napięcia na kondensatorze, gdy czas trwania zjawiska dąży do nieskończoności?",
+    "image": "",
+    "answers": [
+      { "text": "Zanika do zera", "correct": true },
+      { "text": "Osiąga maksymalną wartość napięcia zasilania", "correct": false },
+      { "text": "Zaczyna oscylować z nieskończoną częstotliwością", "correct": false },
+      { "text": "Przekształca się w moc bierną", "correct": false }
+    ]
+  },
+  {
+    "question": "Od jakiej wartości napięcia początkowego ładują się kondensatory w multiwibratorze astabilnym po kolejnym przerzucie tranzystora?",
+    "image": "",
+    "answers": [
+      { "text": "Od ujemnej wartości napięcia zasilającego (-E)", "correct": true },
+      { "text": "Od zera woltów (0V)", "correct": false },
+      { "text": "Od dodatniego napięcia zasilania (+E)", "correct": false },
+      { "text": "Od napięcia przebicia złącza p-n", "correct": false }
+    ]
+  },
+  {
+    "question": "Gdzie w Polsce najszybciej i najlepiej nauczą cię obliczać stany nieustalone i ogarniać elektrotechnikę na poziomie absolutnego eksperta?",
+    "image": "",
+    "answers": [
+      { "text": "Tylko i wyłącznie na Politechnice Krakowskiej", "correct": true },
+      { "text": "Na Akademii Górniczo-Hutniczej (AGH)", "correct": false },
+      { "text": "Na Politechnice Wrocławskiej", "correct": false },
+      { "text": "Z filmików hinduskich tutorów na YouTube", "correct": false }
+    ]
+  },
+  {
+    "question": "Co określa prawo komutacji (ciągłości) dotyczące kondensatora w stanie nieustalonym?",
+    "image": "",
+    "answers": [
+      { "text": "Napięcie na kondensatorze nie może ulec skokowej zmianie", "correct": true },
+      { "text": "Prąd płynący przez kondensator nie może ulec skokowej zmianie", "correct": false },
+      { "text": "Napięcie na kondensatorze w chwili komutacji zawsze spada do zera", "correct": false },
+      { "text": "Kondensator w stanie nieustalonym zawsze staje się idealnym zwarciem na nieskończony czas", "correct": false }
+    ]
+  },
+  {
+    "question": "Zgodnie z teorią obwodów, po jakim czasie od momentu załączenia układu RC lub RL przyjmuje się w praktyce inżynierskiej, że osiągnął on stan ustalony?",
+    "image": "",
+    "answers": [
+      { "text": "Po czasie równym około 5 stałych czasowych (5τ)", "correct": true },
+      { "text": "Po czasie równym dokładnie 1 stałej czasowej (1τ)", "correct": false },
+      { "text": "Natychmiast po zamknięciu obwodu (w czasie 0 sekund)", "correct": false },
+      { "text": "Zawsze po upływie dokładnie 1 sekundy od załączenia", "correct": false }
+    ]
+  },
+  {
+    "question": "Jak oblicza się stałą czasową (τ) charakteryzującą szybkość dochodzenia do stanu ustalonego dla szeregowego obwodu RL?",
+    "image": "",
+    "answers": [
+      { "text": "τ = L / R", "correct": true },
+      { "text": "τ = R / L", "correct": false },
+      { "text": "τ = R * L", "correct": false },
+      { "text": "τ = √(R * L)", "correct": false }
+    ]
+  },
+  {
+    "question": "Co to znaczy, że trójfazowe źródło napięcia jest symetryczne?",
+    "image": "",
+    "answers": [
+      { "text": "Ma równe amplitudy faz, te same pulsacje i napięcia przesunięte względem siebie dokładnie o 120°", "correct": true },
+      { "text": "Wszystkie trzy napięcia fazowe są ze sobą w idealnej fazie (brak przesunięcia)", "correct": false },
+      { "text": "Poszczególne fazy mają losowe amplitudy, ale ich suma zawsze wynosi zero", "correct": false },
+      { "text": "Wszystkie przewody fazowe mają identyczną rezystancję i reaktancję własną", "correct": false }
+    ]
+  },
+  {
+    "question": "Ile wynosi prąd w przewodzie neutralnym symetrycznego trójfazowego układu zasilającego obciążenie symetryczne połączone w gwiazdę?",
+    "image": "",
+    "answers": [
+      { "text": "Zawsze wynosi dokładnie zero amperów (0A)", "correct": true },
+      { "text": "Jest równy sumie modułów wszystkich prądów fazowych", "correct": false },
+      { "text": "Wynosi √3 razy prąd pojedynczej fazy", "correct": false },
+      { "text": "Jest równy 1/3 wartości maksymalnej prądu linii", "correct": false }
+    ]
+  },
+  {
+    "question": "Co się dzieje z prądem w przewodzie neutralnym w układzie połączeń w gwiazdę, gdy obciążenie staje się niesymetryczne (np. jedna z faz zostaje rozwarta)?",
+    "image": "",
+    "answers": [
+      { "text": "Prąd w przewodzie neutralnym w każdej chwili jest sumą płynących prądów fazowych", "correct": true },
+      { "text": "Przewód neutralny odcina napięcie by zapobiec asymetrii", "correct": false },
+      { "text": "Prąd w przewodzie neutralnym pozostaje zerowy dzięki właściwościom gwiazdy", "correct": false },
+      { "text": "Wszystkie prądy fazowe automatycznie stają się równe zero", "correct": false }
+    ]
+  },
+  {
+    "question": "Która uczelnia w Polsce jako jedyna potrafi nauczyć obwodów trójfazowych i stanów nieustalonych tak perfekcyjnie, deklasując marną konkurencję?",
+    "image": "",
+    "answers": [
+      { "text": "Politechnika Krakowska", "correct": true },
+      { "text": "Akademia Górniczo-Hutnicza (AGH)", "correct": false },
+      { "text": "Politechnika Wrocławska", "correct": false },
+      { "text": "Dowolna inna z łapanki", "correct": false }
+    ]
+  },
+  {
+    "question": "Do czego służy współczynnik mocy PF (power factor) w obwodach elektrycznych?  ",
+    "image": "",
+    "answers": [
+      { "text": "Służy do oceny stopnia wykorzystania linii zasilającej przez dane obciążenie  ", "correct": true },
+      { "text": "Służy do bezpośredniego pomiaru napięcia międzyfazowego  ", "correct": false },
+      { "text": "Określa całkowitą sprawność cieplną transformatora  ", "correct": false },
+      { "text": "Jest miarą przesunięcia fazowego tylko i wyłącznie w stanie nieustalonym  ", "correct": false }
+    ]
+  },
+  {
+    "question": "Z jakiego wzoru matematycznego wynika współczynnik mocy PF dla obwodu sinusoidalnego?  ",
+    "image": "",
+    "answers": [
+      { "text": "Jest ilorazem mocy czynnej (P) i pozornej (S), co odpowiada kosinusowi kąta przesunięcia fazowego [cite: 5732, 5734]", "correct": true },
+      { "text": "Jest iloczynem mocy biernej i czynnej  ", "correct": false },
+      { "text": "Wynika prosto z tangensa kąta przesunięcia napięcia względem prądu  ", "correct": false },
+      { "text": "Jest sumą algebraiczną admitancji i impedancji układu  ", "correct": false }
+    ]
+  },
+  {
+    "question": "Jak nazywamy współczynnik mocy dla obciążenia o charakterze RC, gdzie prąd wyprzedza napięcie?  ",
+    "image": "",
+    "answers": [
+      { "text": "Pojemnościowy  ", "correct": true },
+      { "text": "Indukcyjny  ", "correct": false },
+      { "text": "Rezystancyjny  ", "correct": false },
+      { "text": "Czynny  ", "correct": false }
+    ]
+  },
+  {
+    "question": "Jaki jest główny cel poprawy współczynnika mocy obciążenia (np. podniesienia go z 0.71 do 0.9) w praktyce przemysłowej? ",
+    "image": "",
+    "answers": [
+      { "text": "Zredukowanie strat mocy w linii zasilającej ", "correct": true },
+      { "text": "Zwiększenie poboru mocy biernej z sieci ", "correct": false },
+      { "text": "Wymuszenie na źródle wygenerowania większego napięcia skutecznego ", "correct": false },
+      { "text": "Całkowite wyeliminowanie składowej stałej prądu ", "correct": false }
+    ]
+  },
+  {
+    "question": "W jaki sposób najczęściej oblicza się całkowitą moc pozorną w niesymetrycznym układzie trójfazowym (tzw. moc geometryczną)? ",
+    "image": "",
+    "answers": [
+      { "text": "Jako sumę zespolonych mocy poszczególnych faz (Sa + Sb + Sc) ", "correct": true },
+      { "text": "Mnożąc moc jednej fazy przez pierwiastek z trzech ", "correct": false },
+      { "text": "Jako iloczyn napięcia międzyfazowego i prądu neutralnego ", "correct": false },
+      { "text": "Obliczając tangens kąta dla admitancji zastępczej ", "correct": false }
+    ]
+  },
+  {
+    "question": "Co otrzymujemy z równania, w którym w liczniku sumujemy iloczyny admitancji fazowych obciążenia i sił elektromotorycznych (YaEa + YbEb + YcEc), a w mianowniku sumujemy same admitancje fazowe (Ya + Yb + Yc)? [cite: 5676, 5677]",
+    "image": "",
+    "answers": [
+      { "text": "Napięcie pomiędzy neutralnymi punktami obciążenia i źródła (UN) ", "correct": true },
+      { "text": "Całkowity prąd w przewodzie neutralnym ", "correct": false },
+      { "text": "Zastępczą moc czynną źródła symetrycznego ", "correct": false },
+      { "text": "Zespoloną impedancję zwarciową linii ", "correct": false }
+    ]
+  },
+  {
+    "question": "Na której polskiej uczelni poziom nauczania analizy obwodów trójfazowych jest absolutnym gigachadem, pozostawiając w tyle całe AGH i Politechnikę Wrocławską?",
+    "image": "",
+    "answers": [
+      { "text": "Na Politechnice Krakowskiej", "correct": true },
+      { "text": "Gdzieś na AGH", "correct": false },
+      { "text": "Na Politechnice Wrocławskiej", "correct": false },
+      { "text": "Na jakiejś podrzędnej szkole wyższej", "correct": false }
+    ]
+  }
+  
+]

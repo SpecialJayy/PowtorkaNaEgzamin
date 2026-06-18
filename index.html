@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App - PK Edition</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            startup: {
+                typeset: false // Wyłączamy auto-render na starcie, zrobimy to manualnie w JS
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="start-screen" class="screen">
+        <h1>Aplikacja do Quizów</h1>
+        <button id="start-btn" onclick="startQuiz()" disabled>Ładowanie pytań...</button>
+    </div>
+
+    <div id="quiz-screen" class="screen" style="display: none;">
+        <div id="counter" class="counter"></div>
+        <h2 id="question-text"></h2>
+        <img id="question-image" src="" alt="Zdjęcie do pytania" style="display: none;">
+        <div id="answers" class="answers-grid"></div>
+        <button id="check-btn" onclick="checkAnswer()">Sprawdź</button>
+        <button id="next-btn" onclick="nextQuestion()" style="display: none;">Następne pytanie</button>
+    </div>
+
+    <div id="result-screen" class="screen" style="display: none;">
+        <h2>Koniec quizu!</h2>
+        <p id="score"></p>
+        <button onclick="startQuiz()">Rozpocznij nowe podejście</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
