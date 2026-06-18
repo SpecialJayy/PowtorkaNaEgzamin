@@ -60,13 +60,13 @@
     ]
   },
   {
-    "question": "Dlaczego w analizie obwodów metodą amplitud zespolonych sumowanie ostateczne wykonuje się zawsze w dziedzinie czasu? [cite: 233, 234]",
+    "question": "Dlaczego w analizie obwodów metodą amplitud zespolonych sumowanie ostateczne wykonuje się zawsze w dziedzinie czasu?  ",
     "image": "",
     "answers": [
-      { "text": "Bo składowe prądu mają różne częstotliwości i nie istnieje jedna 'wieloharmoniczna amplituda zespolona' [cite: 233, 234]", "correct": true },
-      { "text": "Ponieważ liczby zespolone nie potrafią opisać przesunięć fazowych [cite: 233, 234]", "correct": false },
-      { "text": "Z powodu błędów maszynowych występujących przy potęgowaniu fazorów [cite: 233, 234]", "correct": false },
-      { "text": "Bo prąd stały nie ma swojej dziedziny zespolonej [cite: 233, 234]", "correct": false }
+      { "text": "Bo składowe prądu mają różne częstotliwości i nie istnieje jedna 'wieloharmoniczna amplituda zespolona'  ", "correct": true },
+      { "text": "Ponieważ liczby zespolone nie potrafią opisać przesunięć fazowych  ", "correct": false },
+      { "text": "Z powodu błędów maszynowych występujących przy potęgowaniu fazorów  ", "correct": false },
+      { "text": "Bo prąd stały nie ma swojej dziedziny zespolonej  ", "correct": false }
     ]
   },
   {
@@ -133,20 +133,20 @@
     "question": "Dlaczego nie używa się pojęcia zespolonej mocy pozornej i jej modułu dla obwodów wieloharmonicznych?  ",
     "image": "",
     "answers": [
-      { "text": "Z powodu braku jednej liczby zespolonej opisującej cały 'zestaw' różnych częstotliwości – traci to fizyczny i matematyczny sens [cite: 735, 736]", "correct": true },
-      { "text": "Ponieważ moc pozorna jest zawsze ujemna dla wyższych harmonicznych [cite: 735, 736]", "correct": false },
-      { "text": "Bo moduł takiej mocy daje wynik nieskończony [cite: 735, 736]", "correct": false },
-      { "text": "Z powodu ograniczeń programów PSpice [cite: 735, 736]", "correct": false }
+      { "text": "Z powodu braku jednej liczby zespolonej opisującej cały 'zestaw' różnych częstotliwości – traci to fizyczny i matematyczny sens  ", "correct": true },
+      { "text": "Ponieważ moc pozorna jest zawsze ujemna dla wyższych harmonicznych  ", "correct": false },
+      { "text": "Bo moduł takiej mocy daje wynik nieskończony  ", "correct": false },
+      { "text": "Z powodu ograniczeń programów PSpice  ", "correct": false }
     ]
   },
   {
-    "question": "Co udowodniły pomiary mocy w obwodach o przebiegach odkształconych i do wprowadzenia jakiej wielkości to doprowadziło? [cite: 743, 745]",
+    "question": "Co udowodniły pomiary mocy w obwodach o przebiegach odkształconych i do wprowadzenia jakiej wielkości to doprowadziło?  ",
     "image": "",
     "answers": [
-      { "text": "Pokazały, że $S^2 > P^2 + Q^2$, co wymusiło definicyjne wprowadzenie mocy odkształcenia D [cite: 743, 744, 745]", "correct": true },
-      { "text": "Udowodniły, że moc pozorna zawsze maleje w czasie [cite: 743, 744, 745]", "correct": false },
-      { "text": "Potwierdziły idealne zastosowanie trójkąta mocy dla sygnałów zakłóconych [cite: 743, 744, 745]", "correct": false },
-      { "text": "Sprawiły, że moce bierne wyzerowały się wzajemnie [cite: 743, 744, 745]", "correct": false }
+      { "text": "Pokazały, że $S^2 > P^2 + Q^2$, co wymusiło definicyjne wprowadzenie mocy odkształcenia D  ", "correct": true },
+      { "text": "Udowodniły, że moc pozorna zawsze maleje w czasie  ", "correct": false },
+      { "text": "Potwierdziły idealne zastosowanie trójkąta mocy dla sygnałów zakłóconych  ", "correct": false },
+      { "text": "Sprawiły, że moce bierne wyzerowały się wzajemnie  ", "correct": false }
     ]
   },
   {
@@ -169,7 +169,7 @@
       { "text": "Jakieś inne randomowe uczelnie", "correct": false }
     ]
   },{
-    "question": "Co oznacza skrót SLS określający specyficzny rodzaj obwodu elektrycznego? [cite: 971, 972, 973]",
+    "question": "Co oznacza skrót SLS określający specyficzny rodzaj obwodu elektrycznego?  ",
     "image": "",
     "answers": [
       { "text": "Skupiony, Liniowy, Stacjonarny", "correct": true },
@@ -199,7 +199,7 @@
     ]
   },
   {
-    "question": "Czym charakteryzuje się układ bezźródłowy (SLSB)? [cite: 1000, 1001, 1002]",
+    "question": "Czym charakteryzuje się układ bezźródłowy (SLSB)?  ",
     "image": "",
     "answers": [
       { "text": "To układ, w którym stan spoczynku (prąd zerowy i napięcie zerowe) jest jego stanem dopuszczalnym", "correct": true },
@@ -209,7 +209,7 @@
     ]
   },
   {
-    "question": "W jakim matematycznym przedziale czasowym określony jest stan ustalony pracy układu, będący specyficzną techniką opisu obwodu? [cite: 1008, 1013]",
+    "question": "W jakim matematycznym przedziale czasowym określony jest stan ustalony pracy układu, będący specyficzną techniką opisu obwodu?  ",
     "image": "",
     "answers": [
       { "text": "W przedziale od minus nieskończoności do plus nieskończoności ($-\\infty < t < \\infty$)", "correct": true },
@@ -259,7 +259,7 @@
     ]
   },
   {
-    "question": "W jaki sposób dodaje się sygnały sinusoidalne, stosując prądowe prawo Kirchhoffa w domenie zespolonej? [cite: 878, 879]",
+    "question": "W jaki sposób dodaje się sygnały sinusoidalne, stosując prądowe prawo Kirchhoffa w domenie zespolonej?  ",
     "image": "",
     "answers": [
       { "text": "Dodaje się bezpośrednio ich amplitudy zespolone ($\\sum I_k = 0$)", "correct": true },
@@ -318,7 +318,7 @@
     ]
   },
   {
-    "question": "O jaki kąt faza napięcia wyprzedza fazę prądu na idealnej indukcyjności w obwodzie prądu sinusoidalnego? [cite: 1115, 1116]",
+    "question": "O jaki kąt faza napięcia wyprzedza fazę prądu na idealnej indukcyjności w obwodzie prądu sinusoidalnego?  ",
     "image": "",
     "answers": [
       { "text": "O $90^\\circ$ (czyli $\\pi/2$ radiana)", "correct": true },
@@ -328,7 +328,7 @@
     ]
   },
   {
-    "question": "W jaki sposób sumuje się rezystancję i reaktancję przy obliczaniu modułu impedancji zastępczej szeregowego obwodu RL? [cite: 1121, 1122, 1142]",
+    "question": "W jaki sposób sumuje się rezystancję i reaktancję przy obliczaniu modułu impedancji zastępczej szeregowego obwodu RL?  ",
     "image": "",
     "answers": [
       { "text": "Sposobem geometrycznym, z wykorzystaniem twierdzenia Pitagorasa ($Z = \\sqrt{R^2 + (\\omega L)^2}$)", "correct": true },
@@ -348,7 +348,7 @@
     ]
   },
   {
-    "question": "Jak zachowuje się przebieg prądu w stosunku do napięcia w obwodzie z obciążeniem czysto rezystancyjnym? [cite: 1170, 1171]",
+    "question": "Jak zachowuje się przebieg prądu w stosunku do napięcia w obwodzie z obciążeniem czysto rezystancyjnym?  ",
     "image": "",
     "answers": [
       { "text": "Powtarza kształt napięcia (jest z nim w fazie), ale ma inną amplitudę", "correct": true },
@@ -561,7 +561,7 @@
     "question": "Z jakiego wzoru matematycznego wynika współczynnik mocy PF dla obwodu sinusoidalnego?  ",
     "image": "",
     "answers": [
-      { "text": "Jest ilorazem mocy czynnej (P) i pozornej (S), co odpowiada kosinusowi kąta przesunięcia fazowego [cite: 5732, 5734]", "correct": true },
+      { "text": "Jest ilorazem mocy czynnej (P) i pozornej (S), co odpowiada kosinusowi kąta przesunięcia fazowego  ", "correct": true },
       { "text": "Jest iloczynem mocy biernej i czynnej  ", "correct": false },
       { "text": "Wynika prosto z tangensa kąta przesunięcia napięcia względem prądu  ", "correct": false },
       { "text": "Jest sumą algebraiczną admitancji i impedancji układu  ", "correct": false }
@@ -598,7 +598,7 @@
     ]
   },
   {
-    "question": "Co otrzymujemy z równania, w którym w liczniku sumujemy iloczyny admitancji fazowych obciążenia i sił elektromotorycznych (YaEa + YbEb + YcEc), a w mianowniku sumujemy same admitancje fazowe (Ya + Yb + Yc)? [cite: 5676, 5677]",
+    "question": "Co otrzymujemy z równania, w którym w liczniku sumujemy iloczyny admitancji fazowych obciążenia i sił elektromotorycznych (YaEa + YbEb + YcEc), a w mianowniku sumujemy same admitancje fazowe (Ya + Yb + Yc)?  ",
     "image": "",
     "answers": [
       { "text": "Napięcie pomiędzy neutralnymi punktami obciążenia i źródła (UN) ", "correct": true },
