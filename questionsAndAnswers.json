@@ -318,5 +318,154 @@
       { "text": "5", "correct": true },
       { "text": "8", "correct": false }
     ]
+  },{
+    "question": "Mamy permutację S=(1,2,3,4,5) z kosztem f(S)=30. Dostępne ruchy to zamiany sąsiadów: (1,2)->28, (2,3)->25, (3,4)->27, (4,5)->29. Jaki ruch wybierze algorytm w pierwszym kroku przy szukaniu minimum?",
+    "image": "",
+    "answers": [
+      { "text": "Zamiana (2,3), ponieważ daje najniższy koszt równy 25", "correct": true },
+      { "text": "Zamiana (1,2), ponieważ algorytm zawsze zaczyna od lewej strony macierzy", "correct": false },
+      { "text": "Zamiana (4,5), bo rzuca najwyższy koszt ucieczki", "correct": false },
+      { "text": "Żaden, algorytm wpada w minimum lokalne", "correct": false }
+    ]
+  },
+  {
+    "question": "Po wykonaniu ruchu zamiany (2,3) w Tabu Search, co dokładnie ląduje na Liście Tabu o długości 2?",
+    "image": "",
+    "answers": [
+      { "text": "Ruch odwrotny, czyli zakaz ponownej zamiany (2,3), aby zablokować algorytmowi możliwość natychmiastowego powrotu do stanu poprzedniego", "correct": true },
+      { "text": "Zapisywana jest cała nowa permutacja (1,3,2,4,5) by sprawdzić ją z Prawem Amdahla", "correct": false },
+      { "text": "Ruch (3,4), ponieważ to kolejny sąsiad na liście", "correct": false },
+      { "text": "Koszt 25, zablokowany do końca działania programu", "correct": false }
+    ]
+  },
+  {
+    "question": "Czym jest Kryterium Aspiracji w metaheurystyce z Listą Tabu?",
+    "image": "",
+    "answers": [
+      { "text": "To 'VIP pass', który pozwala zignorować blokadę z Listy Tabu, jeśli dany zablokowany ruch prowadzi do rozwiązania obiektywnie lepszego niż najlepsze globalne znalezione do tej pory", "correct": true },
+      { "text": "Jest to moment, w którym algorytm rezygnuje z dalszych poszukiwań, uznając wynik za aspirujący do optimum", "correct": false },
+      { "text": "Kryterium wymuszające użycie zawsze gorszego rozwiązania, żeby uciec z dołka", "correct": false },
+      { "text": "Reguła skracająca listę Tabu z 2 do 1", "correct": false }
+    ]
+  },
+  {
+    "question": "W Symulowanym Wyżarzaniu obecny koszt to 100. Rozważamy kandydata o koszcie 92 przy T=10. Jaka będzie decyzja algorytmu Metropolisa?",
+    "image": "",
+    "answers": [
+      { "text": "Rozwiązanie zostaje zaakceptowane w ciemno, ponieważ nowy koszt (92) jest mniejszy od obecnego (100)", "correct": true },
+      { "text": "Odrzuca, ponieważ brakuje prawdopodobieństwa z rzutu kostką", "correct": false },
+      { "text": "Liczy prawdopodobieństwo ze wzoru e^(-8/10) i losuje", "correct": false },
+      { "text": "Zwiększa temperaturę T do 100 by wyżarzyć rdzeń", "correct": false }
+    ]
+  },
+  {
+    "question": "CurCost=92, NewCost=105, T=10. Oblicz prawdopodobieństwo akceptacji gorszego rozwiązania i oceń czy zostanie zaakceptowane dla wylosowanego r=0,3.",
+    "image": "",
+    "answers": [
+      { "text": "Delta = 13. p = e^(-1.3) ≈ 0,2725. Ponieważ r=0,3 nie jest mniejsze od 0,2725 (0,3 < 0,2725 to FAŁSZ), rozwiązanie zostaje ODRZUCONE", "correct": true },
+      { "text": "Delta = -13. p = e^(1.3) ≈ 3,6. Akceptujemy zawsze", "correct": false },
+      { "text": "Delta = 13. p = e^(-1.3) ≈ 0,2725. Akceptujemy, bo r=0,3 jest blisko p", "correct": false },
+      { "text": "Odrzucamy z automatu, wyżarzanie nigdy nie bierze wartości powyżej 100", "correct": false }
+    ]
+  },
+  {
+    "question": "Jak obniżenie Temperatury (T) w końcowej fazie Symulowanego Wyżarzania wpływa na algorytm?",
+    "image": "",
+    "answers": [
+      { "text": "Szansa na akceptację gorszych rozwiązań drastycznie maleje, a algorytm staje się 'zachłanny', skupiając się na eksploatacji lokalnego minimum", "correct": true },
+      { "text": "Zwiększa się szansa na potężne skoki po przestrzeni rozwiązań (dzika eksploracja)", "correct": false },
+      { "text": "Lista Tabu zostaje wyczyszczona by zwolnić RAM", "correct": false },
+      { "text": "Złożoność obliczeniowa rośnie do O(n!) zżerając CPU", "correct": false }
+    ]
+  },
+  {
+    "question": "W algorytmie ewolucyjnym krzyżujemy jednopunktowo po 3. pozycji P1=(1,2,1 | 3,2,1) i P2=(2,1,3 | 1,2,3). Jak będzie wyglądał Potomek 1 (O1) biorący lewą stronę z P1?",
+    "image": "",
+    "answers": [
+      { "text": "O1 = (1, 2, 1, 1, 2, 3)", "correct": true },
+      { "text": "O1 = (2, 1, 3, 3, 2, 1)", "correct": false },
+      { "text": "O1 = (1, 2, 1, 3, 2, 1)", "correct": false },
+      { "text": "O1 = (3, 2, 1, 1, 2, 3)", "correct": false }
+    ]
+  },
+  {
+    "question": "Jaka jest główna rola selekcji (np. koła ruletki) w algorytmach genetycznych rozwiązujących problem pokolorowania grafu?",
+    "image": "",
+    "answers": [
+      { "text": "Preferowanie 'sigm' - osobników o wyższym fitness (mniejszej liczbie konfliktów), dając im matematycznie większą szansę na reprodukcję i transfer dobrych genów", "correct": true },
+      { "text": "Losowe zabijanie połowy populacji dla oszczędności pamięci (Prawa Amdahla)", "correct": false },
+      { "text": "Wymuszanie mutacji u każdego osobnika na krawędzi grafu", "correct": false },
+      { "text": "Tworzenie macierzy incydencji w czasie O(1)", "correct": false }
+    ]
+  },
+  {
+    "question": "Problem kolorowania grafu. Dlaczego obecność pełnego trójkąta (kliki 3-elementowej) w grafie wymusza użycie absolutnego minimum 3 kolorów?",
+    "image": "",
+    "answers": [
+      { "text": "Ponieważ każdy wierzchołek trójkąta jest bezpośrednio połączony z dwoma pozostałymi. Nie da się użyć 2 kolorów bez wywołania konfliktu na co najmniej jednej krawędzi.", "correct": true },
+      { "text": "Ze względu na wzór Eulera dla wielościanów", "correct": false },
+      { "text": "Bo algorytm zachłanny zawsze koloruje grafy cyframi nieparzystymi", "correct": false },
+      { "text": "Ponieważ skręt w lewo (CCW) w trójkącie wymusza dodatni wyznacznik det>0", "correct": false }
+    ]
+  },
+  {
+    "question": "Program działał na 1 procesorze T1=80s. Po odpaleniu na 8 procesorach czas spadł do T8=14s. Oblicz przyspieszenie S8 oraz efektywność E8.",
+    "image": "",
+    "answers": [
+      { "text": "S8 = 80/14 ≈ 5,71. Efektywność E8 = 5,71/8 ≈ 0,714 (71,4%)", "correct": true },
+      { "text": "S8 = 8. Efektywność E8 = 100%", "correct": false },
+      { "text": "S8 = 14/80 ≈ 0,175. Efektywność E8 = 17,5%", "correct": false },
+      { "text": "S8 = 66s. Efektywność to ułamek logarytmiczny", "correct": false }
+    ]
+  },
+  {
+    "question": "Co mówi inżynierom brutalne Prawo Amdahla w kontekście optymalizacji kodu?",
+    "image": "",
+    "answers": [
+      { "text": "Maksymalne przyspieszenie oprogramowania jest trwale ograniczone przez tę część kodu, która musi być wykonana sekwencyjnie (S_max = 1 / f_seq). Zawsze istnieje sufit możliwości.", "correct": true },
+      { "text": "Każde podwojenie liczby rdzeni daje gwarantowany, liniowy spadek czasu wykonywania", "correct": false },
+      { "text": "Złożoność pamięciowa macierzy sąsiedztwa rośnie wykładniczo z ułamkiem 1/T", "correct": false },
+      { "text": "Wątki nigdy nie blokują się wzajemnie na mutexach, jeśli używamy C++", "correct": false }
+    ]
+  },
+  {
+    "question": "W geometrii obliczeniowej wzór orient(P,Q,R) = (xQ−xP)(yR−yP) − (yQ−yP)(xR−xP) wyrzucił wynik równy 13 dla punktów A(1,1), B(5,4), C(2,5). Co to oznacza?",
+    "image": "",
+    "answers": [
+      { "text": "Wynik jest dodatni (>0), co oznacza skręt w lewo (Counter-Clockwise - CCW) idąc od A przez B do C.", "correct": true },
+      { "text": "Punkty leżą idealnie w jednej linii prostej (współliniowe)", "correct": false },
+      { "text": "Skręt ostro w prawo (Clockwise - CW) z ujemnym wektorem", "correct": false },
+      { "text": "Błąd zaokrąglenia funkcji trygonometrycznej sinus", "correct": false }
+    ]
+  },
+  {
+    "question": "Kiedy z algorytmu skrętu wyjdzie nam orientacja RÓWNA ZERO (det = 0)?",
+    "image": "",
+    "answers": [
+      { "text": "Gdy badana trójka punktów jest idealnie współliniowa (leżą na tej samej prostej, wektor nie ma skrętu)", "correct": true },
+      { "text": "Gdy przecięcie odcinków tworzy kąt prosty 90 stopni", "correct": false },
+      { "text": "Gdy algorytm Tabu Search wyrzuci wierzchołek poza obszar macierzy", "correct": false },
+      { "text": "Zawsze, gdy punkty tworzą trójkąt równoboczny", "correct": false }
+    ]
+  },
+  {
+    "question": "Jak, korzystając wyłącznie z wyznaczników orientacji, udowodnisz że odcinek AB i odcinek CD przecinają się na płaszczyźnie?",
+    "image": "",
+    "answers": [
+      { "text": "Sprawdzam, czy punkty C i D mają przeciwne znaki orientacji względem wektora AB (stoją okrakiem) ORAZ czy punkty A i B mają przeciwne znaki względem wektora CD.", "correct": true },
+      { "text": "Sumuję wszystkie wyznaczniki, i jeśli wynik jest większy od zera, odcinki się tną", "correct": false },
+      { "text": "Sprawdzam odległość Euklidesową - jeśli jest krótsza niż długość C-D, to krawędzie zachodzą", "correct": false },
+      { "text": "Korzystam z Prawa Amdahla by zrównoleglić wektory w O(1)", "correct": false }
+    ]
+  },
+  {
+    "question": "Do czego m.in. praktycznie wykorzystuje się Problem Kolorowania Grafów w pracy inżyniera telekomunikacji?",
+    "image": "",
+    "answers": [
+      { "text": "Do przydziału częstotliwości w stacjach bazowych GSM/LTE, tak aby pobliskie (nakładające się zasięgiem) nadajniki używały innych fal (innych kolorów) i nie zakłócały się nawzajem.", "correct": true },
+      { "text": "Do kompresowania obrazków w formacie JPEG z użyciem drzewa Huffmana", "correct": false },
+      { "text": "Do wyznaczania najkrótszej ścieżki przejazdu kuriera (Komiwojażer TSP)", "correct": false },
+      { "text": "Do sortowania tablic wielowymiarowych przez kopcowanie w O(n log n)", "correct": false }
+    ]
   }
 ]
