@@ -1,5 +1,125 @@
 [
   {
+    "question": "Jaką klasę metod programowania reprezentuje algorytm Huffmana?",
+    "image": "",
+    "answers": [
+      { "text": "Algorytmy z nawrotami (Backtracking)", "correct": false },
+      { "text": "Algorytmy zachłanne (Greedy)", "correct": true },
+      { "text": "Programowanie dynamiczne (DP)", "correct": false },
+      { "text": "Dziel i zwyciężaj (Divide and Conquer)", "correct": false }
+    ]
+  },
+  {
+    "question": "Na jakie pytanie odpowiadają liczby Stirlinga II rodzaju w kombinatoryce?",
+    "image": "",
+    "answers": [
+      { "text": "Na ile sposobów można podzielić zbiór n-elementowy na dokładnie k niepustych podzbiorów.", "correct": true },
+      { "text": "Na ile sposobów można posortować zbiór leksykograficznie.", "correct": false },
+      { "text": "Na ile wszystkich możliwych sposobów można podzielić zbiór na dowolną liczbę podzbiorów (to liczba Bella).", "correct": false },
+      { "text": "Ile jest unikalnych permutacji w zbiorze.", "correct": false }
+    ]
+  },
+  {
+    "question": "Jaka jest główna różnica między Stosem (strukturą danych) a Call Stackiem (stosem wywołań)?",
+    "image": "",
+    "answers": [
+      { "text": "Nie ma żadnej różnicy, to to samo pojęcie.", "correct": false },
+      { "text": "Stos alokuje dane na dysku twardym, a Call Stack w pamięci RAM.", "correct": false },
+      { "text": "Stos działa jako FIFO, a Call Stack jako LIFO.", "correct": false },
+      { "text": "Stos tworzymy i zarządzamy nim ręcznie (często na stercie), a Call Stackiem zarządza automatycznie środowisko/kompilator.", "correct": true }
+    ]
+  },
+  {
+    "question": "Dlaczego naiwna rekurencja drzewiasta jest skrajnie nieefektywna w porównaniu do Programowania Dynamicznego (DP)?",
+    "image": "",
+    "answers": [
+      { "text": "Ponieważ rekurencja drzewiasta zajmuje więcej miejsca na stercie.", "correct": false },
+      { "text": "Ponieważ nie korzysta z pamięci podręcznej (memoizacji) i powiela identyczne obliczenia wielokrotnie.", "correct": true },
+      { "text": "Ponieważ wymusza użycie algorytmów zachłannych.", "correct": false },
+      { "text": "Ponieważ drzewa binarne są zawsze niezbalansowane.", "correct": false }
+    ]
+  },
+  {
+    "question": "Jakie wartości rozmiaru macierzy N są dopuszczalne w algorytmie generacji grafów R-MAT?",
+    "image": "",
+    "answers": [
+      { "text": "Tylko potęgi liczby 2 (np. 2, 4, 8, 16).", "correct": true },
+      { "text": "Tylko liczby pierwsze.", "correct": false },
+      { "text": "Dowolne liczby całkowite dodatnie.", "correct": false },
+      { "text": "Tylko liczby podzielne przez 10.", "correct": false }
+    ]
+  },
+  {
+    "question": "Co dokładnie oznacza symbol Θ (Big Theta) w notacji asymptotycznej?",
+    "image": "",
+    "answers": [
+      { "text": "Przypadek średni dla losowych danych wejściowych.", "correct": false },
+      { "text": "Przypadek optymistyczny działania algorytmu.", "correct": false },
+      { "text": "Dokładne oszacowanie – złożoność jest ograniczona taką samą funkcją zarówno z góry, jak i z dołu.", "correct": true },
+      { "text": "Asymptotyczną granicę górną (sufit).", "correct": false }
+    ]
+  },
+  {
+    "question": "Jeśli komputer przyspieszy K-krotnie, jak zmieni się maksymalny rozmiar rozwiązywanego problemu N dla algorytmu o złożoności O(log N)?",
+    "image": "",
+    "answers": [
+      { "text": "Rozmiar problemu powiększy się o K.", "correct": false },
+      { "text": "Nowy rozmiar to stary rozmiar podniesiony do potęgi K (N^K).", "correct": true },
+      { "text": "Rozmiar problemu pomnoży się razy K.", "correct": false },
+      { "text": "Nowy rozmiar wzrośnie 2^K razy.", "correct": false }
+    ]
+  },
+  {
+    "question": "Jaka jest kluczowa przewaga algorytmów FPTAS nad PTAS w optymalizacji?",
+    "image": "",
+    "answers": [
+      { "text": "PTAS działa zawsze na grafach, a FPTAS na tablicach.", "correct": false },
+      { "text": "PTAS znajduje globalne optimum, a FPTAS tylko lokalne.", "correct": false },
+      { "text": "FPTAS nie używa pamięci RAM, działa całkowicie na procesorze.", "correct": false },
+      { "text": "FPTAS jest wielomianowy zarówno względem rozmiaru danych n, jak i odwrotności błędu (1/ε).", "correct": true }
+    ]
+  },
+  {
+    "question": "Zgodnie z zasadami Clean Code (Wujek Bob) oraz standardami NASA (JPL), jak długa powinna być funkcja w kodzie?",
+    "image": "",
+    "answers": [
+      { "text": "Minimum 100 linii, by uniknąć zbyt wielu plików.", "correct": false },
+      { "text": "Idealnie do 20 linii (Clean Code) lub max 60 linii, by zmieścić się na kartce A4 (NASA).", "correct": true },
+      { "text": "Tylko i wyłącznie 1 linijka kodu.", "correct": false },
+      { "text": "Nie ma to znaczenia, liczy się tylko zasada DRY.", "correct": false }
+    ]
+  },
+  {
+    "question": "Do jakiego klasycznego zagadnienia optymalizacyjnego (DP) można sprowadzić decyzyjny problem PARTITION?",
+    "image": "",
+    "answers": [
+      { "text": "Do dyskretnego problemu plecakowego (0/1 Knapsack).", "correct": true },
+      { "text": "Do algorytmu Dijkstry.", "correct": false },
+      { "text": "Do problemu najdłuższego wspólnego podciągu (LCS).", "correct": false },
+      { "text": "Do sortowania topologicznego.", "correct": false }
+    ]
+  },
+  {
+    "question": "Jaką funkcję pełni 'Lista Tabu' w algorytmach heurystycznych (np. przy Problemie Komiwojażera)?",
+    "image": "",
+    "answers": [
+      { "text": "Resetuje całkowicie algorytm po znalezieniu błędu.", "correct": false },
+      { "text": "Banuje wykonane ruchy na kilka iteracji, pozwalając algorytmowi wyjść z optimum lokalnego i uniknąć pętli.", "correct": true },
+      { "text": "Służy do zapisywania tylko najlepszych znalezionych tras.", "correct": false },
+      { "text": "Przyspiesza mnożenie macierzy.", "correct": false }
+    ]
+  },
+  {
+    "question": "Która zasada musi być bezwzględnie zachowana w strukturze drzewa Max-Heap?",
+    "image": "",
+    "answers": [
+      { "text": "Lewe dziecko musi być mniejsze, a prawe większe od rodzica.", "correct": false },
+      { "text": "Każdy węzeł może mieć maksymalnie 3 dzieci.", "correct": false },
+      { "text": "Wartość każdego węzła (rodzica) musi być większa lub równa wartościom jego potomków.", "correct": true },
+      { "text": "Drzewo nie może mieć więcej niż 5 poziomów głębokości.", "correct": false }
+    ]
+  },
+  {
     "question": "Rozwiązując układ T(n) = 2T(n/2) + n^2 metodą iteracyjną lub z tw. o rekurencji uniwersalnej, jaką złożoność asymptotyczną otrzymamy?",
     "image": "",
     "answers": [
@@ -10,1663 +130,193 @@
     ]
   },
   {
-    "question": "Dla równania rekurencyjnego T(n) = 4T(n/2) + n^2, która z poniższych klas złożoności jest poprawnym rozwiązaniem?",
+    "question": "Jaką znaną metodę programowania reprezentuje algorytm Huffmana?",
     "image": "",
     "answers": [
-      { "text": "O(n^2 log n)", "correct": true },
-      { "text": "O(n^2)", "correct": false },
-      { "text": "O(n^3)", "correct": false },
+      { "text": "Metodę zachłanną (algorytm zachłanny)", "correct": true },
+      { "text": "Programowanie dynamiczne", "correct": false },
+      { "text": "Dziel i zwyciężaj", "correct": false },
+      { "text": "Algorytm z nawrotami (backtracking)", "correct": false }
+    ]
+  },
+  {
+    "question": "Jaka jest złożoność pamięciowa algorytmu sortowania przez kopcowanie (Heapsort)?",
+    "image": "",
+    "answers": [
+      { "text": "O(1)", "correct": true },
+      { "text": "O(n)", "correct": false },
+      { "text": "O(log n)", "correct": false },
       { "text": "O(n log n)", "correct": false }
     ]
   },
   {
-    "question": "Na jakiej podstawie klasyfikujemy T(n) = 8T(n/2) + n^2 do rzędu O(n^3) według twierdzenia o rekurencji uniwersalnej (Master Theorem)?",
+    "question": "Do jakiej złożoności czasowej może zdegenerować się w najgorszym przypadku algorytm Quick Sort?",
     "image": "",
     "answers": [
-      { "text": "Ponieważ n^(log_2 8) = n^3, a f(n) = n^2 rośnie wolniej (przypadek 1)", "correct": true },
-      { "text": "Ponieważ f(n) = n^2 rośnie szybciej niż logarytm (przypadek 3)", "correct": false },
-      { "text": "Ponieważ 8 * n/2 daje 4n, a całka z 4n to 2n^2", "correct": false },
-      { "text": "Wynika to bezpośrednio z Prawa Amdahla", "correct": false }
-    ]
-  },
-  {
-    "question": "Algorytm A działa w czasie T(n) = 3^n. Dla n=6 zajmuje 9 sekund. Ile zajmie dla n=10, jeśli mamy do dyspozycji 243 razy szybszy komputer?",
-    "image": "",
-    "answers": [
-      { "text": "Pytanie to pułapka na algorytm z wykładniczą złożonością; nowy sprzęt zniweluje narzut tylko o stałą, ale dokładny czas to 3 sekundy.", "correct": false },
-      { "text": "Dokładnie 3 sekundy, gdyż 3^10 / (3^6 / 9) / 243 = 3", "correct": true },
-      { "text": "27 sekund, bo złożoność wykładnicza zawsze rośnie", "correct": false },
-      { "text": "1 sekunda", "correct": false }
-    ]
-  },
-  {
-    "question": "Która funkcja z podanych rośnie najszybciej asymptotycznie?",
-    "image": "",
-    "answers": [
-      { "text": "O(n^n)", "correct": true },
-      { "text": "O(n!)", "correct": false },
-      { "text": "O(2^n)", "correct": false },
-      { "text": "O(8^(log n))", "correct": false }
-    ]
-  },
-  {
-    "question": "Jaką złożoność kryje w sobie zapis O(8^(log_2 n))?",
-    "image": "",
-    "answers": [
-      { "text": "O(n^3)", "correct": true },
-      { "text": "O(2^n)", "correct": false },
-      { "text": "O(n^8)", "correct": false },
-      { "text": "O(log n)", "correct": false }
-    ]
-  },
-  {
-    "question": "Czym charakteryzuje się dokładne oszacowanie asymptotyczne (Theta)?",
-    "image": "",
-    "answers": [
-      { "text": "Zachodzi, gdy zbiór O(f(n)) oraz Omega(f(n)) przecinają się na badanej funkcji, czyli ograniczenie górne i dolne są tego samego rzędu.", "correct": true },
-      { "text": "Oznacza, że funkcja rośnie wolniej niż podane ograniczenie.", "correct": false },
-      { "text": "Gwarantuje, że algorytm zostanie wykonany w czasie O(1).", "correct": false },
-      { "text": "Jest to jedynie teoretyczny konstrukt bez pokrycia w praktyce inżynierskiej.", "correct": false }
-    ]
-  },
-  {
-    "question": "Która z metod generacji liczb pseudolosowych polega na dodawaniu wcześniej wygenerowanych elementów sekwencji?",
-    "image": "",
-    "answers": [
-      { "text": "Metoda addytywna (np. oparta o ciąg Fibonacciego)", "correct": true },
-      { "text": "Metoda kongruencji liniowej (LCG)", "correct": false },
-      { "text": "Metoda Conveyou", "correct": false },
-      { "text": "Generatory sprzętowe (TRNG)", "correct": false }
-    ]
-  },
-  {
-    "question": "Cechą dobrego generatora liczb pseudolosowych NIE jest:",
-    "image": "",
-    "answers": [
-      { "text": "Krótki okres powtarzania sekwencji (szybkie zapętlenie)", "correct": true },
-      { "text": "Rozkład jednostajny prawdopodobieństwa", "correct": false },
-      { "text": "Możliwość odtworzenia sekwencji znając ziarno (seed)", "correct": false },
-      { "text": "Brak widocznej autokorelacji między kolejnymi wynikami", "correct": false }
-    ]
-  },
-  {
-    "question": "Metoda Conveyou to inaczej:",
-    "image": "",
-    "answers": [
-      { "text": "Kwadratowy generator kongruencyjny", "correct": true },
-      { "text": "Liniowy generator kongruencyjny (LCG)", "correct": false },
-      { "text": "Generator typu Mersenne Twister", "correct": false },
-      { "text": "Algorytm ewolucyjny do mutacji ziarna", "correct": false }
-    ]
-  },
-  {
-    "question": "Złożoność pamięciowa reprezentacji grafu w postaci macierzy sąsiedztwa dla V wierzchołków to:",
-    "image": "",
-    "answers": [
-      { "text": "O(V^2)", "correct": true },
-      { "text": "O(V + E)", "correct": false },
-      { "text": "O(E^2)", "correct": false },
-      { "text": "O(V log V)", "correct": false }
-    ]
-  },
-  {
-    "question": "W przypadku grafu rzadkiego (niewiele krawędzi) najbardziej optymalną pamięciowo reprezentacją jest:",
-    "image": "",
-    "answers": [
-      { "text": "Lista sąsiedztwa", "correct": true },
-      { "text": "Macierz incydencji", "correct": false },
-      { "text": "Macierz sąsiedztwa", "correct": false },
-      { "text": "Każda z wymienionych zajmie tyle samo w pamięci", "correct": false }
-    ]
-  },
-  {
-    "question": "Macierz incydencji grafu łączy:",
-    "image": "",
-    "answers": [
-      { "text": "Wierzchołki (wiersze) z krawędziami (kolumny)", "correct": true },
-      { "text": "Wierzchołki z wierzchołkami", "correct": false },
-      { "text": "Krawędzie z krawędziami", "correct": false },
-      { "text": "Wagi krawędzi z wierzchołkami", "correct": false }
-    ]
-  },
-  {
-    "question": "Obliczanie współczynnika dwumianowego C(n,k) bez spamiętywania (pure recursion) prowadzi do:",
-    "image": "",
-    "answers": [
-      { "text": "Rekursji drzewiastej, gdzie wiele podproblemów rozwiązuje się po kilkanaście razy (nieefektywność)", "correct": true },
-      { "text": "Rekursji liniowej, która działa optymalnie w czasie O(n)", "correct": false },
-      { "text": "Błędu dzielenia przez zero przy k=0", "correct": false },
-      { "text": "Ominięcia Prawa Amdahla", "correct": false }
-    ]
-  },
-  {
-    "question": "Formuła dla liczb Stirlinga II rodzaju to S(n,k) = k*S(n-1,k) + S(n-1,k-1). Jaka jest główna wada implementacji czysto rekurencyjnej?",
-    "image": "",
-    "answers": [
-      { "text": "Złożoność wykładnicza wynikająca z ponownego obliczania tych samych węzłów (rekursja drzewiasta)", "correct": true },
-      { "text": "Problem z zaokrągleniami zmiennoprzecinkowymi", "correct": false },
-      { "text": "Ograniczenie pamięci z powodu użycia macierzy n x k", "correct": false },
-      { "text": "Brak możliwości zastosowania jej dla k>n, bo algorytm wejdzie w nieskończoną pętlę", "correct": false }
-    ]
-  },
-  {
-    "question": "Podstawowym warunkiem do zastosowania Programowania Dynamicznego (DP) jest:",
-    "image": "",
-    "answers": [
-      { "text": "Występowanie nakładających się na siebie podproblemów (overlapping subproblems) oraz optymalna podstruktura", "correct": true },
-      { "text": "Możliwość całkowitego zrównoleglenia zadań (embarrassingly parallel)", "correct": false },
-      { "text": "Brak cykli w dowolnym grafie powiązanym z problemem", "correct": false },
-      { "text": "Konieczność użycia wyłącznie heurystyki zamiast szukania optimum globalnego", "correct": false }
-    ]
-  },
-  {
-    "question": "Algorytm Huffmana opiera się na budowie drzewa zaczynając od:",
-    "image": "",
-    "answers": [
-      { "text": "Dwóch symboli o najmniejszej częstotliwości występowania", "correct": true },
-      { "text": "Najczęściej występującego symbolu i przypisania mu kodu 0", "correct": false },
-      { "text": "Środkowego elementu posortowanej tablicy częstości", "correct": false },
-      { "text": "Podziału zbioru na połowy za pomocą losowego punktu przecięcia", "correct": false }
-    ]
-  },
-  {
-    "question": "Dlaczego kod Huffmana nazywany jest kodem prefiksowym?",
-    "image": "",
-    "answers": [
-      { "text": "Ponieważ żadne słowo kodowe nie jest początkiem (prefiksem) innego słowa kodowego, co umożliwia jednoznaczne dekodowanie w locie", "correct": true },
-      { "text": "Ponieważ każde słowo kodowe zaczyna się od zera (prefiks 0)", "correct": false },
-      { "text": "Ponieważ jest kompresją stratną przedrostkową", "correct": false },
-      { "text": "Ponieważ drzewo wymusza zawsze balans lewy-prawy przy kodowaniu prefiksów", "correct": false }
-    ]
-  },
-  {
-    "question": "Posiadając kompletne drzewo binarne zapisane w tablicy od indeksu 1, ojca dla wierzchołka i znajdujemy za pomocą wzoru:",
-    "image": "",
-    "answers": [
-      { "text": "floor(i / 2)", "correct": true },
-      { "text": "2i", "correct": false },
-      { "text": "2i + 1", "correct": false },
-      { "text": "i - 2", "correct": false }
-    ]
-  },
-  {
-    "question": "W reprezentacji tablicowej dla drzewa binarnego od indeksu 1, prawy syn wierzchołka i znajduje się pod indeksem:",
-    "image": "",
-    "answers": [
-      { "text": "2i + 1", "correct": true },
-      { "text": "2i", "correct": false },
-      { "text": "floor(i / 2)", "correct": false },
-      { "text": "2i - 1", "correct": false }
-    ]
-  },
-  {
-    "question": "Który z poniższych nie jest poprawnym uogólnieniem wzorów dla tablicowego drzewa t-arnego (od indeksu 1)?",
-    "image": "",
-    "answers": [
-      { "text": "Lewy syn to po prostu t*i (jest to błędne wzorowanie z binarnego)", "correct": true },
-      { "text": "Ojciec wierzchołka i to floor((i-2)/t) + 1", "correct": false },
-      { "text": "Pierwszy syn to t*(i-1) + 2", "correct": false },
-      { "text": "Ostatni (t-ty) syn to t*i + 1", "correct": false }
-    ]
-  },
-  {
-    "question": "Dlaczego tablicowa reprezentacja drzewa jest optymalna dla struktury Kopca (Heap)?",
-    "image": "",
-    "answers": [
-      { "text": "Nie wymaga używania wskaźników, pakuje dane w ciągły blok pamięci (cache friendly) i ułatwia poruszanie się za pomocą szybkiej arytmetyki na indeksach", "correct": true },
-      { "text": "Pozwala na łatwe wprowadzanie cykli w strukturze kopca", "correct": false },
-      { "text": "Kopiec musi być zawsze zbalansowanym drzewem AVL, a tablica to gwarantuje mechanicznie", "correct": false },
-      { "text": "Jest to jedyny znany format akceptowany przez Prawa Amdahla", "correct": false }
-    ]
-  },
-  {
-    "question": "Definicja porządku leksykograficznego przy generowaniu obiektów kombinatorycznych to:",
-    "image": "",
-    "answers": [
-      { "text": "Rozszerzenie porządku alfabetycznego (słownikowego) na ciągi o tej samej lub różnej długości na podstawie porównania pierwszych różniących się elementów", "correct": true },
-      { "text": "Metoda tasowania tablicy oparta na algorytmie Fishera-Yatesa", "correct": false },
-      { "text": "Losowy przydział wag według generatora Conveyou", "correct": false },
-      { "text": "Szeregowanie elementów rosnąco wyłącznie po sumie cyfr w ciągu", "correct": false }
-    ]
-  },
-  {
-    "question": "Problem N-Hetmanów to klasyczny przykład zastosowania techniki:",
-    "image": "",
-    "answers": [
-      { "text": "Przeszukiwania z nawrotami (Backtracking)", "correct": true },
-      { "text": "Zastępowania najstarszej strony w cache (LRU)", "correct": false },
-      { "text": "Optymalizacji za pomocą symulowanego wyżarzania", "correct": false },
-      { "text": "Obliczania drzew rozpinających Kruskala", "correct": false }
-    ]
-  },
-  {
-    "question": "Co definiuje strukturę Max-Kopca (Max-Heap)?",
-    "image": "",
-    "answers": [
-      { "text": "Wartość w każdym węźle jest zawsze większa lub równa wartościom w jego dzieciach", "correct": true },
-      { "text": "Lewe poddrzewo musi zawierać elementy mniejsze, a prawe większe niż korzeń (jak w BST)", "correct": false },
-      { "text": "Suma wartości liści jest mniejsza niż wartość w korzeniu", "correct": false },
-      { "text": "Struktura musi składać się wyłącznie z unikalnych liczb pierwszych", "correct": false }
-    ]
-  },
-  {
-    "question": "Czym objawia się faza 'kopcowania' w HeapSort?",
-    "image": "",
-    "answers": [
-      { "text": "Budowaniem kopca (Build-Heap), a następnie cyklicznym zdejmowaniem korzenia, przenoszeniem go na koniec tablicy i przywracaniem własności kopca (Heapify)", "correct": true },
-      { "text": "Dzieleniem tablicy na równe połowy aż do rozmiaru 1 i sklejaniem", "correct": false },
-      { "text": "Cyklicznym zamienianiem miejscami wszystkich sąsiadów", "correct": false },
-      { "text": "Losowym próbkowaniem wartości i testem krzyżowym", "correct": false }
-    ]
-  },
-  {
-    "question": "Zależność rekurencyjna w Dyskretnym Problemie Plecakowym 0-1 (wartość V(i,w)) uwzględnia:",
-    "image": "",
-    "answers": [
-      { "text": "Maksimum z (przypadek bez i-tego przedmiotu) oraz (wartość i-tego + najlepsze rozwiązanie dla pozostałej wagi)", "correct": true },
-      { "text": "Sumę prawdopodobieństw dla wyboru najlepszego koloru z palety", "correct": false },
-      { "text": "Minimalizację ciężaru przy nieskończonej dostępności danego przedmiotu (Knapsack Unbounded)", "correct": false },
-      { "text": "Współczynnik stygnięcia z Symulowanego Wyżarzania (delta C/T)", "correct": false }
-    ]
-  },
-  {
-    "question": "Jaka jest złożoność czasowa algorytmu dynamicznego dla Problemu Plecakowego 0-1?",
-    "image": "",
-    "answers": [
-      { "text": "O(n * W), gdzie n to liczba przedmiotów, a W to pojemność plecaka (złożoność pseudowielomianowa)", "correct": true },
-      { "text": "O(2^n), DP nie przynosi w tym problemie przyspieszenia czasowego, jedynie ułatwia zapis", "correct": false },
+      { "text": "O(n^2)", "correct": true },
       { "text": "O(n log n)", "correct": false },
-      { "text": "O(W^n)", "correct": false }
+      { "text": "O(n^3)", "correct": false },
+      { "text": "O(2^n)", "correct": false }
     ]
   },
   {
-    "question": "Jeżeli w problemie plecakowym optymalne V(4, 8) wynosi 13, odtworzenie składu plecaka polega na:",
+    "question": "Dlaczego jawna implementacja stosu jako struktury danych pomaga zapobiec błędowi 'Stack Overflow'?",
     "image": "",
     "answers": [
-      { "text": "Sprawdzaniu wstecz tablicy od V(4,8); jeśli V(4,8) > V(3,8), oznacza to, że przedmiot 4 został wzięty na pewno", "correct": true },
-      { "text": "Zsumowaniu wszystkich wag od i=0 do i=4, póki nie przekroczą W=8", "correct": false },
-      { "text": "Szukaniu minimalnej wartości w ostatnim wierszu tablicy i zastosowaniu greedy na wagach", "correct": false },
-      { "text": "Losowym wybieraniu elementów algorytmem Metropolis", "correct": false }
+      { "text": "Przenosi pamięć ze sztywnego stosu systemowego (Call Stack) na stertę (Heap)", "correct": true },
+      { "text": "Zwiększa rozmiar Call Stacka z poziomu kodu aplikacji", "correct": false },
+      { "text": "Automatycznie kompresuje dane wejściowe algorytmem Huffmana", "correct": false },
+      { "text": "Zmienia sposób działania pamięci podręcznej procesora (Cache)", "correct": false }
     ]
   },
   {
-    "question": "W metodzie Backtracking dla problemu 3-kolorowalności grafu powrót (cofnięcie decyzji) następuje, gdy:",
+    "question": "Które z poniższych uporządkowań złożoności asymptotycznych (od najwolniej do najszybciej rosnących) jest poprawne?",
     "image": "",
     "answers": [
-      { "text": "Bieżące przypisanie koloru tworzy konflikt z już pokolorowanym sąsiadem (niedopuszczalny stan), odcinając całą gałąź rekurencji", "correct": true },
-      { "text": "Algorytm dojdzie do końca listy wierzchołków i nie znajdzie pełnej ścieżki w grafie TSP", "correct": false },
-      { "text": "Temperatura T spadnie poniżej zera bezwzględnego", "correct": false },
-      { "text": "Limit pamięci podręcznej dla stosu rekurencyjnego zostanie zignorowany", "correct": false }
+      { "text": "O(1), O(log n), O(n), O(n log n), O(n^2)", "correct": true },
+      { "text": "O(1), O(n), O(log n), O(n log n), O(n^2)", "correct": false },
+      { "text": "O(log n), O(1), O(n log n), O(n), O(n^2)", "correct": false },
+      { "text": "O(1), O(log n), O(n^2), O(n), O(n log n)", "correct": false }
     ]
   },
   {
-    "question": "Czym różni się problem decyzyjny 3-kolorowania grafu od problemu optymalizacyjnego?",
+    "question": "Złożoność czasowa rzędu O(n!) to algorytm działający w czasie:",
     "image": "",
     "answers": [
-      { "text": "Decyzyjny pyta tylko 'Czy da się pokolorować 3 kolorami?', a optymalizacyjny 'Jaka jest absolutnie najmniejsza liczba kolorów (liczba chromatyczna)?'", "correct": true },
-      { "text": "Optymalizacyjny wymaga użycia dokładnie 3 kolorów, a decyzyjny szuka losowego malowania", "correct": false },
-      { "text": "Decyzyjny rozwiązuje się zawsze w czasie O(1) na maszynie wielordzeniowej", "correct": false },
-      { "text": "Nie różnią się niczym, w teorii złożoności to ta sama klasa P", "correct": false }
+      { "text": "Silni (najgorsza z wymienionych)", "correct": true },
+      { "text": "Wykładniczym", "correct": false },
+      { "text": "Wielomianowym", "correct": false },
+      { "text": "Liniowym", "correct": false }
     ]
   },
   {
-    "question": "Dlaczego trójkąt w grafie (K3) automatycznie wymusza użycie minimum 3 kolorów przy kolorowaniu?",
+    "question": "We wzorze na Liniową Metodę Kongruencyjną X_{n+1} = (a * X_n + c) mod m, co oznacza zmienna 'a'?",
     "image": "",
     "answers": [
-      { "text": "Każdy z wierzchołków łączy się bezpośrednio z pozostałymi dwoma. Nie ma fizycznej możliwości współdzielenia koloru bez naruszenia zakazu konfliktu krawędzi.", "correct": true },
-      { "text": "Jest to anomalia, w rzeczywistości da się to obejść krzyżując dwa kolory w jeden", "correct": false },
-      { "text": "Wynika to ze wzoru Eulera na ściany wielościanów", "correct": false },
-      { "text": "Suma kątów w trójkącie to 180 stopni, co w arytmetyce binarnej daje cyfrę 3", "correct": false }
+      { "text": "Mnożnik (multiplier)", "correct": true },
+      { "text": "Przyrost (increment)", "correct": false },
+      { "text": "Moduł (modulus)", "correct": false },
+      { "text": "Ziarno (seed)", "correct": false }
     ]
   },
   {
-    "question": "Praktycznym zastosowaniem problemu kolorowania grafu jest:",
+    "question": "Aby generator LCG wygenerował wszystkie liczby z pełnego cyklu 'm' bez przedwczesnego powtarzania, jakie warunki muszą być m.in. spełnione?",
     "image": "",
     "answers": [
-      { "text": "Przydział częstotliwości w stacjach bazowych (BTS) w sieciach GSM i LTE", "correct": true },
-      { "text": "Wyliczanie drogi zwalniania pamięci przez Garbage Collector", "correct": false },
-      { "text": "Tworzenie optymalnego kompresowania grafiki w formacie JPEG", "correct": false },
-      { "text": "Obliczanie hasha MD5 w bazach danych", "correct": false }
+      { "text": "'c' i 'm' muszą być względnie pierwsze", "correct": true },
+      { "text": "'a' i 'c' muszą być wielokrotnością 4", "correct": false },
+      { "text": "'m' musi być liczbą pierwszą", "correct": false },
+      { "text": "'a' musi być równe 'c'", "correct": false }
     ]
   },
   {
-    "question": "Wyszukiwanie Lokalne (Local Search) dla problemu komiwojażera opiera się na strategii:",
+    "question": "Gdy zoptymalizujemy sortowanie bąbelkowe (Bubble Sort) o flagę sprawdzającą, czy wystąpiła jakakolwiek zamiana, jaka będzie jego złożoność w wariancie optymistycznym (tablica posortowana)?",
     "image": "",
     "answers": [
-      { "text": "Skakania między rozwiązaniami w tzw. sąsiedztwie (np. przez odwracanie fragmentów drogi), próbując znaleźć lepszy koszt lokalny", "correct": true },
-      { "text": "Budowaniu idealnego drzewa rozpinającego metodą Prima, a potem zamykania trasy", "correct": false },
-      { "text": "Odpalaniu nieskończonej pętli i braniu wyników z Prawa Amdahla", "correct": false },
-      { "text": "Kolorowaniu miast, aż nie starczy benzyny w baku", "correct": false }
+      { "text": "O(n)", "correct": true },
+      { "text": "O(1)", "correct": false },
+      { "text": "O(n log n)", "correct": false },
+      { "text": "O(n^2)", "correct": false }
     ]
   },
-  {
-    "question": "Sąsiedztwo 2-opt (2-optimization) w problemie komiwojażera to ruch polegający na:",
-    "image": "",
-    "answers": [
-      { "text": "Usunięciu dwóch nieprzylegających krawędzi i ponownym spięciu trasy na krzyż, co de facto odwraca kolejność miast na jednym z fragmentów cyklu", "correct": true },
-      { "text": "Wyrzuceniu dwóch miast z listy do momentu zakończenia obliczeń, by odciążyć CPU", "correct": false },
-      { "text": "Dzieleniu algorytmu na 2 wątki, optymalizując go pod O(N/2)", "correct": false },
-      { "text": "Wstawieniu dwóch sztucznych węzłów (dummy nodes) celem ominięcia optymalizacji Tabu", "correct": false }
-    ]
-  },
-  {
-    "question": "Główną wadą podstawowego algorytmu Wyszukiwania Lokalnego (zachłannego wspinania) jest to, że:",
-    "image": "",
-    "answers": [
-      { "text": "Ma ogromną tendencję do zacinania się w pierwszym napotkanym minimum lokalnym i nie jest w stanie pójść dalej pod górę, by znaleźć globalne optimum", "correct": true },
-      { "text": "Zajmuje bardzo dużo pamięci RAM (O(N!)) i wywala program", "correct": false },
-      { "text": "Wymusza użycie dokładnie ośmiu rdzeni, co pogarsza efektywność według tabeli Amdahla", "correct": false },
-      { "text": "Działa tylko na liczbach rzeczywistych, a nie całkowitych odległościach", "correct": false }
-    ]
-  },
-  {
-    "question": "Algorytm Przeszukiwania z Listą Tabu (Tabu Search) unika utknięcia w dołku dzięki:",
-    "image": "",
-    "answers": [
-      { "text": "Prowadzeniu specjalnej pamięci 'krótkotrwałej' (Lista Tabu), która nakłada czasowego bana na wykonywanie ruchów powrotnych, zmuszając do eksploracji pogorszeń", "correct": true },
-      { "text": "Drastycznemu obniżeniu temperatury w każdym kroku, przez co blokuje każdy ruch", "correct": false },
-      { "text": "Zamianie sąsiadów na strukturę drzewa binarnego", "correct": false },
-      { "text": "Implementacji całkowicie losowej błądzenia matematycznego", "correct": false }
-    ]
-  },
-  {
-    "question": "Na czym polega 'kryterium aspiracji' w Tabu Search?",
-    "image": "",
-    "answers": [
-      { "text": "Jest to zasada 'VIP', która ignoruje status Tabu dla ruchu, jeśli ten ruch daje globalnie najlepsze rozwiązanie znalezione do tej pory", "correct": true },
-      { "text": "Zasada mówiąca o tym, by aspirować do O(1) w czasie działania", "correct": false },
-      { "text": "Zmusza algorytm do powrotu do korzenia przy napotkaniu błędu 404 w iteracji", "correct": false },
-      { "text": "Odrzuca wszelkie wyniki generujące liczby pierwsze", "correct": false }
-    ]
-  },
-  {
-    "question": "W metaheurystyce Symulowanego Wyżarzania (Simulated Annealing) używa się reguły akceptacji pogorszenia. Prawdopodobieństwo jest opisane wzorem:",
-    "image": "",
-    "answers": [
-      { "text": "p = e^(-(NewCost - CurCost) / T)", "correct": true },
-      { "text": "p = T / (NewCost + CurCost)", "correct": false },
-      { "text": "p = 1 - (CurCost / NewCost) * T", "correct": false },
-      { "text": "p = ln(NewCost) / e^(T)", "correct": false }
-    ]
-  },
-  {
-    "question": "W symulowanym wyżarzaniu obniżanie parametru Temperatury (T) w miarę upływu czasu skutkuje tym, że:",
-    "image": "",
-    "answers": [
-      { "text": "Algorytm staje się coraz bardziej 'zachłanny' i akceptuje mniej gorszych rozwiązań, skupiając się na dokręcaniu śruby wokół minimum", "correct": true },
-      { "text": "Procesor się ochładza i algorytm działa 2x szybciej w O(log N)", "correct": false },
-      { "text": "Rośnie prawdopodobieństwo gigantycznych, chaotycznych skoków po przestrzeni w nieskończoność", "correct": false },
-      { "text": "Kryterium Aspiracji rośnie wykładniczo i wyłącza listę tabu", "correct": false }
-    ]
-  },
-  {
-    "question": "Wylicz z Metropolis: CurCost=100. NewCost=105. Temperatura T=10. Wylosowano r=0,3. Wzór p = e^(-5/10) to ok. 0,606. Czy algorytm zaakceptuje gorsze rozwiązanie?",
-    "image": "",
-    "answers": [
-      { "text": "Tak, ponieważ wylosowana liczba r=0,3 jest mniejsza niż wyliczone prawdopodobieństwo 0,606", "correct": true },
-      { "text": "Nie, bo wylosowana liczba jest mniejsza, a musi być większa do akceptacji", "correct": false },
-      { "text": "Nie, algorytm nigdy nie akceptuje rozwiązań, gdzie NewCost > CurCost", "correct": false },
-      { "text": "Tak, bo Temperatura jest większa od różnicy kosztów i z automatu omija prawdopodobieństwo", "correct": false }
-    ]
-  },
-  {
-    "question": "Algorytmy Genetyczne i Ewolucyjne naśladują dobór naturalny. Krzyżowanie jednopunktowe dla dwóch osobników polega na:",
-    "image": "",
-    "answers": [
-      { "text": "Wybiciu jednego punktu cięcia na chromosomie i wymianie 'ogonów' między rodzicami w celu stworzenia potomków ze zmieszanym kodem", "correct": true },
-      { "text": "Wylosowaniu nowej, całkowicie losowej tablicy (mutacji punktowej dla całego pokolenia)", "correct": false },
-      { "text": "Wzięciu lewej połowy pierwszego rodzica i powieleniu jej 2 razy by zamazać wady", "correct": false },
-      { "text": "Eliminacji słabego genu z zastosowaniem Listy Tabu", "correct": false }
-    ]
-  },
-  {
-    "question": "Dlaczego podczas implementacji algorytmu ewolucyjnego dodaje się mechanizm mutacji (losowej zmiany ginu)?",
-    "image": "",
-    "answers": [
-      { "text": "Aby wstrzykiwać 'świeżą krew' do puli genetycznej i zapobiegać przedwczesnej zbieżności populacji do słabego minimum lokalnego", "correct": true },
-      { "text": "Aby algorytm działał dłużej, przez co stwarza pozory trudnych obliczeń i naciąga klientów na lepszy sprzęt", "correct": false },
-      { "text": "Żeby zmniejszyć złożoność z O(N!) na O(N^2)", "correct": false },
-      { "text": "Jest to opcjonalny bug w API javy i nie ma zastosowania naukowego", "correct": false }
-    ]
-  },
-  {
-    "question": "Funkcja przystosowania (Fitness Function) zdefiniowana jako f(x) = 1 / (1 + liczba_konfliktów) dla problemu kolorowania grafu będzie faworyzować:",
-    "image": "",
-    "answers": [
-      { "text": "Osobniki, które zbliżają swoją liczbę konfliktów krawędzi do zera (maksymalizując wynik mianownika i dając wartość bliższą 1)", "correct": true },
-      { "text": "Osobniki, które mają najwięcej błędów, by dać im drugą szansę i zachować różnorodność", "correct": false },
-      { "text": "Te same rozwiązania bez przerwy, niezależnie od konfliktów", "correct": false },
-      { "text": "Metodę zachłanną generującą tylko jedynki w tablicy kolorów", "correct": false }
-    ]
-  },
-  {
-    "question": "Selekcja turniejowa lub koło ruletki w algorytmach genetycznych pełnią rolę:",
-    "image": "",
-    "answers": [
-      { "text": "Mechanizmu promującego osobniki o najwyższym Fitness, zwiększając ich matematyczną szansę na reprodukcję i transfer dobrych genów do nowej epoki", "correct": true },
-      { "text": "Losowego resetowania planszy z prawdopodobieństwem zależnym od liczby wierzchołków", "correct": false },
-      { "text": "Metody omijania barier licencji w komercyjnych wtyczkach", "correct": false },
-      { "text": "Mechanizmu zrównoleglenia zadań na karty graficzne CUDA", "correct": false }
-    ]
-  },
-  {
-    "question": "Mając czas 1 rdzenia T1=80s i czas na 8 rdzeniach T8=14s. Przyspieszenie (Speedup S_8) wynosi:",
-    "image": "",
-    "answers": [
-      { "text": "Ok. 5,71", "correct": true },
-      { "text": "8,00", "correct": false },
-      { "text": "0,175", "correct": false },
-      { "text": "Ok. 6,66", "correct": false }
-    ]
-  },
-  {
-    "question": "Jeżeli S_8 wynosi 5,71. Efektywność (Efficiency E_8) dla 8 rdzeni będzie wynosić:",
-    "image": "",
-    "answers": [
-      { "text": "Ok. 71,4% (5,71 / 8)", "correct": true },
-      { "text": "100%, ponieważ wykorzystano sprzęt PWr", "correct": false },
-      { "text": "14%", "correct": false },
-      { "text": "28,6% (bo to straty do odjęcia)", "correct": false }
-    ]
-  },
-  {
-    "question": "Najważniejszym wnioskiem płynącym z Prawa Amdahla jest to, że:",
-    "image": "",
-    "answers": [
-      { "text": "Maksymalne możliwe przyspieszenie programu poprzez dorzucanie kolejnych procesorów jest permanentnie ograniczone z góry (hard cap) przez frakcję sekwencyjną tego programu", "correct": true },
-      { "text": "Jeśli podwoisz liczbę rdzeni, aplikacja zawsze przyspieszy dokładnie dwukrotnie", "correct": false },
-      { "text": "Szybkość zależy wyłącznie od taktowania zegara CPU, a nie od liczby wątków", "correct": false },
-      { "text": "Algorytmy DP w programowaniu dynamicznym omijają narzuty wątków i skalują się liniowo", "correct": false }
-    ]
-  },
-  {
-    "question": "Jeśli część czysto sekwencyjna (niemożliwa do zrównoleglenia) zajmuje 10% kodu, to z Prawa Amdahla S_max wynosi:",
-    "image": "",
-    "answers": [
-      { "text": "10 (nawet przy użyciu miliona rdzeni algorytm nie przyspieszy bardziej niż dziesięciokrotnie)", "correct": true },
-      { "text": "90", "correct": false },
-      { "text": "Nieskończoność, wystarczy wrzucić zadanie w chmurę AWS", "correct": false },
-      { "text": "0,1 (zwalnia z każdym dodanym procesorem)", "correct": false }
-    ]
-  },
-  {
-    "question": "Współczynnik Load Imbalance w obliczeniach równoległych powoduje spadek efektywności na skutek:",
-    "image": "",
-    "answers": [
-      { "text": "Przydzielenia procesorom nieproporcjonalnych pakietów pracy, przez co najszybsze kończą robotę wczas i idą w Idle czekając na zablokowany narzutem najwolniejszy wątek", "correct": true },
-      { "text": "Słabego chłodzenia na serwerach politechniki", "correct": false },
-      { "text": "Nadmiernego mnożenia współczynników dwumianowych w jednym buforze", "correct": false },
-      { "text": "Mutacji genetycznych wynikających z błędu promieniowania kosmicznego", "correct": false }
-    ]
-  },
-  {
-    "question": "Czym jest narzut komunikacyjny (Overhead) w zrównoleglaniu programów?",
-    "image": "",
-    "answers": [
-      { "text": "Zjawisko marnowania surowej mocy przerobowej CPU na sam fakt wymiany pakietów informacji i synchronizację mutexów między kilkoma wątkami/węzłami zamiast faktycznego liczenia", "correct": true },
-      { "text": "Zjawisko polegające na braku możliwości uruchomienia kodu z C w Javie", "correct": false },
-      { "text": "Maksymalna pojemność pamięci podręcznej L3 dzielona przez ilość tranzystorów", "correct": false },
-      { "text": "Koszty chłodzenia na farmach serwerowych Google", "correct": false }
-    ]
-  },
-  {
-    "question": "Różnica matematyczna między O(n^3) a Omega(n^3) w teorii algorytmów na PK polega na tym, że:",
-    "image": "",
-    "answers": [
-      { "text": "O(n^3) mówi że 'nie będzie gorzej niż to', a Omega(n^3) mówi 'nie będzie lepiej niż to'.", "correct": true },
-      { "text": "To są synonimy", "correct": false },
-      { "text": "Omega zawsze definiuje czas kompilacji, a O czas wykonania algorytmu", "correct": false },
-      { "text": "Zapis O(n^3) występuje u amatorów, eksperci użwają tylko zapisu wielkiej Sigmy", "correct": false }
-    ]
-  },
-  {
-    "question": "Jeżeli dla problemu mamy f(n) = n^2 log n i zastosujemy Master Theorem T(n) = a*T(n/b) + f(n), do rozpatrzenia będziemy zmuszeni użyć rzadko spotykanego przypadku rozszerzonego, gdzyż funkcja w f(n) zawiera logarytm. To prowadzi do wariantu nr 2 w wersji:",
-    "image": "",
-    "answers": [
-      { "text": "T(n) = Theta(n^(log_b a) * log^(k+1) n)", "correct": true },
-      { "text": "T(n) = Theta(n^n)", "correct": false },
-      { "text": "T(n) = O(1)", "correct": false },
-      { "text": "Twierdzenie przestaje mieć zastosowanie i trzeba liczyć macierze całkując", "correct": false }
-    ]
-  },
-  {
-    "question": "Metoda iteracyjna dla T(n) = 2T(n/2) + n, (dla n=2^k) polega na rozpisaniu rekurencji na poziomy. Sumując poziomy otrzymujemy w typowym Mergesorcie:",
-    "image": "",
-    "answers": [
-      { "text": "Koszt n na każdy poziom z log n poziomów, sumujące się do O(n log n)", "correct": true },
-      { "text": "Złożoność kwadratową, bo poziomy dublują elementy, więc n * n = n^2", "correct": false },
-      { "text": "Stały koszt 2n niezależnie od k, ergo O(n)", "correct": false },
-      { "text": "Silnię z wymiaru początkowego", "correct": false }
-    ]
-  },
-  {
-    "question": "Dany jest ciąg funkcji: n^2, n^3, n!, 8^log_2(n). Ostatnia funkcja przekształcona do czystego wielomianu to:",
-    "image": "",
-    "answers": [
-      { "text": "n^3", "correct": true },
-      { "text": "8 * n", "correct": false },
-      { "text": "n^8", "correct": false },
-      { "text": "3^n", "correct": false }
-    ]
-  },
-  {
-    "question": "Geometria Obliczeniowa 2D używa testu Orientacji opierając się na badaniu znaku wyznacznika wektora. Wzór (xQ - xP)*(yR - yP) - (yQ - yP)*(xR - xP) pochodzi bezpośrednio z:",
-    "image": "",
-    "answers": [
-      { "text": "Iloczynu wektorowego (cross product) wektorów PQ i PR (biorąc jego składową z lub 2D wyznacznik z układu równań)", "correct": true },
-      { "text": "Czystego Prawa Pitagorasa w układzie trójwymiarowym", "correct": false },
-      { "text": "Całki oznaczonej z krzywej stożkowej wzdłuż punktów", "correct": false },
-      { "text": "Twierdzenia Cramera w równaniach macierzy wielowymiarowych", "correct": false }
-    ]
-  },
-  {
-    "question": "Jeśli wynik testu Orientacji dla punktów P, Q, R wynosi +13 to oznacza to:",
-    "image": "",
-    "answers": [
-      { "text": "Że jadąc z P do Q i patrząc na R będziemy skręcać w lewo, (Counter-Clockwise, CCW), a punkt R ucieka 'nad' prostą.", "correct": true },
-      { "text": "Że punkty są idealnie współliniowe z błędem zmiennoprzecinkowym w maszynach o 13-bitowej architekturze", "correct": false },
-      { "text": "Skręt w prawo ostro w dół (CW)", "correct": false },
-      { "text": "Są to trójkąty niezdefiniowane, niemożliwe do opisania z wektorów", "correct": false }
-    ]
-  },
-  {
-    "question": "Wyznaczenie czy Odcinki AB oraz CD na płaszczyźnie przecinają się, polega na udowodnieniu przy pomocy orientacji że:",
-    "image": "",
-    "answers": [
-      { "text": "Zarówno punkty C i D stoją 'okrakiem' (po dwóch różnych stronach, znaki +- / -+) względem AB, ORAZ punkty A i B stoją okrakiem względem prostej na CD", "correct": true },
-      { "text": "Jedynie punkt A jest wewnątrz trójkąta BCD", "correct": false },
-      { "text": "Odległość euklidesowa między punktami A i C jest krótsza od promienia okręgu opisanego na nich", "correct": false },
-      { "text": "Iloczyny sum i różnic dają wymiar ujemny przy użyciu algorytmu Prawa Amdahla", "correct": false }
-    ]
-  },
-  {
-    "question": "Budowanie Otoczki Wypukłej (Convex Hull), chociażby z użyciem szybkiego Algorytmu Grahama polega w dużej mierze na:",
-    "image": "",
-    "answers": [
-      { "text": "Przeczesywaniu posortowanych kątowo węzłów dookoła wierzchołka o najmniejszym y, przy czym każdy wierzchołek generujący 'skręt w prawo' jest usuwany z finalnego stosu otoczki, by zlikwidować 'wklęśnięcia'.", "correct": true },
-      { "text": "Brute forcingu wszystkich krawędzi tak, by zsumować je w O(N!) by znaleźć najdłuższą i zakleić od wewnątrz", "correct": false },
-      { "text": "Dodaniu do wszystkich punktów losowych wektorów zniekształcających by zastosować algorytm ewolucyjny do mutacji krawędzi pod presją ciśnienia", "correct": false },
-      { "text": "Podziale mapy punktów na grid i przypisywaniu wag macierzy incydencji", "correct": false }
-    ]
-  },
-  {
-    "question": "Czy dla geometrii 2D we wzorze na orient(P, Q, R) używa się instrukcji ułamkowych albo dzielenia?",
-    "image": "",
-    "answers": [
-      { "text": "Nie, gigantycznym flexem tego wzoru jest to, że omija dzielenie i trygonometrię. Nie ma tam ryzyk precyzji NaN czy dzielenia przez zero (chyba że przekręcisz zmienną całkowitoliczbową w kodzie C).", "correct": true },
-      { "text": "Tak, we wzorze znajduje się skomplikowany logarytm naturalny wymagany do zakrzywienia punktu R", "correct": false },
-      { "text": "Oczywiście, trzeba podzielić obwód przez długość boku aby zamknąć róg łuku", "correct": false },
-      { "text": "Dzielenie i trygonometria uruchamiają się ukradkiem asynchronicznie za plecami głównego wątku", "correct": false }
-    ]
-  },
-  {
-    "question": "Co się z nami dzieje kiedy w testowaniu orientacji wektora z algorytmu P, Q, R otrzymamy det = 0?",
-    "image": "",
-    "answers": [
-      { "text": "Punkty leżą dokładnie w jednej linii z laserową precyzją, potocznie współliniowe (Collinear)", "correct": true },
-      { "text": "Błąd kompilatora, zmienna nie nadpisana w buforze pamięci", "correct": false },
-      { "text": "Oznacza że wektor zmienił wektor skrętu w 3ci wymiar 3D Z i wylata do widza w monitor", "correct": false },
-      { "text": "Należy odkręcić wynik i nałożyć listę Tabu z Prawem Amdahla", "correct": false }
-    ]
-  },
-  {
-    "question": "Gdy zmutowaliśmy w grafie kolor by wyrwać się z minimum i nagle konfliktów pojawiło się więcej... Czy w genetyce traktuje się to jako stratę CPU i się zamyka proces?",
-    "image": "",
-    "answers": [
-      { "text": "Nie do końca, w genetyce tak to działa - losowy szalony strzał psuje chwilowo wynik osobnikowi, ale długoterminowo zapobiega zablokowaniu całej populacji w ślepym zaułku, pozwalając 'przeskoczyć' przez górę zła do doliny absolutnego W i minimum lokalnego.", "correct": true },
-      { "text": "Zdecydowanie, procesor ugotuje się do reszty próbując malować niepotrzebne konflikty", "correct": false },
-      { "text": "Tak, trzeba zrzucić program kill -9 pod linuxem, bo inaczej obciąży nam chmurę i nabije rachunki Amazon Web Service na 5 milionów monet", "correct": false },
-      { "text": "Częściowo, musimy manualnie przerwać kompilator C++ i napisać algorytm komiwojażera w Pythonie", "correct": false }
-    ]
-  },
-  {
-    "question": "Jeżeli chcemy minimalizować błąd K, a funkcja oceny (fitness) potrzebuje wysokich wartości, co robimy we wzorze genetycznym?",
-    "image": "",
-    "answers": [
-      { "text": "Odwracamy matmę i błąd wpada do mianownika (np. 1 / 1 + K), ujemnych ( -K ), by największe Sigmy miały wartości najbliższe 1 / lub najwyższe ujemnie by przetrwać selekcje ruletką", "correct": true },
-      { "text": "Dodajemy mu logarytm do wykładnika 8^n + błąd i dajemy jako bazę", "correct": false },
-      { "text": "Nie zwracamy uwagi na minimalizacje, błędy dodają expa i algorytm rośnie", "correct": false },
-      { "text": "Kasujemy tablicę z genami i zmieniamy w macierz trójkątną wyższą", "correct": false }
-    ]
-  },
-  {
-    "question": "Prawdopodobieństwo w Symulowanym Wyżarzaniu obliczamy z rozkładu exp. Co by się odwaliło, gdyby T=0 albo prawie 0 przy algorytmie Metropolis?",
-    "image": "",
-    "answers": [
-      { "text": "Zjawisko zamarzania krzemu. Algorytm odrzuci jakiegokolwiek kandydata dającego minimalnie gorszy koszt, ułamek 1 / nieskończoność spada w limicie do Zera i funkcja staje się totalnie Zachłanna na sterydach do minimum.", "correct": true },
-      { "text": "Wyżarzyło by nam grafikę a komputer stopił lód", "correct": false },
-      { "text": "Przy zerze temperatura generuje wyjątek i w nieskończoność skacze po całym grafie by nadrobić brakujące podziały mianownika w losowości", "correct": false },
-      { "text": "Z racji Prawa Amdahla zero nie występuje i zrównolegliłby obliczenia w nieskończoność rdzeni na chmurze", "correct": false }
-    ]
-  },
-  {
-    "question": "Częstość A=10, B=15, C=12, D=3, E=4, F=13. Kogo algorytm Huffmana sparuje w pierwszym kroku budowy drzewa dół-góra?",
-    "image": "",
-    "answers": [
-      { "text": "D(3) oraz E(4), gdyż są najmniej częstymi znakami z listy generując rodzica o sumie 7.", "correct": true },
-      { "text": "B(15) i F(13), bo są topowe statystycznie w paczce danych z podziałem", "correct": false },
-      { "text": "A(10) i B(15), alfabetycznie narzucone reguły z PK blokują przetasowania przed kompresją", "correct": false },
-      { "text": "Suma częstotliwości podzielona przez Pi = wyrzuca błąd bufora D(3) i szuka dalej pod spodem do C(12)", "correct": false }
-    ]
-  },
-  {
-    "question": "W drzewie Huffmana z podanymi wagami - z lewej 0, z prawej 1. Słowo 'A' dostało kod 10, 'C' kod 111, B kod 0. Jeżeli kod jest bezstratny i kompresja spadła z 10 bitów na znak do 3 na znak. Średnia oszczędność z 300 bitów stałych na 120 bitów w Huff to:",
-    "image": "",
-    "answers": [
-      { "text": "Oszczędność rzędu 60% w dół przestrzeni, ponieważ skompresowany plik zajmuje tylko 40% objętości oryginału i jest krótszy", "correct": true },
-      { "text": "4% bo tablica się zmieściła w RAM", "correct": false },
-      { "text": "Oszczędność ujemna bo kod przedrostkowy na serwerze to zapas stratny na dyskach w formacie JPG", "correct": false },
-      { "text": "Dzięki temu zyskujemy odblokowanie Tabu przy komiwojażerze z symulacji wyżarzenia algorytmami na PK", "correct": false }
-    ]
-  },
-  {
-    "question": "Algorytm Huffmana nie potrzebuje specjalnego bitu oddzielającego znaki ze względu na to, że:",
-    "image": "",
-    "answers": [
-      { "text": "Jest kodem prefiksowym - jak parser natrafi na końcówkę w liściu, idealnie wie, że skończył się jeden znak i bez zwłoki zaczyna czytać z korzenia kolejny. Zero konfliktów na gałęziach (unikalność liści).", "correct": true },
-      { "text": "Bit stopu to archaizm, każdy bit w pliku z założenia ma spację na końcu parsera na C++", "correct": false },
-      { "text": "Stosuje się bit start-stopowy parity z RS-232 by wysłać przerwę", "correct": false },
-      { "text": "Huffman działa tylko na 6 znakach i na koniec pętli wstawia znak nowej linii co jest unikalnym bytem /n ASCII", "correct": false }
-    ]
-  },
-  {
-    "question": "Różnica u programisty w myśleniu między iteracją, a czystą rekurencją przy np. silni wynosi:",
-    "image": "",
-    "answers": [
-      { "text": "Rekurencja elegancko nakłada stos wywołań w pamięci aż do warunku brzegowego zżerając na RAM i klatkując program (stack overflow jak przesadzi), a iteracja chamsko mieli rejestr licznika zużywając głównie procesor zachowując przestrzeń.", "correct": true },
-      { "text": "Iteracja nie zżera CPU, robi wszystko w chmurze, rekurencja jest w pliku na dysku twardym", "correct": false },
-      { "text": "Programiści na PK nie używają iteracji z założenia by zgiąć AGH pod naporem lepszych serwerów na uczelni", "correct": false },
-      { "text": "Są tożsame w C++ i użycie kompilatora sklejania kodu omija ich różnicę od 1993 roku w architekturze", "correct": false }
-    ]
-  },
-  {
-    "question": "Własność rekursji LINIOWEJ od DRZEWIASTEJ różni się fundamentalnie pod względem:",
-    "image": "",
-    "answers": [
-      { "text": "Liniowa woła samą siebie tylko RAZ w każdym ciele funkcji na pętli wywołań, podczas gdy drzewiasta w jednej funkcji tworzy kilka odnóg wywołując siebie wielokrotnie (jak hydra z odciętą głową przy np. Fibonaccim).", "correct": true },
-      { "text": "Rekurencja Liniowa idzie pionowo na wykresie a drzewiasta ma korzenie poziome wyciągane przez system korzeniowy w O(N log N)", "correct": false },
-      { "text": "Liniowa rozwiązuje problem po linii prostej i zawsze w log N, a Drzewiasta idzie krzywą i musi się wyżarzać", "correct": false },
-      { "text": "Drzewiasta tworzy fizycznie węzły Drzewa Binarnego w Tablicy jak Kopiec by wrzucić tam błędy programisty a Liniowa kasuje linijkę w pamięci", "correct": false }
-    ]
-  },
-  {
-    "question": "Jeżeli dla Fibonacciego F(n)=F(n-1)+F(n-2) przy n=5 rysujemy drzewo wywołań na kartce papieru bez tablicy Memoizacji dla Czystej rekursji to jaki jest jej koszt obliczeniowy w grubej kresce przy badaniu rosnącego n?",
-    "image": "",
-    "answers": [
-      { "text": "Gigantyczny, skacze w stronę pułapu O(2^n) - rośnie wręcz wykładniczo zżerając wydajność i dublując na dole piramidy te same bloki F(2), F(1), F(0) po dziesiątki razy, marnując cenne takty zegara.", "correct": true },
-      { "text": "Liniowy O(N) dzięki zaimplementowaniu Prawa Amdahla przez procesor pod spodem bez udziału programisty na wskaźnikach z sigmą w serwerowni", "correct": false },
-      { "text": "O(log n) z powodu drzewa - drzewa przecież dzielą na pod-zadania więc idzie do dołu szybko", "correct": false },
-      { "text": "Jest rzędu O(N^10) ponieważ jest to funkcja na grafach i macierz sąsiedztwa blokuje wejścia z n", "correct": false }
-    ]
-  },
-  {
-    "question": "W jaki najpotężniejszy sposób odkręcimy powyższy problem z F(n) by zmienić uciążliwą złożoność w ułamek czasu dla maszyny i być ekspertem w Dynamicznym programowaniu (DP)?",
-    "image": "",
-    "answers": [
-      { "text": "Tworząc tablicę Memoizacji (np. z góry na dół), gdzie przed chęcią wyliczenia wchodzisz i pytasz 'Czy już to liczyłem?'. Jak tak, to zasysasz od razu w czasie stałym. Rzeźbi nam to magicznie czas z drastycznego O(2^n) na mizerne, zoptymalizowane O(N).", "correct": true },
-      { "text": "Zastosujemy generatory sprzętowe TRNG by zgadywały na ślepo i wylosowały złoty strzał F(5)=5 z O(1)", "correct": false },
-      { "text": "Zakodujemy kod w systemie Huffmana i rzucimy bit startowy na prawy liść wektora kierunkowego co skompresuje ścieżkę do tablicy Hashy", "correct": false },
-      { "text": "Usuniemy dwa miasta lokalnie po testach 2-opt, obniżymy temperaturę w Wyżarzaniu na 0, i z Prawa Amdahla F(n) ustawi się równolegle by się ubić pod n=5 z listą Tabu na powrót.", "correct": false }
-    ]
-  },
-  {
-    "question": "Dyskretny Plecak 0-1, w przeciwieństwie do wariantu ułamkowego/Ciągłego zabrania nam:",
-    "image": "",
-    "answers": [
-      { "text": "Pokrojenia przedmiotu. Przedmiot '1' (waga 2, wartość 3) albo wpada w CAŁOŚCI (decyzja 1) albo wcale (decyzja 0). Nie można uciąć mu głowy i wziąć połowy by dopchać na chama limity wagi i na tym wykłada się typowe greedy zachłanne - zmuszając do użycia Macierzy DP.", "correct": true },
-      { "text": "Wzięcia tego samego przedmiotu z listy nieskończenie wiele razy jak w Plecaku Nielimitowanym, z tego powodu program w DP dzieli wagę przez dwa binarne bity stopowe Huffmana przy rzucie i wyrzuca ułamek.", "correct": false },
-      { "text": "Zapakowania elementów o ujemnych wartościach i wyparcia wektora promieniującego (Z)", "correct": false },
-      { "text": "Zapisu ułamkowego w macierzach w C++ i zmusza do używania formatu JSON w typowaniu statycznym by plecak unikał błędu OOM Out Of Memory", "correct": false }
-    ]
-  },
-  {
-    "question": "Mamy W=8 w Plecaku (1, w:2, v:3)(2, w:3, v:4)(3, w:4, v:5)(4, w:5, v:8). Czasochłonne budowanie całej mapy DP to podstawa. Jaki jest element V(0, w)?",
-    "image": "",
-    "answers": [
-      { "text": "Warunek początkowy. Brak przedmiotów przed sobą do wzięcia sprawia, że bez względu na ogrom wolnego miejsca, zysk równa się uderzeniu w dno = absolutne i nienaruszalne 0.", "correct": true },
-      { "text": "Daje maksa z górnego rzędu i rzuca Wagi wyciągnięte z buforu na sam spód dodając wektory do krzyżowania by ubić n! silni i stworzyć minimum genetyczne w plecaku.", "correct": false },
-      { "text": "W tym polu rezyduje wartość przedmiotu '2' alokowana pamięcią rzutową w wierszu W=0 by nie tracić klatek przy 2-opt optymalizacjach tablic", "correct": false },
-      { "text": "Prowadzi do problemu Prawa Amdahla - nieskończone przyspieszenie i zwarcie.", "correct": false }
-    ]
-  },
-  {
-    "question": "Gdy w Problemie Plecaka próbujemy wpakować giganta o wadze W=5 do worka o obecnym limicie w=4 na komórce V(i, 4)...",
-    "image": "",
-    "answers": [
-      { "text": "Z automatu odpada! Przepisujemy grzecznie wynik z piętra wyżej V(i-1, 4), jako nasze jedyne wyjście ewakuacyjne z braku fizycznego miejsca (if (w - w_i < 0)).", "correct": true },
-      { "text": "Wpychamy z listą nawrotów, bo przy kolizji ściany można rzucić błędem Null Pointera by oszukać wagę do W=5", "correct": false },
-      { "text": "Stosujemy mutację punktową z Algorytmu Ewolucyjnego i losowo powiększamy plecak (Dynamiczna Pamięć) przez malloc(W+1).", "correct": false },
-      { "text": "Przycinamy ułamkiem ciągłym na mniejsze połówki z drzewa Huffmana bo mamy zaledwie jeden bit deficytu", "correct": false }
-    ]
-  },
-  {
-    "question": "Komiwojażer biega po Macierzy w układzie: od (1 do 5)=1, z 5 ma wrócić do 1=0, od (1 do 4)=3. Trasa początkowa leci 1-2-3-4-5-1. Jak to prosto wyliczyć bez zbędnych wzorów całkowych z AGH by nie zwariować?",
-    "image": "",
-    "answers": [
-      { "text": "Z palca. Podstawiasz liczby skacząc rzędami po tabeli macierzy odległości i sumujesz. S(1-2)+S(2-3)+S(3-4)+S(4-5)+S(5-1) i wychodzi ci czysta odległość trasy. Dodawanie, poziom zerówka w budzie, z elementarnym uwzględnieniem kierunku w tablicy (M[wiersz][kolumna]).", "correct": true },
-      { "text": "Całkujesz rzędy po kolumnie macierzy z symulowanego wyżarzenia żeby odpalić 2-opt listę na skok i wychodzi W", "correct": false },
-      { "text": "Musisz użyć równania Newtona-Raphsona dla estymacji wektora komiwojażera w macierzy sąsiedztwa 5 rzędu przez rzut w O(log N)", "correct": false },
-      { "text": "Odejmujesz krzyżując ścieżki i tworzysz Prawdę o komiwojażerze dla Prawa Amdahla by wyliczyć stratę ciepła algorytmu (T)", "correct": false }
-    ]
-  },
-  {
-    "question": "W czym pomagają nam ruchy tabu? Jak uciekniemy przez nie z dołka minimum w Trasie Komiwojażera z kosztu 30 na 25 potem z powrotem na 30?",
-    "image": "",
-    "answers": [
-      { "text": "Wykonaliśmy ruch odwrotny, dając bana w Liście Tabu na ruch z 25 na 30 (np. po zamianie). Algorytm dostaje po łapach jak po to sięga i myśli 'Aha, zablokowane. Omijam to ślepo i nie patrzę jak ładnie to kosztuje w dół, badam inne zakamarki'. W ten brutalny sposób ciśnie do przodu i omija ping-ponga 30-25-30-25 zapętlającego bycie delulu.", "correct": true },
-      { "text": "Nie ucieka, Tabu służy tylko do zrobienia screenshota błędu 25->30 po to żeby wpisać go w logach do raportu z testu i usunąć cały stan z rejestru w systemach UNIX.", "correct": false },
-      { "text": "Lista jest na tyle potężna, że używa sprzętowych przerwań (INT) z Prawa Amdahla by równolegle w 8 wątkach wyciąć z macierzy te krawędzie bezpowrotnie tworząc listę MST by podpiąć 2-opt.", "correct": false },
-      { "text": "Dodaje kary na poziomie mutacji w funkcji Przystosowania (Fitness) i rzuca wyżarzonym metalem (T) by obniżyć zapał komiwojażera by szedł do 30 znów i zwolnił kodowanie w Huff.", "correct": false }
-    ]
-  },
-  {
-    "question": "Zaakceptowanie GORSZEGO rozwiązania w Symulowanym Wyżarzaniu dla temperatury np. T=10, DeltaCost=5 przy szansie 0.606 przy teście r<0.8 to odrzut. Jak długo algorytm Metropolisa próbuje wyrwać się w górę dając ruty przy ochłodzeniu i malejącym P?",
-    "image": "",
-    "answers": [
-      { "text": "Gdy temp T stygnie i P jest bardzo małe, szansa z rzutem r na bycie poniżej spada do zera. Algorytm na początku rzucał głazem w kandydata gorszego 'A dobra, biore', a na końcu rzuca piaskiem 'Odrzucam, tylko eksploatacja szczytów optymalnych blisko mnie!'. Krok za krokiem dławi luzy.", "correct": true },
-      { "text": "Do momentu wypalenia Prawa Amdahla gdzie wątki się połączą w procesorze", "correct": false },
-      { "text": "Prawdopodobieństwo wzrasta po ochłodzeniu a wyżarzanie pęka w krzyżowaniu na osi X i generuje minimum przy zerowej temperaturze (0) do log(T) wybuchów z mutacji", "correct": false },
-      { "text": "Przy r<0.8 i deltaC=5 odrzuceniu z tablicy 30 idzie w kierunku T+1 czyli zagrzewania pod wyznacznikiem wektora det", "correct": false }
-    ]
-  },
-  {
-    "question": "Funkcje O(n), O(log n), O(n!), O(n^10) ustalone malejąco na złożoność. W kolejności od największego spowalniacza klatek serwera do rakiety (Najgorszy i Najlepszy czas działania):",
-    "image": "",
-    "answers": [
-      { "text": "W pierwszej kolejności giniesz na O(n!) - to potwór permutacji. Potem dusisz się w O(n^10) przez pętle w pętlach. Oddychasz powoli przy O(n) liniowo pędząc przed siebie. I wygrywasz życie na końcu lądując w gigachadowym szybkim O(log n).", "correct": true },
-      { "text": "O(log n) najgorszy potwór (logarytm niszczy serwery binarne), potem liniowy O(n), potem kwadratowy O(n^10) i najlżejszy silnia O(n!) który z automatu odpina algorytm komiwojażera po zaledwie paru ms na PK.", "correct": false },
-      { "text": "Logarytm i silnia są na szarym końcu, O(n) wyprzedza potężny wektor ułamek wielomianu O(n^10) a najgorsza jest O(N log N) z ukrytą asymetryczną złożonością w drzewach rozpinających Kruskala", "correct": false },
-      { "text": "Brak opcji, by ktokolwiek to napisał na PK, bo u nas używa się tylko O(1) do pisania softu z listy tabu o długości O(2)", "correct": false }
-    ]
-  },
-  {
-    "question": "Drzewo reprezentacji kopca (pełne od lewej, tablica int[] H od 1). Wstawienie liter P,O,L,S,K,A do macierzy od indeksu 1... Zaczynamy wpisywać:",
-    "image": "",
-    "answers": [
-      { "text": "Na pałę jedno po drugim - poziomami. Korzeń na indeks 1 to P, na 2 (lewy syn) O, na 3 (prawy syn) L, na 4 (lewy syn drugiego) S, na 5 K, na 6 A. Pełna prostota i szczelność macierzy.", "correct": true },
-      { "text": "Sprawdzamy z listą Tabu, co zakazuje układania liter by ominąć mutacje i skrócić O(1)", "correct": false },
-      { "text": "Trzeba wyliczyć test Orientacji między literami S i P i wstawiać tylko jak det>0 po lewej flance, reszta ślepo ląduje do kosza śmietnika macierzy i wyrzuca ułamek stratnej alokacji", "correct": false },
-      { "text": "Trzeba na początku użyć Heurystyki wyżarzania by zapalić graf i wrzucić liście drzewa od dołu w dół - indeks 6 P a indeks 1 to liść i węzeł po prawej", "correct": false }
-    ]
-  },
-  {
-    "question": "W teście Orientacji przy trzech punktach i wektorze P->Q->R mamy wzór (XQ - XP)*(YR - YP) - (YQ - YP)*(XR - XP) = K. Jeśli na teście PK wylosujesz wyznacznik K = -20 to wiesz że:",
-    "image": "",
-    "answers": [
-      { "text": "Twoje punkty tworzą ostry (bądź nie) Skręt w PRAWO od linii kierowniczej w wektorze przemieszczania, czyli CW (Clockwise - z ruchem zegara). Oznacza to wejście na flanke prawej burty z P->Q do R", "correct": true },
-      { "text": "Zmutowało osobnika w grafach ujemnych Prawa Amdahla przez skrajnie mały ułamek S_max blokując O(1) skręty", "correct": false },
-      { "text": "Skręcasz w lewo, ujemność to bycie na szczycie macierzy gdzie oś X wraca z Y i zakręca ku log N z tabu list.", "correct": false },
-      { "text": "Wyznacznik K=-20 jest niemożliwy z racji, że w Geometrii det > 0 lub det == 0. Należy wrzucić absolute value by odwrócić krzywe na planszy i zniwelować promieniowanie", "correct": false }
-    ]
-  },
-  {
-    "question": "Ograniczenia dolnego 'O( ) != Omega( )' oznacza asymetrię - algorytm działa drastycznie lepiej w najlepszym scenariuszu a tragicznie w najgorszym (np. Quicksort dla już posortowanych tablic vs poszarpanych).",
-    "image": "",
-    "answers": [
-      { "text": "Prawda, oznacza to brak stabilności w zdefiniowanym bloku operacji. Brak Theta( ) gdzie górna bariera to n^2 a dolna n log n oznacza rozjechanie się widełek w ocenie działania zależnie od wrzuconych danych (best, worst).", "correct": true },
-      { "text": "Nieprawda. Wzór O( ) != Omega( ) informuje programistę PK o zrównolegleniu procedur i zastosowaniu prawa Amdahla.", "correct": false },
-      { "text": "To oznaczenie używane w fizyce jądrowej z PWr do mierzenia skali Wyżarzania (delta T)", "correct": false },
-      { "text": "Oznacza to że Quicksort jest idealnie powtarzalny w algorytmach P-zupełnych i wymaga zrzutu tabu przed obróbką", "correct": false }
-    ]
-  },
-  {
-    "question": "Gdy zrównolegliliśmy zadanie T1 = 120s na 4 procesory i wyszło T4 = 40s (S4 = 3). Potem daliśmy T8 = 28s (S8=4,29). Wykonujemy ocenę z tabeli ucinając złudzenia i piszemy inżynierskim tonem na wykładzie że...",
-    "image": "",
-    "answers": [
-      { "text": "Skalowanie mocno pada na ryj na tych 8 rdzeniach. Efektywność poleciała do okolic ~54%. Ponad połowa potencjału 8 gigachadowych rdzeni paruje w eterze na zamulanie z IPC (komunikacją) oraz wąskimi gardłami z braku pracy. Opłacało się zatrzymać na 4 rdzeniach.", "correct": true },
-      { "text": "Jest to perfekcyjne 100% użycia maszyn bo zredukowaliśmy czas T1 z 120 na 28 s co jest 4x mniej, więc wygrywamy potężny puchar informatyka z wrocławia", "correct": false },
-      { "text": "Z Prawa Amdahla S4 by było na granicy asymptotycznej bo 40 / 80 to delta z mutacją po skrzyżowaniu dwóch procesorów z macierzy T8 co pociąga limit O(1)", "correct": false },
-      { "text": "Tak małe przyspieszenie jest anomalią na politechnice, błąd tkwi w algorytmie genetycznym tabu który pcha wektory do det = -20 dając skręty po sprzęcie blokując 3/4 magistrali C++", "correct": false }
-    ]
-  },
-  {
-    "question": "Prawo Amdahla jest jak mur z betonu na wesele na który uderzasz rozpędzoną chmurą serwerową. Wzór na sufit to:",
-    "image": "",
-    "answers": [
-      { "text": "S_max = 1 / f_seq, czyli odwrotność udziału procentowego jakiejkolwiek roboty sekwencyjnej uwiązanej na 1 wątku w twoim kodzie. (np start up, zapisy na SSD z f_seq=0.05 da sufit x20 na przyspieszenie obojętne czy masz milion rdzeni do dyspozycji i wywieszony język sprzętu).", "correct": true },
-      { "text": "S_max = 1 / T(N log N) z części zrównoleglonej. Odpowiednie zarządzanie podkręci sufit w kosmos do potęgi wyżarzenia", "correct": false },
-      { "text": "S_max = 8 / delta kosztów TSP. Gdy komiwojażer zrównolegla w Prawie Amdahla ucinane zostaje wejście O(N!) na koszt krawędzi od wierzchołków", "correct": false },
-      { "text": "Wzór S_max = F(n-1) + F(n-2) wyliczony dynamicznie memoizacją dla T8 by wymusić zrównoleglenie algorytmów", "correct": false }
-    ]
-  },
-  {
-    "question": "W symulowanym wyżarzaniu obniżanie T obniża szansę (probability) P ze wzoru P=e^(-deltaCost/T). Przez to...",
-    "image": "",
-    "answers": [
-      { "text": "Ucieczki z wpadnięć (lokalnych minimów) stają się na końcu wyliczeń prawie ZEROWE, bo algorytm uważa, że jest już z grubsza tam gdzie trzeba i zmienia się w maszynę bezlitosnej drobnej Optymalizacji, eksploatując dół doliny żeby zjechać na totalne mikro zero w rejonie.", "correct": true },
-      { "text": "Ucieczki z P rosną w kosmos i zrzucają błąd na krzyżowania jednopunktowe pod mutację by nie wywalić OOM out of memory przed startem wyżarzenia algorytmu ewolucyjnego na AGH", "correct": false },
-      { "text": "Przyspieszenie Prawa Amdahla S_8 maleje i rdzenie T8 idą spać by nie gotować krzemu bo 0 odrzuca tabu.", "correct": false },
-      { "text": "Funkcja P po odwróceniu na macierzy z wektorów skrętu CCW wypluwa ujemny wyznacznik i obraca graf by zmienić temperaturę T", "correct": false }
-    ]
-  },
-  {
-    "question": "W rekurencji drzewiastej (jak naiwny Fibonacci F(n)=F(n-1)+F(n-2)) problem nazywa się...",
-    "image": "",
-    "answers": [
-      { "text": "Powtarzające się podproblemy (Overlapping Subproblems), gdy algorytm wpada w amnezję totalną i np F(2) wywołuje bezrefleksyjnie do wyliczenia aż 3 razy w drodze pod drzewo rozrastając się w absurdalne logarytmiczne krzaki niszczące zasoby w czasie O(2^n).", "correct": true },
-      { "text": "Rekursją Czystą, bo na politechnice nie robi się memoizacji dla wyciągania maksimum czasu kompilacji co pokazuje status profesjonalisty O(log n)", "correct": false },
-      { "text": "Złotym podziałem optymalnej podstruktury i gwarantuje czas O(1) dzięki 2-opt na komiwojażerze z tablicy 3-kolorowanej bez straty wag P", "correct": false },
-      { "text": "Problem nie nazywa się inaczej jak Mutacją Genetyczną bez Krzyżówki i usuwa krawędzie trójkątów P", "correct": false }
-    ]
-  },
-  {
-    "question": "Gdy zmutowaliśmy potomka i liczba konfliktów (K) urosła np. z 1 na 3 w ewolucyjnym kolorowaniu 6 wierzchołków grafów, to funkcja fitness F(x) = 1/(1+k)...",
-    "image": "",
-    "answers": [
-      { "text": "Dostała po pysku i F(x) spadła drastycznie z ułamka 1/2 (dla k=1) na ułamek 1/4 (dla k=3). Sprawia to, że potomek traci swój Sigmowy status i jego szansa na przekazanie genu przy Selekcji (koło ruletki) skurczyła się do wymiarów błędu marginesowego O(1).", "correct": true },
-      { "text": "Wystrzeliła do góry z 1 na 3! Większe K to potężne fitness u ewolucyjnego robota co pcha go na szczyt O(n^n) algorytmów z PWr", "correct": false },
-      { "text": "Spadła w Prawie Amdahla ucinając moc na procesor z macierzy T=2 rdzeni, ale zyskuje wyżarzaniem pod Tabu listą det=13 od punktu P i skręca w R", "correct": false },
-      { "text": "Brak zmian bo fitness F(x) to wektor z ujemnym det=-15 skręt w prawo ucinający O(n!) przed startem z listą V(0,w)", "correct": false }
-    ]
-  },
-  {
-    "question": "Generowanie obiektów z 'n=4' (czyli z długości i alfabetu na bazie np 1, 2, 3): 1111, 1112, 1121, 1122, 1123... co to w ogóle za potwory na teście Politechniki i jak to śmiga?",
-    "image": "",
-    "answers": [
-      { "text": "Są to zwyczajnie w świecie Wariacje z Powtórzeniami, tu konkretnie zestawiane czysto po bożemu leksykograficznie od lewej do prawej jak w słowniku języka polskiego, podbijane po prawej cyfrze dopóki alfabet nie pęknie w limicie pętli i nie przepchnie jedynki na wyższy szczebel", "correct": true },
-      { "text": "To drzewo kodowania prefiksowego Huffmana po wypaleniu zer na liściach od częstotliwości liter pod A B C D by obciąć P", "correct": false },
-      { "text": "Te obiekty to sekwencja Prawa Amdahla S_n z użyciem tablic od wyżarzania gdzie delta T zmienia wierzchołki u mutanta pod fitness", "correct": false },
-      { "text": "Symulowany Kopiec O(N!) rzucony iteracją dla tablicy V by zapisać ojca od i/2 dla F(5) w rekurencji O", "correct": false }
-    ]
-  },
-  {
-    "question": "Częstości z tablic Huffmana po kolei rzucają się na dół i najmniejsi łączą się by wyrzucić rodzica wyżej... Ten algorytm od zera to:",
-    "image": "",
-    "answers": [
-      { "text": "Typowe Podejście Zachłanne (Greedy approach). Zawsze w każdym etapie ślepo pożera absolutnie dwa najchudsze dostępne poddrzewa/elementy z listy i skleja je taśmą w kupę zyskując pewność o minimalnym kosztowaniu drogi. Bez nawrotów. Zero strachu.", "correct": true },
-      { "text": "Dynamiczne DP, z użyciem macierzy wielowymiarowych by wyliczyć optymalną wazelinę plecakową dla każdego bitu w pliku", "correct": false },
-      { "text": "Kombinatoryczna eksploracja grafu w głąb (DFS) by podciąć krawędzie trójkątne kolorowania grafu z nawrotami", "correct": false },
-      { "text": "Prawo Amdahla w wyliczaniu ewolucyjnej ścieżki algorytmu Metropolisa rzutu w O(1) po wyliczeniu wyznacznika od krzywej", "correct": false }
-    ]
-  },
-  {
-    "question": "Przy algorytmie genetycznym populacja to w ujęciu inżynierii z PK:",
-    "image": "",
-    "answers": [
-      { "text": "Zbiór wszystkich punktów/przypadków (osobników), które walczą obecnie o życie w pojedynczej epoce, zanim sito selekcji odsieje noobów, a rzuty kostką na mutację i krzyżowanie wykreują nowych gigachadów na start kolejnej paczki pokoleniowej iteracji.", "correct": true },
-      { "text": "Lista serwerów AWS uruchomiona by obsłużyć Prawo Amdahla i podać mu błąd z obcięcia O(N!) na rzecz O(log n)", "correct": false },
-      { "text": "Rodzina z rekurencji drzewiastej (tzw klon Fibonacci) z O(2^n) po użyciu kompilacji z włączonym optymalizatorem", "correct": false },
-      { "text": "Pusta tablica V dla plecaka, która rzuca zero dopóki algorytm genetycznie nie wrzuci 1 pod 2-opt by obejść ujemny wyznacznik", "correct": false }
-    ]
-  },
-  {
-    "question": "Zastanawiasz się 'Czy graf da się pokolorować w K = 3'. To w informatyce wprost to problem nazywający się i dający nam ból głowy jako klasa:",
-    "image": "",
-    "answers": [
-      { "text": "Okrutnie ciężki Problem Decyzyjny klasy NP-Zupełny. Rzucasz mu pozycje czy da rady 'TAK lub NIE' a on dusi się w kombinacjach próbując zmapować te kolory, chyba że ma trójkąt, wtedy leci pod limit chromatyczny 3. Jak nie, to idzie rzędem do Backtrackingu (z Nawrotami).", "correct": true },
-      { "text": "To ultra prosty problem klasy P, rozwikłany O(N) dzięki wstawieniu algorytmu 2-opt od komiwojażera w macierz w drzewo Huffmana prefiksowo", "correct": false },
-      { "text": "To problem klasy Prawa Amdahla u wyżarzania gdzie rdzenie blokują ujemne wektory P w orientacji grafów od i/2 dla DP", "correct": false },
-      { "text": "Jest to problem wysoce optymalizacyjny z NP-Trudnych omijający TSP by minimalizować F(N) bez użycia P", "correct": false }
-    ]
-  },
-  {
-    "question": "Jak działa odcinanie przy backtrackingu u Kolorowania Grafów, z którym muszą liczyć się nooby na kolosie z Algorytmiki?",
-    "image": "",
-    "answers": [
-      { "text": "Jeśli użyliśmy Koloru [Czerwony] na węźle A i przechodząc do sąsiada (B) dajemy mu ten sam kolor tworząc z nim krawędziowy Crash, funkcja od razu rzuca Returna w twarz (Odcięcie Opcji), bo nie ma najmniejszego sensu dłubać w głąb tego koszmaru w O(3^n) sprawdzając resztę wierzchołków CDE. Cofamy w locie węzeł B i myślimy dalej na inny kolor z puli np [Zielony].", "correct": true },
-      { "text": "Odcinamy serwer AWS by Prawo Amdahla zresetowało O(n) do O(1) po wyliczeniu OOM", "correct": false },
-      { "text": "Rekurencja Liniowa idzie i naprawia to za wierzchołek B dodając mu losowo fitness w mutacji punktowej by go wyleczyć z P", "correct": false },
-      { "text": "Nie ucina się nic bo to drzewo, wszystkie gałęzie muszą urosnąć żeby komiwojażer w Symulowanym Wyżarzaniu mógł je ściąć po Delta", "correct": false }
-    ]
-  },
-  {
-    "question": "Dlaczego lista Tabu dla TSP wymaga ustalenia krótkiej maksymalnej długości (np max 2, 3 lub 5 slotów blokad)?",
-    "image": "",
-    "answers": [
-      { "text": "Gdyby jej nie zrzucać i wrzucać wszystko w nieskończoność jak do chamskiego worka, algorytm zablokowałby pod koniec trasy kompletnie WSZYSTKIE dostępne optymalne ścieżki na macierzy z tablicy krzyżówek i wbiłby się do ściany 404 wpadając w permanentny paraliż ruchowy bez opcji manewru na wspinanie z ujemnej mutacji. Ograniczenie jej sprawia, że to 'krótka pamięć wstecz' zrzucająca starsze bana na łeb by zwalniać ścieżki do rekurencji.", "correct": true },
-      { "text": "Żeby RAM wyciągnął tylko O(1) bo tabu list zajmuje terabajty w komiwojażerach TSP po n=5 i pali kości z P", "correct": false },
-      { "text": "Bo by Prawa Amdahla się wkurzyły i zrównolegliły kod z 2 do 8 blokad ucianjąc algorytm Metropolis z e^(-T)", "correct": false },
-      { "text": "Wynika to ze wzoru Eulera dla TSP gdzie lista tabu to O(n!) i przycina się ja do 2 by obalić algorytm ewolucyjny przy mutacji", "correct": false }
-    ]
-  },
-  {
-    "question": "W Symulowanym Wyżarzaniu P = e^(-ΔCost/T).  ΔCost = (Kandydat_Zły - Koszt_Teraz) -> Różnica. T to temperatura spowolnienia. Co gdy Delta rośnie drastycznie?",
-    "image": "",
-    "answers": [
-      { "text": "Szansa P(akceptacji) wywala się na ryj i spada w logarytmicznym pędzie do totalnego zera. Jeśli różnica kosztów to bycze gorsze rozwiązanie uciekające w potężny minus na matmie - algorytm Metropolisa bardzo, bardzo, niechętnie wpuści taką tragedię by mu zabrudziła pole widzenia do poszukiwań. Zrobi to z prawdopodobieństwem promila wyrzucając ją najpewniej w kosz (bo wylosuje za dużą randomkę ułamka przy zrzucie by P pokryło r<P).", "correct": true },
-      { "text": "P spada do O(n!) przyspieszając listę Tabu o Delta co krzyżuje wierzchołki pod wektor na tablicy komiwojażera rzucając ujemny T", "correct": false },
-      { "text": "Temperatura T nagrzewa układ i wyrzuca ułamki ponad 1 zwiększając szanse zrównoleglenia w Prawie Amdahla pod procesor M", "correct": false },
-      { "text": "Wynik dąży do nieskończoności a Delta wpada w O(log N) zamieniając ewolucyjny kod na rekurencje liniową bez błędów grafu z P", "correct": false }
-    ]
-  },
-  {
-    "question": "Złożoność czasowa budowy pełnego Kopca z n nienauczonych randomowo rozrzuconych elementów przez bottom-up budowanie w chamskiej tablicy (Build-Heap w Heapsort) bez bajerów równoległych to:",
-    "image": "",
-    "answers": [
-      { "text": "Ścisłe i gigachadowo dopracowane na cito O(N). Może wydawać się że leci to wolniej (np. O(N log N) z pętli wrzutowej), ale gęsta sieć z dnem od liści po analizie sigmowych kaskad na matmie rzuca na to limit zbieżnego szeregu ucinając czas z O do czystego Liniowego wejścia u progu tablicy O(n) na zgrzanie jej pod górę od floor(N/2).", "correct": true },
-      { "text": "Złożoność rzuca na to Czas N^2 przez bubleSort na wejściach gałęzi i ucięciu 2-opt u drzew Huffmana by ułatwić P", "correct": false },
-      { "text": "Jest to rzędu Silni (N!) z uwagi na tabu i nawroty węzłów przy sklejaniu korzeni w jedną tablice do n", "correct": false },
-      { "text": "Wypala rdzenie w O(2^N) z drzewiastej rekursji w dół dopóki nie obetnie jej OOM Prawa Amdahla rzutując w błędy tablic", "correct": false }
-    ]
-  },
-  {
-    "question": "Metoda Przeszukiwania Lokalnego. W jakim przypadku ucieczki z TSP (Komiwojażera) z użyciem 2-opt bez bajerów stajemy ostatecznie i algorytm rzuca STOP na pętle bez litości przerywając program na kolosie?",
-    "image": "",
-    "answers": [
-      { "text": "Gdy po przemieleniu absolutnie CAŁEGO i pełniuteńkiego Sąsiedztwa (czyli wymianie na pałę w O(N^2) każdej parzystej krawędzi z resztą krawędzi cyklu na ślepo 2-optem) u wierzchołków NIE ZNALAZŁ ANI JEDNEGO nowego ułożenia węzłów które dają mniejszy ułamek sumy kosztów trasy (brak poprawy). Algorytm kapituluje, wbija szpile 'Minimum Lokalne Odnalezione' i kończy działanie wpadając w zadowoloną drzemkę.", "correct": true },
-      { "text": "Gdy temperatura T spadnie w wyżarzaniu do DeltaCost=5 co wypala kod Huffmana na krzyżówkach pod fitness O(N)", "correct": false },
-      { "text": "Gdy rzuca zmutowanym Tabu w wyznacznik P dając ujemny wektor skrętu -20 blokujący macierz sąsiedztwa O(1)", "correct": false },
-      { "text": "Gdy procesor na serwerach PWr ulega wyżarzeniu blokując macierz ułamkami Prawo Amdahla i krzyżuje T8 ucinając wynik Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Różnica między listą Krawędzi a Listą Sąsiedztwa. Czym się różnią w podawaniu rąk przez noobów z pętli grafowej C++?",
-    "image": "",
-    "answers": [
-      { "text": "Lista Krawędzi to chamski i suchy spis 'A łączy się z B waga 5', wrzucony ciurkiem jeden za drugim O(E). Lista Sąsiedztwa to elegancka gigachadowa tablica pointerów, gdzie pod indeksem 'A' leci połączony dłuuuugi łańcuch listy z sąsiadami z którymi A gada: 'B(5)', 'C(2)', a pod 'B' kolejny wianuszek. Jest wyciągiem i bazą O(V+E) dającym super szybki access do otoczenia w grafie niż liniowe skrobanie Krawędzi w P.", "correct": true },
-      { "text": "Są tym samym, wyliczanym z Prawa Amdahla przez odrzut do Tabu listy od komiwojażera na krzyż w TSP z O(N)", "correct": false },
-      { "text": "Krawędziowa rzuca wyjątkiem gdy wektor C=-15 da ujemny splot z sąsiedztwa i rzuca z powrotem błąd 2-opt na komórce P", "correct": false },
-      { "text": "Lista Krawędzi wylicza tablice plecakową DP na bieżąco, a sąsiedztwa rzuca ułamek od drzewa binarnego po O(log N)", "correct": false }
-    ]
-  },
-  {
-    "question": "Test krzyżowania i orientacji. Jeżeli dla Odcinków AB, CD wektory (A, B, C) mają wyznacznik -15 (ujemny prawo) a (A, B, D) mają 13 (dodatni lewo). A wektory (C, D, A) mają -20 (ujemny prawo) a (C, D, B) rzucają 8 (dodatni lewo)... to odcinki się przetną tnąc powietrze?",
-    "image": "",
-    "answers": [
-      { "text": "Prawda absolutna, oba leżą jak gigachady na krzyż! Z obu perspektyw stoją potężnie okrakiem ze znakami (+ i - , dając z mnożenia minuty). Odcinek przecina odcinek twardo jak kosa, to W dla programisty algorytmu w Pythonie.", "correct": true },
-      { "text": "Nieprawda bo sumy dają Delta=5 w Metropoli i wrzucają błąd wyżarzenia algorytmu do tablicy OOM przerywając P", "correct": false },
-      { "text": "Wyznaczniki ujemne rzucają O(n!) i zwalniają czas ucinając skręt od orientacji od Tabu", "correct": false },
-      { "text": "Ucinają wektory tylko przy wejściu O(1) gdy obniżka r=0,3 przepcha błąd Amdahla z rekurencji w Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Problem komiwojażera TSP, jeśli rzucimy w niego listą Tabu, co się wydarzy?",
-    "image": "",
-    "answers": [
-      { "text": "Zapobiegamy cyklicznemu powracaniu do tych samych stanów. Jeśli usunęliśmy krawędź A-B, wchodzi ona na ban w Tabu. Algorytm choćby widział, że tam jest taniej nie może w nią pójść na 2 iteracje, więc idzie błądzić i odkrywać nowe lądy (eksploracja mapy grafu) wyrastając z nędznego minimum O(N)", "correct": true },
-      { "text": "TSP rzuca błędem wyliczenia i włącza Prawo Amdahla rzutując węzły pod macierze 2-opt z P", "correct": false },
-      { "text": "Skręca wektorem 8 pod O(N) używając krzyżówki by zapobiec mutacji u potomka przy drzewie binarnego komiwojażera Z", "correct": false },
-      { "text": "Suma wag rzuca wyżarzaniem pod Tabu i przerywa pętle O(2^n) dając silnie pod drzewiaste krawędzie w ułamkach M", "correct": false }
-    ]
-  },
-  {
-    "question": "W jaki sposób rozwiązujemy wady i pułapki (barierę z góry nałożoną) rekursji w Dyskretnym Problemie Plecaka 0-1 ucinając Czas Wykonania?",
-    "image": "",
-    "answers": [
-      { "text": "Tworząc potężną macierz Programowania Dynamicznego (DP) o wymiarach (N+1) x (W+1), startującą od samych ZER. Idziemy powoli z uśmiechem wiersz po wierszu z bottom-up, wpisując w komórki wyliczenia na bazie max() używając już wpisanych wyników z górnych rzędów omijając z uśmiechem uciążliwą silnię.", "correct": true },
-      { "text": "Zrównoleglając do T8 by Prawo Amdahla wycięło czas i podzieliło wynik komiwojażerem po r=0,3 na krzyż P", "correct": false },
-      { "text": "Rzucając macierz na listę Tabu z użyciem Mutacji punktowej z genetyki i wyżarzaniem z e^(-T) omijając drzewiaste pętle rekursji od R", "correct": false },
-      { "text": "Zmieniając typ na zmiennoprzecinkowy float rzucający wyznacznikiem wektora det po lewej na plecak skręcający P", "correct": false }
-    ]
-  },
-  {
-    "question": "Jeżeli dla 4 przedmiotów w DP u plecaka o limitach do 8 wypluje nam w ostatniej komórce wynik V[4, 8] = 13. Znalazłeś Maksa zysków, jak zrekonstruować Skład Plecaka od Zera do pełna ruszając się jak po masełku?",
-    "image": "",
-    "answers": [
-      { "text": "Stajesz na V[4,8] i badasz podłogę V[3,8]. Jeśli nie ma skoku wartości i są RÓWNE = idziesz w górę i tego nie wziąłeś! Jeśli V[4,8] wyższe niż [3,8] (np 13 do 8)... to brawurą oznacza że go zabrałeś! Odcinasz od W=8 jego wagę W=5 i skaczesz u góry do W=3 w V[3,3] powtarzając śledztwo w lewo i w górę od końca do startu.", "correct": true },
-      { "text": "Przechodzisz pod prawy syn z komórki 2i+1 używając list tabu by ominąć zmutowane krawędzie z O(N) i zjechać w T", "correct": false },
-      { "text": "Wypisujesz całą macierz pętlą i wybierasz co drugie zero rzucając z nawrotem do backtrackingu dla 3-kolorowanego P", "correct": false },
-      { "text": "Omijasz problem ucinając wyznacznik po lewej stronie do CCW bo Prawo Amdahla obcięło T8 przy 54% efektywności M", "correct": false }
-    ]
-  },
-  {
-    "question": "Algorytm Huffmana wyrzuca ułamki przy częstościach. Jak poradzi sobie algorytm z remisem (np dwóch znaków o wadze 12 przed sklejaniem w stosie do góry)?",
-    "image": "",
-    "answers": [
-      { "text": "Kwestia konwencji. Jak uczą by być sigmą na PK - jak podwójny remis (12 do 12) bierze się wcześniejszy alfabetycznie na start lewej strony węzła, obniżając tym zawiłości pętli rzutowej parsera przy sklejaniu mniejszych drzew dając stabilny wynik na C++.", "correct": true },
-      { "text": "Rozwiązuje to Prawem Amdahla pod procesory przydzielając na rdzeń ułamek 1/12 wyrzucając zmutowany gen w Z", "correct": false },
-      { "text": "Zamienia kodowanie w algorytm wyżarzania gdzie delta T zmienia błąd i usuwa krawędzie trójkątów pod Tabu z R", "correct": false },
-      { "text": "Drzewiaste powiększanie rzuca na silnię n! i omija komiwojażera O(N log N) z P", "correct": false }
-    ]
-  },
-  {
-    "question": "Wylicz z tego Tabu Search przy TSP rzut (zamiana) o parametrach: 25(2,3), 27(3,4), 28(1,2), 29(4,5). Jeśli minimalizujesz Koszty w komiwojażerze dla P i stoisz w dołku to w co skręcasz zachłannie bez błędu z Tabu?",
-    "image": "",
-    "answers": [
-      { "text": "Biorę w ciemno odważny krok uderzając w 25 robiąc wymianę (2,3), bo jako programista minimalizujący koszty TSP zawsze spadam na podłogę z najtańszymi rzutami od sąsiada wyrzucając Tabu jako rewers 'zamiana (2,3)' z P do tyłu na zablokowanie.", "correct": true },
-      { "text": "Ucinam do 28 bo 1,2 to alfabetyczny skręt po orientacji -20 blokujący macierz z OOM wyrzucając mutację u Z", "correct": false },
-      { "text": "Brak rozwiązania bo wyznacznik 29 daje obniżenie efektywności rdzeni w Prawie Amdahla pod T8 odcinając T", "correct": false },
-      { "text": "Używam drzewa Huffmana podziałem i biorę wyżarzony środek 27 na krzyż by uciąć N!", "correct": false }
-    ]
-  },
-  {
-    "question": "Ile bitów 0-1 potrzebuje klasyczny znak kodowany ASCII w systemie z rzutowaniem stałym względem Znaków z drzew Huffmana (10 bitów na znak w ASCII kontra Oszczędności Prefiksowej kompresji z drzew)?",
-    "image": "",
-    "answers": [
-      { "text": "Standardowo na przykładach uczelnianych rzuca się 8 bitami dla STAŁEJ długości znakowej z tablic w locie (przy 6 literach nawet 3 bity starczą w locie). Huffman jako Król ciśnie najczęstsze 'B=15' w jeden biedny bit '0' i obcina z 3 bitów na 1 bit robiąc kosmiczną rzeźnie kompresji bezstratnej rzucając W w raporcie.", "correct": true },
-      { "text": "Wynik dąży z Prawa Amdahla do Nieskończoności od ułamu wyznacznika krzywych by obejść rzuty drzewa B", "correct": false },
-      { "text": "Huffman jest stratny i kasuje bit ucinając algorytm wyżarzania rzutu na Tabu od P", "correct": false },
-      { "text": "Komiwojażer zrównolegla te bity krzyżując je by uciąć koszt z 120s na 28s na rdzeniach M", "correct": false }
-    ]
-  },
-  {
-    "question": "Wzór ojca to floor(i/2). Syny to 2i oraz 2i+1. Podajesz na egzaminie z tablicowej algorytmiki uogólnienie wzorów z kopca n-elementowego (Binarne t=2) pod zmutowane potężne DRZEWO T-ARNE (dla t odgałęzień na dół)... Jakie to cudeńka?",
-    "image": "",
-    "answers": [
-      { "text": "Ojciec rzutem do tablicy to magiczne floor( (i-2)/t ) + 1. Każdy z potężnych synów idzie z wizerunkiem iteracji k od 1 do t ułożonym po prostej we wzorze ( i-1 )*t + k + 1. Kosmos wydajności O(1) na przeskokach z bufora dla systemów na PK.", "correct": true },
-      { "text": "Ojciec to i+1 a syn to i-1, bo rekurencja ucina liniowo t z algorytmów z Prawem Amdahla pod P", "correct": false },
-      { "text": "Nie da się uogólnić z t bo wyznacznik skrętu rzuca ujemny K obniżając fitness O(N!) od Z", "correct": false },
-      { "text": "Wyżarzanie zamienia ułamki w Tabu i blokuje 2-opt na komiwojażerze zrównoleglając T", "correct": false }
-    ]
-  },
-  {
-    "question": "Jak obliczasz współczynniki C(n, k) metodą programowania dynamicznego (DP) omijając żałosną rekurencje i budując macierz C?",
-    "image": "",
-    "answers": [
-      { "text": "Układasz Trójkąt Pascala w tablicy (n+1) na (k+1) i zasysasz na rzędach dla C[i][j] sumując piętro wyżej w lewo C[i-1][j-1] wraz ze zrzutem pionowym znad czoła C[i-1][j]. Robisz to w potężnych liniach aż dotrzesz z O(N^2) bezbłędnie i zachłannie do mety pod n i k ucinając OOM od C(n-1, k).", "correct": true },
-      { "text": "Wyznacznikiem wyżarzenia algorytmu Metropolisa rzucając 0 dla p=e^(-C/T) pod T by uciąć n!", "correct": false },
-      { "text": "Omijając tabu rzucamy krzyżowe mutacje genetyczne by C wypluło z fitness n log n z Z", "correct": false },
-      { "text": "Przez zrównoleglanie Prawem Amdahla ucinając macierze 2-opt z komiwojażera po skręcaniu P", "correct": false }
-    ]
-  },
-  {
-    "question": "Jeśli na maszynie sekwencyjnej masz T1=120, a na obciążeniu 4 maszyn T4 = 40 (S4 = 3) to dla 8 procesorów T8 poleciało na 28 (S8 = 4,29). Czy wykorzystanie idzie w dobrą stronę na PK u inżyniera przy tych serwerach z Prawa Amdahla?",
-    "image": "",
-    "answers": [
-      { "text": "Niestety leci do dołu na twarz, skalowanie jest słabe bo efektywność od E4 do E8 poleciała pod 54%. Zyski drastycznie zmalały (diminishing returns). W pewnym momencie dorzucenie kolejnych 8 rdzeni z AGH wyrzuciłoby więcej kosztów z IPC z narzutu i prądu na dno, niż uciułanego przyspieszenia z ułamka czasu T.", "correct": true },
-      { "text": "Leci super 100% ucinając O(N) bo wyżarzenie daje S_max na nieskończoność wyrzucając w zmutowane T", "correct": false },
-      { "text": "Jest to perfekcyjny błąd pomiarowy bo det z wektorów rzuca skręt O(N!) od Z", "correct": false },
-      { "text": "Czas maleje a więc komiwojażer z 2-opt skraca pętle rzucając ewolucyjne fitness pod Tabu P", "correct": false }
-    ]
-  },
-  {
-    "question": "Złożoność pamięciowa programowania dynamicznego do Problemu Plecakowego 0-1, w którym ułożysz tablice V na W od n to koszt zasobów z C++ jako:",
-    "image": "",
-    "answers": [
-      { "text": "Sztywne i solidne M(n * W). Można tu poszaleć sigmą używając sztuczki na wektorze ograniczając się do zaledwie 1 rzędu V(W) z góry wyrzucając O(W) jeśli potrzebujesz tylko absolutnej wartości (bo nie zrekonstruujesz z tego niestety całego plecaka ze szlaku w doł).", "correct": true },
-      { "text": "Sztywne O(1) bo tablica wyżarza się w Metropoli usuwając z Prawa Amdahla mutacje od Tabu", "correct": false },
-      { "text": "Krzyżowane n log n blokując komiwojażera w wektorze P z ujemnym skręt det", "correct": false },
-      { "text": "O(N!) ucinane drzewiastą rekurencją po pętli u P", "correct": false }
-    ]
-  },
-  {
-    "question": "Funkcja złożoności O(log log n) ułożona przed O(1) w szeregu od najmniejszego opóźnienia to:",
-    "image": "",
-    "answers": [
-      { "text": "Kłamstwo rzucane na AGH. O(1) jest najszybszym z gigachadów potworów w cieniach rzędu. Każda funkcja nawet O(log log n) rosnąca jak ślimak omija stałą jedynki po lewej i podwaja czas.", "correct": true },
-      { "text": "Prawda, logarytm z logarytmu uderza o zero wyżarzając algorytm ewolucyjny do mutacji z Z", "correct": false },
-      { "text": "Prawda absolutna, ułamek 1 jest zawsze większy od zera krzyżowego Prawa Amdahla pod T", "correct": false },
-      { "text": "Kłamstwo bo rekurencja drzewiasta rzuca -1 u ujemnych tabu z komiwojażera P", "correct": false }
-    ]
-  },
-  {
-    "question": "Rekurencja uniwersalna (Master Theorem). Jeśli czas T(n) = a*T(n/b) + f(n) rzuca na blat n^2 po stronie f(n) i n^2 po stronie logarytmu n^(log_b a)... co wyrzucamy w wynik Theta na tablice u inżyniera z PK?",
-    "image": "",
-    "answers": [
-      { "text": "Zderzyły się łeb w łeb rzucając remis idealny (Przypadek Równowagi 2 z twierdzenia). Oznacza to dopisanie na krzyż logarytmu na przodzie i wypluwa pięknego zwycięzcę O(n^2 log n) z uśmiechem na twarzy by uciąć równania.", "correct": true },
-      { "text": "Rzuca wektor z O(N!) bo wyżarzył błąd drzewiastej silni od P", "correct": false },
-      { "text": "Wypluwa ujemny wyznacznik -20 blokujący macierz 2-opt z komiwojażera przez mutacje genową pod Z", "correct": false },
-      { "text": "Skraca logarytm by ocalić pamięć z Prawa Amdahla wyrzucając T8 O(1)", "correct": false }
-    ]
-  },
-  {
-    "question": "Część algorytmu genetycznego odpowiedzialna z rzutu za losowanie ruletki i selekcje najlepszego Sigmy w populacji do rozmnażania opiera się na:",
-    "image": "",
-    "answers": [
-      { "text": "Obliczaniu Prawdopodobieństwa wciągnięcia na scenę u osobnika. Funkcja p_i = fitness_i / SUMA(fitness) wyciąga na szczyt Osobników z najlepszym wynikiem F(x) i dławi szanse na przeżycie słabeuszom by uciąć pulę patologii przy ulepszaniu w kolejnej epoce.", "correct": true },
-      { "text": "Wyznaczniku det przy orientacji wektora odkręcając P i rzucając w T", "correct": false },
-      { "text": "Odcięciu wyżarzania od Metropolis przy r<P dodając n log n z Tabu", "correct": false },
-      { "text": "Krzyżowaniu ułamków 1/12 z drzewa Huffmana podziałem i binarnego OOM u Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Kolorowanie Grafu na K=3 ma metodę brutalnego sprawdzania i szukania optimum optymalizacyjnego. Jest nim np:",
-    "image": "",
-    "answers": [
-      { "text": "Dłubanie całego drzewa rozwiązań przez Przeszukiwanie z Nawrotami (Backtracking). Wrzucasz kolor po węzłach od dołu 1, 2, 3 aż po horyzont i jak wykryje konflikt cofasz pionek wrzucając w niego inny wariant, ewentualnie cofasz go dalej do korzenia tnąc odnogi. Rzeźnia wydajności, ale pewnik optimum przy poprawnym zejściu", "correct": true },
-      { "text": "Użycie Prawa Amdahla S=T1/T8 podziałem rdzeni rzucając w wyżarzenie pod Z", "correct": false },
-      { "text": "Wyliczenie TSP z listą Tabu na ujemnych wektorach P", "correct": false },
-      { "text": "Wrzucić P w tablice kopca 2i+1 wyrzucając rekursje drzewiastą z M", "correct": false }
-    ]
-  },
-  {
-    "question": "W grafie nieskierowanym i nieważonym macierz Incydencji składa się tylko z:",
-    "image": "",
-    "answers": [
-      { "text": "Skromnych jedynek [1] informujących rzutem 'Tak krawędź jest pod tym wierzchołkiem przypięta' lub pustych zer [0] przy absolutnym braku i nienawiści w relacjach (Zależnie od formy 1 dla wejścia, -1 dla wyjścia grafach z grotem). Pełno tu pustek dla grafów rzadkich więc to zło wcielone dla pamięci cache od RAM.", "correct": true },
-      { "text": "Pływających ułamków podziału algorytmów z Prawa Amdahla dla rdzeni P", "correct": false },
-      { "text": "Mutacji punktowej po drzewie binarnej tablicy rzucając O(n!) dla Z", "correct": false },
-      { "text": "Wyznaczników det < 0 blokując 2-opt komiwojażera TSP pod Tabu u T", "correct": false }
-    ]
-  },
-  {
-    "question": "Liczba chromatyczna X(G). Czym jest ten demon dla inżynierów badających Grafy pod alokację zasobów?",
-    "image": "",
-    "answers": [
-      { "text": "Zło konieczne i Graalem. Najmniejsza fizyczna ilość RÓŻNYCH ze sobą kolorów do wymazania grafu by połączone krawędzią wierzchołki nie rzuciły ci błędu w twarz i nie pobiły się o ten sam kolor (lub w radio: nie zakłóciły fal i częstotliwości u nadajników np na Biskupinie po stacjach GSM).", "correct": true },
-      { "text": "Drzewiastą rekursją wyrzucającą OOM od silni N! dla podziału Tabu P", "correct": false },
-      { "text": "Rozmiarem plecaka 0-1 pod DP by wyrzucić V(w) na 0 u Z", "correct": false },
-      { "text": "Wyliczeniem przyspieszenia T4=40 z Prawa Amdahla na rdzeniach przy T", "correct": false }
-    ]
-  },
-  {
-    "question": "Problem komiwojażera a TSP. Jak dłubiemy Wyszukiwaniem Lokalnym 2-opt to czy znajdziemy 100% Złoty Graal najmniejszego Optimum z całej Galaktyki Kosztów (Globalnego Optimum)?",
-    "image": "",
-    "answers": [
-      { "text": "Nie ma takiej opcji na czystym wspinaniu. Przeszukiwanie uderza ślepo w dno lokalnej doliny (Minimum Lokalne) blokując ucieczkę i kończąc kodowanie 'bo taniej się nie da od sąsiadów'. Bez zrzutu granatów w postaci Wyżarzania albo Tabu nie ma na to szans u profesjonalisty z PK ucinając bajki z 2-optem.", "correct": true },
-      { "text": "Tak, wyznaczniki P pod orientacje rzucają skręt ucinający O(n) z Tabu dla G", "correct": false },
-      { "text": "Znajdziemy tylko drzewiaste n! po rekursji od R", "correct": false },
-      { "text": "Zrównoleglimy kod by Prawo Amdahla obcięło T z DP w Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Przy 8 Hetmanach używających algorytmu Nawrotów (Backtracking), plansza rzuca szpilą gdy pion szachowy staje w bitwie z...",
-    "image": "",
-    "answers": [
-      { "text": "Liniach rażenia (Kolumna, Wiersz, Oraz zabójcze Przekątne!). Jak rzucisz pionek i obcina on głowę innemu z królowych, Backtracking odcina ślepo tą gałąź rekursji u ułamka P by nie iść na 100 metrów w głąb błędu i cofa hetmana o kratę w bok czyszcząc u zgrozy pamięć RAM i procesora.", "correct": true },
-      { "text": "Trójkątami TSP z listy Tabu blokując wyżarzanie od Z", "correct": false },
-      { "text": "Ujemnymi wektorami od det rzucając 2-opt po ułamkach OOM na M", "correct": false },
-      { "text": "Prawem Amdahla pod procesor 8 i zrównolegla w P", "correct": false }
-    ]
-  },
-  {
-    "question": "Dla złożoności algorytmu Czysty Rekurencyjny Fibonacci F(n)=F(n-1)+F(n-2) ma drastyczny pułap O(2^n). Dlaczego nazywany jest na wydziale złą praktyką kodowania jeśli odpalisz go dla n=100?",
-    "image": "",
-    "answers": [
-      { "text": "Bo wysadzi serwerownię w kosmos wyrzucając po drodze miliony powtórzonych wywołań na stosie (dubli węzłów poddrzew jak chociażby miliony wcieleń F(2)) do momentu w którym przerośnie czas od narodzin galaktyki. Zamiast spiąć tablice memoizacji do linearnego O(n).", "correct": true },
-      { "text": "Bo wyleje Tabu TSP z macierzy krzyżujących w ewolucyjnej G", "correct": false },
-      { "text": "Rzuci n log n blokując DP od ułamków na w", "correct": false },
-      { "text": "Wyżarzy rdzenie i rzuci Prawem Amdahla u S", "correct": false }
-    ]
-  },
-  {
-    "question": "Jaki jest potężny warunek brzegowy Trójkąta Pascala dla współczynników z dwumianu Newtona C(n,k) by pętla zatrzymała się na O(N^2) pod ścianą?",
-    "image": "",
-    "answers": [
-      { "text": "Wypluwamy potężne i niewzruszone jedynki na krawędziach lewej pętli i prawej diagonali: C(n,0)=1 oraz u szczytu dla równego pędu rąk w uściskach C(n,n)=1. Ogranicza to skoki pod spodem.", "correct": true },
-      { "text": "Puszczamy komiwojażera rzutując macierz TSP z Tabu na M", "correct": false },
-      { "text": "Obcinamy rekursję z ułamkiem 1/T dla wyżarzenia od P", "correct": false },
-      { "text": "Wypalamy wektorem det na zero by odciąć krzywe O(1) dla Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Czy po wymianie w Krzyżowaniu Ewolucyjnym np po 3 pozycji ogonów u pary z 121|321 oraz 213|123, to co powstaje od razu wpychamy na matryce by ocalało?",
-    "image": "",
-    "answers": [
-      { "text": "Nie do końca majster! Po wygenerowaniu dwóch nowych krzyżówek-potomków 121|123 i 213|321 muszą one najpierw przejść bezwzględny wyrok u rzutu kości na Mutacje by dodać ewentualne randomowe zaburzenia, a dopiero po wyliczeniu Fitness przez nową tablicę walczą o życie by przeżyć na selekcji z Ruletki.", "correct": true },
-      { "text": "Rzucamy w Tabu listę TSP z wyżarzenia od komiwojażera P", "correct": false },
-      { "text": "Tak, wywala do O(log N) skręcając orientacją z CCW R", "correct": false },
-      { "text": "Mnoży się przez macierz i rzuca Plecakowe DP w ułamku V", "correct": false }
-    ]
-  },
-  {
-    "question": "Komiwojażer w Symulowanym Wyżarzaniu przy temperaturze spadającej T ma rzut z Delty p = e^(-Delta/T). Jeśli nowe rozwiązanie jest lepsze od starego to...",
-    "image": "",
-    "answers": [
-      { "text": "Olewa rzuty kostkami i cały uciążliwy wzór e^(-x). Jeżeli rozwiązanie ucieka do dołu dając poprawę i tani zysk na paliwie, Metropolis łyka to z otwartymi ramionami (100% Akceptacji) i krzyczy gigachadowo W pnąc się po drabince P.", "correct": true },
-      { "text": "Wypala rdzenie przy obniżaniu z Prawa Amdahla T8 M", "correct": false },
-      { "text": "Wchodzi w nawrót i blokuje 3-kolorowany tabu TSP z Z", "correct": false },
-      { "text": "Krzyżuje n log n i podwaja wektor orientacji na R", "correct": false }
-    ]
-  },
-  {
-    "question": "Różnica u programisty w implementowaniu Algorytmu na chmurze między Prawem Amdahla i zrównolegleniem:",
-    "image": "",
-    "answers": [
-      { "text": "Przyspieszenie na T rdzeniach goni by skrócić czas T do użytkownika z S = T1 / T_n, podczas gdy Efektywność to ułamek księgowej E = S/N i bada w skali od zera do jedynki ułamek zysków straconych w ucieczce zasobów na komunikację by nie wypalić portfela od marnowania mocy (Load Imbalance i Overhead IPC).", "correct": true },
-      { "text": "Drzewiaste tablice ucinają czas by rzucić w n! od P", "correct": false },
-      { "text": "DP plecakowe z TSP ucieka z wyżarzaniem pod Tabu Z", "correct": false },
-      { "text": "Omija OOM u komiwojażera na 2-opt R", "correct": false }
-    ]
-  },
-  {
-    "question": "Co symbolizuje 'Sąsiedztwo' w wyszukiwaniu lokalnym uTSP Komiwojażera przed obcięciem z 2-opt?",
-    "image": "",
-    "answers": [
-      { "text": "Cały wór pełen modyfikacji pierwotnego układu. Dla danej sekwencji, jej sąsiedzi to absolutnie wszystkie zmutowane układy tras wygenerowane za pomocą dozwolonego drobnego uderzenia w klocki - tu z reguły usunięciu krawędzi i spięciu skosem krzyżowym dającym inny cykl O(n^2) do sprawdzenia i rzutu na obcenę zysku Kosztu.", "correct": true },
-      { "text": "Krawędzie TSP rzucające O(N) i wyżarzenie pod T M", "correct": false },
-      { "text": "Orientację wektora P u zrównoleglenia 8 pod O(1) P", "correct": false },
-      { "text": "Liczba cykli w Prawie Amdahla ucięta Tabu C", "correct": false }
-    ]
-  },
-  {
-    "question": "Część skrajna sekwencyjna (Start/Koniec algorytmu np wczyt z dysku) jest błędem w skalowaniu Prawa Amdahla przez to, że:",
-    "image": "",
-    "answers": [
-      { "text": "Obojętne jak bardzo rozbijesz na węzły kod i wydasz biliony dolarów na superkomputery do rozdzielenia pętli w N-wątków, nędzne wczytywanie pliku od dysku nadal leci 1-wątkowo zżerając fizycznie bazowy Czas bazowy (f_seq). Przez co wyznacza sufit szklany (S_max = 1 / f) nie do ucięcia bez optymalizacji z kodu sekwencyjnego IO.", "correct": true },
-      { "text": "Tworzy wyżarzone mutanty pod ucinanie Tabu TSP R", "correct": false },
-      { "text": "Rzuca wektor z O(N!) od drzew binarnych na krzyż P", "correct": false },
-      { "text": "Mnoży się przez macierz DP rzucając V=0 od Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Rzuty na test przy Orientacji Skrętu det > 0 na trójce wektorów oznaczają że skręt wektora leci CCW. Jak się to bada graficznie by noob zrozumiał z tablic?",
-    "image": "",
-    "answers": [
-      { "text": "Stawiasz się w uśmiechu kierowcy i ciśniesz od P(Start) by wbić na Q(Meta). Żeby pojechać do R stoisz i patrzysz czy obracasz kierownice mocno w LEWO czy PRAWO od swojej prostej makiety. Skręt lewo to zawsze matematycznie wyznacznik na PLUS (CCW na PK). Ujemny wyznacznik to poślizg w Prawo ze strzałki.", "correct": true },
-      { "text": "Obniżasz tabu w wyżarzeniu pod T i rzucasz TSP G", "correct": false },
-      { "text": "Odcinasz algorytmem z nawrotami by wyznaczyć z DP R", "correct": false },
-      { "text": "Dzielisz pętle OOM pod zrównoleglenie T8 w M", "correct": false }
-    ]
-  },
-  {
-    "question": "W jaki sposób Algorytm zachłanny by komiwojażer w TSP nie zgubił pętli ucieka by ominąć P z O(n!) przed 2-opt?",
-    "image": "",
-    "answers": [
-      { "text": "Startuje w losowym z macierzy punkcie. Z wierzchołka rozgląda się na krawędzie w poszukiwaniu Najtańszej opłaty przejazdowej do sąsiada którego jeszcze NIE ODWIEDZIŁ by uciąć pętle. Zawsze kroczy po zerowych kosztach na rzut i zamyka drzwi, mimo że na koniec ląduje w dołku bo długa krawędź na domknięcie obala jego krótkie spojrzenie i rozwala wyciągnięte W.", "correct": true },
-      { "text": "Zrównolegla O(1) wycinając Prawa Amdahla pod T", "correct": false },
-      { "text": "Drzewiasta ucinana rekursja rzuca wyżarzenie pod Tabu R", "correct": false },
-      { "text": "Orientacja <0 obcina wektor pod plecakowe DP u G", "correct": false }
-    ]
-  },
-  {
-    "question": "Krzyżowanie (Crossover) w Ewolucji dąży do zbudowania Sigmy, gdzie Mutacja stawia na ucieczkę z dusznego Minimum. Prawda czy bzdura od profesora u PWr?",
-    "image": "",
-    "answers": [
-      { "text": "Prawda absolutna! Crossover dba u Inżyniera o ucinanie pędu na eksploatację obszaru dając najlepsze geny do budowy i szukanie po nich optimum, Mutacja jako randomka jest ubezpieczycielem wyżarzania od przedwczesnej monotonii (zbliżenia krzywych błędu populacji w jedną smutną ścianę ucieczki na K=5).", "correct": true },
-      { "text": "Bzdura bo mutacja jest wektorem orientacji <0 u Z", "correct": false },
-      { "text": "Fałsz, krzyżowanie rzuca O(n!) od Prawa Amdahla R", "correct": false },
-      { "text": "Kłamstwo od komiwojażera by uciec na tabu pod M", "correct": false }
-    ]
-  },
-  {
-    "question": "Przy plecaku z Programowania DP mamy tabelę dla W=8. Jeśli mamy czwarty rzut iteracji (Waga: 5, Wartość: 8). I stoimy na V(4, W=6) by wbić zysk. Co robimy?",
-    "image": "",
-    "answers": [
-      { "text": "Wyliczasz na cito Maximum! Sprawdzasz: a) Olanie przedmiotu co rzuca pule z u góry V[3,6]. Lub b) Wrzucenie go potężnie (Zysk: 8) co zżera ci W=5 i dodajesz do tego najlepszy ukryty w tabeli zysk z wolnego miejsca od spodu rzędu V[3, 6-5=1]. Bierzesz bez pukania większą wartość O(1) do rzędu.", "correct": true },
-      { "text": "Rozgałęzia TSP na O(n!) przez listę nawrotów T", "correct": false },
-      { "text": "Tworzy wyżarzone drzewo tablicy OOM pod Z", "correct": false },
-      { "text": "Ucina wektorem zorientowanym od 2-opt na komiwojażera P", "correct": false }
-    ]
-  },
-  {
-    "question": "Dyskretny plecak używa bottom-up z memoizacji i tabelą w macierzy. Jak radzi sobie Czysty Ułamkowy problem greedy z zachłannym podejściem bez nawrotów i bólu z O(n log n)?",
-    "image": "",
-    "answers": [
-      { "text": "Oblicza suchy stusunek Value / Weight (Wartość do wagi) z ułamków. Sortuje malejąco te sigmy z góry na dół dając O(n log n) od szybkiego sortu. Ładuje na pałę ciurkiem wszystko od szczytu do pełna, a jak nie wchodzi potwór do dziury, bezczelnie kraje i upieprza go by wepchnąć odłamkiem by idealnie obciąć limit plecaka.", "correct": true },
-      { "text": "Zrównolegla Prawo Amdahla pod procesor 8 i rzuca M", "correct": false },
-      { "text": "Ucina Tabu z wyżarzenia od r<P do e^(-T) G", "correct": false },
-      { "text": "Wypala rdzenie orientacją det ujemnym pod TSP R", "correct": false }
-    ]
-  },
-  {
-    "question": "Algorytm Huffmana nie rzuca pętlami w kosmos i stwarza prefiks bez kolizji. Jaki byłby defekt jeżeli rzucilibyśmy ZNAK pod wewnętrzny (środkowy z synów) węzeł Drzewa?",
-    "image": "",
-    "answers": [
-      { "text": "Zawalilibyśmy prefix rule! W Huffim zasada jest twarda i nie znosi ułamków z kompromisami: ZNAKI mieszkają absolutnie i WYŁĄCZNIE na parterze u korzeni liści od dna (leafs). Jeśliby znak siedział w rozdrożu, jego kod byłby prefiksem czegoś niżej co odciąłoby szanse na bezstratne i ostre dekodowanie bez bitów pod stop! Kody stopu zrujnowałyby kompresje.", "correct": true },
-      { "text": "Wyznacznik uciąłby TSP od 2-opt pod Tabu R", "correct": false },
-      { "text": "Wyrzuciłby błąd rekurencji drzewiastej od silni M", "correct": false },
-      { "text": "Zrównoleglenie obcięłoby Prawem Amdahla wyżarzenie Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Ograniczenie Prawa Amdahla tyczy się stałego bloku (Problem Size is Fixed = stały rozmiar bazy wejściowej przy S_max). Jeśli zwiększymy ilość wczytywanych danych proporcjonalnie do rdzeni (Prawo Gustafsona) to:",
-    "image": "",
-    "answers": [
-      { "text": "Wyłamiemy Amdahla. Przestajemy patrzeć na 'Szybkość wciągania tego samego pliku do T', a zaczynamy oceniać 'Ile szerszych, równoległych spraw wyrzucam przez taśmociąg w jednostce czasu'. Gustafson stwierdza, że większy problem rozmywa ucięty narzut początkowy od bloku O(1) dając pęd w stronę linearności ucinając sufit P.", "correct": true },
-      { "text": "Rzuci TSP z komiwojażera w wyżarzenie O(n!) M", "correct": false },
-      { "text": "Krzyżówka i mutacja stworzy trójkąt pod K=3 od G", "correct": false },
-      { "text": "Tablica Huffmana utnie w wektory det<0 na Z", "correct": false }
-    ]
-  },
-  {
-    "question": "W jaki sposób test orientacji det z pętli O(1) pozwala określić bez błędów zmiennych zaokrągleń ułamków na floatach u komiwojażerów pod wypukłość Otoczki w Graham Scan?",
-    "image": "",
-    "answers": [
-      { "text": "Nie dotykamy trygonometrii od Pi. Graham Scan wrzuca tablice i stos tnący pętle, bierze topowe dwa i nowego adepta sprawdzając czy skręt krzyżuje od det>0 (w lewo, CCW). Jak nowy punkt wypluwa wynik det<0 albo 0 od płaskości - zrzucamy (POP) wewnętrznego leszcza z tablicy bo robi 'wgniecenie' na mapie (Right Turn).", "correct": true },
-      { "text": "Omija drzewo rzucając OOM pod zmutowane G", "correct": false },
-      { "text": "Wypala rdzenie w Prawie Amdahla u wyżarzenia Z", "correct": false },
-      { "text": "Wyrzuca wektor z O(N) pod drzewo DP i TSP M", "correct": false }
-    ]
-  },
-  {
-    "question": "Kolorowanie u grafów klasy TSP przy NP-Zupełności polega u pętli programisty by na test wrzucić W. Różnica klasy P i NP w algorytmach od PWr na blacie u PK polega na tym że:",
-    "image": "",
-    "answers": [
-      { "text": "Klasa P rzuca czas liniowy/wielomianowy by coś po Bożemu wyliczyć w cito (O(n), O(n^2)), podczas gdy NP to gigachady ciężkości. By wyliczyć rzucasz do O(2^n) lub O(N!), ALE by upewnić się o poprawności 'Czy to rozwiązanie grafu co ci dałem w koszu jest git', sprawdzenie musi mieścić się i wywalać werdykt gładko w czasie wielomianowym by wejść z sigmą w klasę NP.", "correct": true },
-      { "text": "P to obiekty od tabu TSP a NP rzucają w DP M", "correct": false },
-      { "text": "Klasa NP rzuca wektorem w wyznacznik z Prawa Amdahla Z", "correct": false },
-      { "text": "P to przyspieszenie równoległe a NP to wyżarzenie T", "correct": false }
-    ]
-  },
-  {
-    "question": "Co się dzieje podczas krzyżowania drzew w algorytmie rekursji pod kopiec tablicowy dla F(n) u fibonacciego przy zapomnieniu list memoizacji DP u nooba?",
-    "image": "",
-    "answers": [
-      { "text": "Zamienia się to w amnezję. Rekursja drzewiasta tworzy monstrualne piramidy dublowań (overlapping subproblems), marnując setki tysięcy wywołań w locie funkcji samych w sobie dla tych samych wartości np F(1) ucinając szansę na zdanie kolosa na ocenę w P.", "correct": true },
-      { "text": "Rozwiązuje układ z TSP komiwojażera pod Tabu G", "correct": false },
-      { "text": "Skraca krzyżowe mutacje u fitness po K=3 od M", "correct": false },
-      { "text": "Zrównolegla w wektor T8 od Prawa Amdahla S Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Gdy po wyliczeniu wektorów orientacji dla uciętych odcinków A,B na C,D z P wyszło ci K1=(-15) od prawo, K2=(13) od lewo. Czy dają skrzyżowanie krawędzi TSP?",
-    "image": "",
-    "answers": [
-      { "text": "Tak, dają połowę sukcesu by uciąć pętle. Okraczają swoimi korpusami uciętą prostą bo znak ujemny razy dodatni rzuca po pomnożeniu w twarz wyznacznik Mniejszy od zera (K1 * K2 < 0). Pół sukcesu odniesione u inżyniera, brakuje jeszcze tylko testów od strony Drugiego odcinka CD by wyrzucić pełne W.", "correct": true },
-      { "text": "Rzucają w Wyżarzenie z Tabu pod ucięte DP T", "correct": false },
-      { "text": "Tworzy rekurencję M z Prawem Amdahla pod Z", "correct": false },
-      { "text": "Omija algorytm rzucając krzyżówką z mutacji O(N!) R", "correct": false }
-    ]
-  },
-  {
-    "question": "Jeżeli Tabu w ucieczkach pod TSP polega na pamięci krótkotrwałej O(2), jak uciążliwą wyrzuca wady w usterce długoterminowej by wbić z P na serwer u gigachada?",
-    "image": "",
-    "answers": [
-      { "text": "Lista rzuca pętlami w kosz starych rozwiązań jako ułamek kolejki FIFO (z brzegu dodajesz świeżego bana na zamianę węzłów od TSP, z dół odpadasz najstarszego na wolność po 2 tiktakach iteracji u pętli). Bez FIFO pamięć by nabrzmiała pod uciętą rekurencją od OOM dławiąc CPU od RAM w C++", "correct": true },
-      { "text": "Odwraca Prawo Amdahla pod mutację u potomka M", "correct": false },
-      { "text": "Krzyżuje wektor z orientacji G by wyżarzyć Z", "correct": false },
-      { "text": "Rzuca n! pod plecak z DP bez nawrotów K=3 R", "correct": false }
-    ]
-  },
-  {
-    "question": "Symulacja skrętu na ekranie z P,Q na R. Złapałeś kursorem pchnięcie od wektora punktów. Wzór (Qx - Px)*(Ry - Py) i ucinasz mu prawą składową (Qy - Py)*(Rx - Px). Twój K wyszedł = 0... Jaki rzut na kompilator u C++?",
-    "image": "",
-    "answers": [
-      { "text": "Punkty leżą płasko u samej krawędzi (Collinear). Wyznacznik 0 (det=0) z wektorów przy omijaniu trygonometrii na grafice od 2D rzuca wprost o idealnej, laserowej prostej bez strzału od skrętu odchyleń dławiąc wektory od Z na pętli w krzyżówce by wyciągnąć T", "correct": true },
-      { "text": "Zmutowało w tabu TSP rzucając ujemny P", "correct": false },
-      { "text": "Okraczyło DP i rzuciło n log n z krzywej M", "correct": false },
-      { "text": "Prawa Amdahla ucięły wyżarzenie S pod T8 u R", "correct": false }
-    ]
-  },
-  {
-    "question": "Ile wynosi wyznacznik orientacji orient(C,D,A) przy C(2,5), D(6,1) na A(1,1) z surowego pchnięcia P na R?",
-    "image": "",
-    "answers": [
-      { "text": "(6-2)*(1-5) odcięte u rzutu od (1-5)*(1-2). Mamy 4*(-4) wyrzucając -16 i od tego ujmujemy (-4)*(-1)=4. Czyste matmy -16 odjąć 4 uderza bezwzględnie w wynik ujemny rzędu -20 co jest czystym Skrętem W Prawo na tablicach u C++", "correct": true },
-      { "text": "Rzuca det=13 od krzyżówki 2-opt w Tabu P", "correct": false },
-      { "text": "Wyrzuca ułamek od rekursji M i zrównolegla w Z", "correct": false },
-      { "text": "Omija O(n!) i wylewa wyżarzanie OOM pod T R", "correct": false }
-    ]
-  },
-  {
-    "question": "Problem komiwojażera pod symulowane Wyżarzanie... Jaki ułamek P w prawdopodobieństwie obali Metropolis w locie z błędem TSP?",
-    "image": "",
-    "answers": [
-      { "text": "Akceptuje każdą bzdurę P (gorsze rozwiązanie ze skokiem od rzutów z pętli) rzucając r < p. Gdzie r to random z bębna 0-1 u losowania. Jak random wejdzie pod obliczony e^(-C/T), łyka odrzut z bananem i krzyżuje krawędź TSP u dołu.", "correct": true },
-      { "text": "Mnoży P z drzewa na O(1) odcinając Z z M", "correct": false },
-      { "text": "Krzyżuje Prawo Amdahla rzutując OOM pod R G", "correct": false },
-      { "text": "Orientuje ujemny skręt -20 na Tabu od P T", "correct": false }
-    ]
-  },
-  {
-    "question": "W jaki sposób rozwiązujemy TSP rzucając mu do gardła 2-opt ucinający rekurencję pod P?",
-    "image": "",
-    "answers": [
-      { "text": "Wysadzamy chamsko 2 wierzchołki u dróg, odpinając je od sąsiadów u korzeni P i robimy skosowy krzyż z krawędzi obalając ich wczesną trajektorie by stworzyć nowy układ do zbadania Kosztu na TSP ucinając wyznaczniki O(n^2). Zmniejsza odległość i blokuje przecinanie P", "correct": true },
-      { "text": "Odcinamy wyżarzanie od Prawa Amdahla M u Z", "correct": false },
-      { "text": "Rozwiązuje DP plecaka na Tabu z krzywej T R", "correct": false },
-      { "text": "Krzyżuje gen z mutacji i rzuca z orientacji G", "correct": false }
-    ]
-  },
-  {
-    "question": "Jak działa koło ruletki w Algorytmach Genetycznych od P i T?",
-    "image": "",
-    "answers": [
-      { "text": "Skrawki koła od ruletki są idealnie proporcjonalne od ich Fitness f(x). Jeżeli w plecaku i TSP miałeś Sigmę od P, wyznacza ogromny ułamek tortu na strzałę do losowania. Leszcz z wysokim K konfliktów (np u kolorowaniu) ma cieniutki kawałeczek ruletki dławiąc jego szanse ale dając mu iluzoryczną losowość z P", "correct": true },
-      { "text": "Wyrzuca ułamek OOM pod zmutowane DP z M", "correct": false },
-      { "text": "Krzyżuje n log n by Prawo Amdahla obcięło Z", "correct": false },
-      { "text": "Rzuca wektor z orientacji na det < 0 u T R", "correct": false }
-    ]
-  },
-  {
-    "question": "Mutacja u potomków z Genetyki rzuca O(n!) przed startem od Tabu?",
-    "image": "",
-    "answers": [
-      { "text": "Absolutne kłamstwo, O(n!) tu nie egzystuje u profesjonalistów z wydziału w C++. Mutacja polega tylko na brutalnym O(1) dla jednego osobnika (przeskoku tablicy u wierzchołka) - jak podmienienie koloru by skrzyżować odnogi omijając minima od P by wejść w T", "correct": true },
-      { "text": "Prawda, mutacja wyrzuca n! pod błąd OOM Z M", "correct": false },
-      { "text": "Tak, wyżarzanie z Prawa Amdahla uderza w R", "correct": false },
-      { "text": "Nie, det=0 ucina drzewo Huffmana od P u G", "correct": false }
-    ]
-  },
-  {
-    "question": "Algorytm Huffmana na 10 bitach P i T u komiwojażera wyrzuca zysk ze spadku?",
-    "image": "",
-    "answers": [
-      { "text": "Owszem, po zliczeniu bitów O(1) u uciętego rzutu od drzewa, dławi surowe ASCII ucinając mu np z 300 bitów u stałej paczki znakowej z rzędu pod marne 120 bitów oszczędzając do 60 procent objętości dysku wyrzucając prefix i liście dla P na T", "correct": true },
-      { "text": "Krzyżuje n log n z Tabu by obciąć mutacje Z", "correct": false },
-      { "text": "Drzewiasta ucinana rzuca OOM od wyżarzania R", "correct": false },
-      { "text": "Zrównolegla Prawo Amdahla pod TSP od M G", "correct": false }
-    ]
-  },
-  {
-    "question": "Co symbolizuje 'drzewo wywołań u rekursji bez spamiętywania DP'?",
-    "image": "",
-    "answers": [
-      { "text": "Gigantyczny nowotwór od amnezji. Kod nie uczy się starych ruchów w TSP i wywala zasoby na uciążliwe rekalkulacje F(2) i F(1) dla n=5. Zżera rdzenie rozciągając wywołania O(2^n) dławiąc ułamki na C++ wyrzucając z pamięci i omijając linearne rozwiązanie u P", "correct": true },
-      { "text": "Zmutowany gen wyznacznika -20 na orientacji T", "correct": false },
-      { "text": "Komiwojażera z 2-opt ucinającego wyżarzanie Z M", "correct": false },
-      { "text": "Drzewo z Tabu krzyżujące Prawo Amdahla u R", "correct": false }
-    ]
-  },
-  {
-    "question": "Jeżeli chcemy obejść TSP komiwojażera z T i M od P, co wyrzucamy?",
-    "image": "",
-    "answers": [
-      { "text": "Zaczynamy od wyszukiwania Lokalnego, rzucamy się na 2-opt z uśmiechem by poprawić krawędzie od P, gdy to skostnieje i wpadnie w dołek wyrzucamy albo Tabu listę (ban by się wyrwać z rekursji nawrotów i badać górki) albo grzejemy Metropolią u Symulowanego wyżarzania na T zrzucając rzuty w P by wyskoczyć od R.", "correct": true },
-      { "text": "Wyżarzamy drzewo Huffmana z Mutacji od OOM Z", "correct": false },
-      { "text": "Obracamy orientację Prawa Amdahla u K=3 G", "correct": false },
-      { "text": "Rzucamy n log n w plecak z DP dla ułamków M", "correct": false }
-    ]
-  },
-  {
-    "question": "Na czym polega optymalizacja pamięci w reprezentacji tablicowej kopca bez wskaźników z P?",
-    "image": "",
-    "answers": [
-      { "text": "Blokujemy marnotrastwo pamięci C++ na chamskie adresy wskaźnikowe (pointery lchild, rchild) dla drzew. Pakujemy surowe Inty od 1 w P i wjeżdżamy na ułamki szybkimi arytmetykami bitowymi z procka (shift left np dla synów i/2 na floor) ucinając przestoje cache'a i wyrzucając W dla wydajności O(1) od T na Z.", "correct": true },
-      { "text": "Na wyżarzaniu orientacji wektora det z O(n!) M", "correct": false },
-      { "text": "Na obcięciu Prawa Amdahla krzyżowaniem TSP R", "correct": false },
-      { "text": "Na Tabu od plecaka wyrzucającym rekursję G T", "correct": false }
-    ]
-  },
-  {
-    "question": "Jak radzimy sobie z 'Trójkątem' w zmutowanych Grafach pod kolorowania K=3 w G?",
-    "image": "",
-    "answers": [
-      { "text": "Obcinamy bzdury i przyznajemy twardo że K3 (Trójkąt - kółko różańcowe wierzchołków TSP połączonych nawzajem) wymusza absolutne minimum 3 kolorów. Węzły widzą się u P i nikt nie może wziąć tego samego koloru od sąsiada bo wektor krawędzi P-Q wyrzuci Crash konfliktów na tablicy krzyżując P od M.", "correct": true },
-      { "text": "Prawem Amdahla z 2-opt wyżarzamy Tabu R T", "correct": false },
-      { "text": "Zrównoleglamy wyznacznik det < 0 od Z G", "correct": false },
-      { "text": "Omijamy n log n w DP ucinając drzewo M", "correct": false }
-    ]
-  },
-  {
-    "question": "Czy Prawo Amdahla to bzdura dla S_max = 1 / f_seq przy T8 z P?",
-    "image": "",
-    "answers": [
-      { "text": "Absolutnie nie, to beton ucinający fantazję noobów od AGH marzących o 100% użycia z T. F_seq zamyka sufit od P, bo wczytanie tablic z pliku zawsze zżera stały promil czasu blokując linearność przyspieszenia przy S=4 u T. To powód dla którego wielowątkowość poległa od IPC i narzutów na zamulanie z overhead R na G.", "correct": true },
-      { "text": "To bzdura, wyżarzanie krzyżówek u komiwojażera Z M", "correct": false },
-      { "text": "Mutacja w tabu TSP obcina orientacje P T", "correct": false },
-      { "text": "DP od drzew rzuca ułamek pod OOM od Z G", "correct": false }
-    ]
-  },
-  {
-    "question": "W przypadku problemu TSP komiwojażera T i P... dlaczego 2-opt nie znajdzie G optimum w M?",
-    "image": "",
-    "answers": [
-      { "text": "Bo jest naiwnym głupkiem. Wdrapuje się na zachłanny najbliższy wzgórek z P i odkręca krawędzie TSP dopóki cokolwiek obniża mu paliwo, gdy staje w dołku mówi 'W, skończyłem' ucinając skaner i padając, mimo że po prawej R za górą Tabu leży optimum na złoto i G do M. Brakuje mu heurystyk obalania u wyżarzenia od Z.", "correct": true },
-      { "text": "Bo orientacja det>0 obcina Prawo Amdahla T", "correct": false },
-      { "text": "Drzewiasta ułamkowa rzuca n! pod plecak R P", "correct": false },
-      { "text": "Krzyżowanie zmutowane rzuca O(1) od DP Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Wylicz u P z orientacji (1,1), B(5,4), C(2,5) wzorem (XQ-XP)*(YR-YP) itd...",
-    "image": "",
-    "answers": [
-      { "text": "Pchnięcie na C. Od P=(1,1) wektory z (5-1)x(5-1) odejmuje (4-1)x(2-1). Skrajne 4*4 z M = 16 odjąć krzyżowe 3*1 u P = 3. Czyste matmy wypluwają 16-3 = 13 (det na absolutny Plus). Skręt ląduje u boku CCW na lewo tnąc TSP O(1) z R.", "correct": true },
-      { "text": "Rzuca -20 dla Tabu u wyżarzenia pod Z", "correct": false },
-      { "text": "Zrównolegla Prawo Amdahla w T8 od ułamków M", "correct": false },
-      { "text": "Omija n log n pod mutacje w drzewie G", "correct": false }
-    ]
-  },
-  {
-    "question": "Rzut w Symulowane Wyżarzanie, jak radzi sobie Metropolia przy T z rzutem r<P z G?",
-    "image": "",
-    "answers": [
-      { "text": "Chamsko rzuca w ułamek od exp(-delta/T). Jeśli gorszy kandydat w P z krzyżowej rzuca w deltaCost=5 i P=0.6, to jak kostka od randoma na bębnie spadnie na 0.3 od R... wchłania to z zachwytem ucinając monotonnie i wrzucając ujemne od Z dla M w 100%.", "correct": true },
-      { "text": "Rzuca Tabu TSP w orientację CCW od Z P", "correct": false },
-      { "text": "Wyżarzanie z Prawa Amdahla obcina DP od M", "correct": false },
-      { "text": "Drzewo z 2-opt u komiwojażera rzuca n! na T", "correct": false }
-    ]
-  },
-  {
-    "question": "Drzewiasta ułamkowa z Fibonacci rekursji z P... jak dublowania wpływają od Z?",
-    "image": "",
-    "answers": [
-      { "text": "Marnują procesor z PWr. Amnezja F(1) z rekurencji M i powielanie n! razy na tablice bez Memoizacji rzuca O(2^n) paląc zasilacze na M i krzyżując dławi w locie szanse u G. Rozwiązaniem DP T na R z tablicą", "correct": true },
-      { "text": "Wypala z Prawa Amdahla Tabu w TSP P T", "correct": false },
-      { "text": "Orientuje wektory 2-opt na komiwojażera Z", "correct": false },
-      { "text": "Zrównolegla wyżarzanie od det na ułamek G", "correct": false }
-    ]
-  },
-  {
-    "question": "W jaki sposób Huffman kompresuje od P na T z krzyżem R w locie by uciąć G?",
-    "image": "",
-    "answers": [
-      { "text": "Kroi na P najczęstsze znaki dając im najkrótsze bity od R (np. P=0) a te śmieciowe i najrzadsze na dno liści z długimi bitami (np T=1110). Średnio zbijając z grubego pieńka od M zysk i robiąc prefix by czytać plik bez spacji blokując Z", "correct": true },
-      { "text": "Prawo Amdahla obcina TSP z Tabu na M Z", "correct": false },
-      { "text": "Drzewiasta rekursja z komiwojażera rzuca n! P", "correct": false },
-      { "text": "Orientacja wyżarzenia det=-15 u DP na T", "correct": false }
-    ]
-  },
-  {
-    "question": "Wzór S(n, k) = k*S(n-1, k) + S(n-1, k-1) u liczby Stirlinga z P od Z to?",
-    "image": "",
-    "answers": [
-      { "text": "Rozwiązanie DP z drzewiastej rekursji. Czysty algorytm wywalał ułamki z podwojeń M krzyżując węzły. Tabela u Stirlinga dla DP w czasie N*K rzuca liniowo macierzą od Z wyrzucając W z OOM i dławiąc koszty w C++ bez odrzutu G od P.", "correct": true },
-      { "text": "Wyznacznik ujemny od Tabu z wyżarzaniem T", "correct": false },
-      { "text": "Krzyżuje orientacje od Prawa Amdahla u M", "correct": false },
-      { "text": "Plecak 0-1 rzuca 2-opt pod TSP od komiwojażera P", "correct": false }
-    ]
-  },
-  {
-    "question": "Czym jest kryterium ucieczki w G od TSP u aspiracji dla M z P od Z?",
-    "image": "",
-    "answers": [
-      { "text": "Zasada VIP'a na bramce z P. Gdyby Tabu blokowało strzał ze zlota na W (super wyjście na nowe, niespotykane nigdy wcześniej w epoce Minimum Globalne Z) omija zakaz z uśmiechem zrzucając rzuty krzyżowe z T i dopuszcza węzeł na salę dławiąc OOM od M.", "correct": true },
-      { "text": "Obcina Prawa Amdahla u wyżarzania od T R", "correct": false },
-      { "text": "Orientuje wektory z CCW ucinając TSP P", "correct": false },
-      { "text": "Drzewo rzuca n log n z DP u plecaka G", "correct": false }
-    ]
-  },
-  {
-    "question": "Złożoność z O(log log n) ułożona przed P z T od M jest?",
-    "image": "",
-    "answers": [
-      { "text": "Najlepsza oprócz chamskiego wierzchołka stałej O(1) dla M u R z P. Leci jak rakieta kosmiczna zostawiając noobów z AGH dławiących się swoimi n log n na Z w pyle od M wyrzucając P.", "correct": true },
-      { "text": "Omija Tabu rzucając O(n!) od Prawa Amdahla T", "correct": false },
-      { "text": "Krzyżuje wektory det<0 na komiwojażera z Z", "correct": false },
-      { "text": "Plecak wyżarzony w DP obcina z 2-opt G", "correct": false }
-    ]
-  },
-  {
-    "question": "Plecak DP ucinany od zachłannej z M i G od P pod T polega na?",
-    "image": "",
-    "answers": [
-      { "text": "Brak ułamków na cięcie mieczem M pod R od P. 0-1 wymusza ucięcia w drzewach i tablicę V(n, W) bo przedmioty wchodzą tylko pełne (Zero albo Jeden). DP uśmiecha się budując max z góry pod T dławiąc problemy z Z od P", "correct": true },
-      { "text": "Komiwojażer orientuje Tabu od Prawa Amdahla M", "correct": false },
-      { "text": "Wyżarzanie z krzyżówek u wektora det G T", "correct": false },
-      { "text": "Drzewiasta rzuca -15 z TSP od OOM P Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Krzyżowanie z mutacją od P w genetycznym wyrzuca od G pod M?",
-    "image": "",
-    "answers": [
-      { "text": "Mutacja to mały random ucinający monotonie T z M, by populacja u P nie zatonęła w błędnym i nudnym minimum u Z. A krzyżowanie skleja dwie półkule Topów w nadziei na gigachada u R z G", "correct": true },
-      { "text": "Zrównolegla w Prawo Amdahla u komiwojażera P", "correct": false },
-      { "text": "Plecak rzuca O(1) od DP pod wyżarzanie M", "correct": false },
-      { "text": "Orientacja u 2-opt det=-20 w Tabu TSP Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Dlaczego 1/f_seq w M z P od T rzuca G u Prawa Amdahla na R?",
-    "image": "",
-    "answers": [
-      { "text": "Bo M u T rzuca z góry sufitem z Z. Nawet jak odpalisz kwantowe pętle z M pod R, i tak kod seryjny u P będzie wlókł się blokując cały peleton T z ułamkami f na Z.", "correct": true },
-      { "text": "TSP obcina komiwojażera pod Tabu w P M", "correct": false },
-      { "text": "Orientuje wektory z DP plecakiem u G T", "correct": false },
-      { "text": "Drzewo z mutacją rzuca wyżarzanie pod O(1) Z", "correct": false }
-    ]
-  },
-  {
-    "question": "Złożoność u plecaka O(N*W) z M pod T u P to P-zupełna od G w Z?",
+{
+    "question": "Rozwiązując układ T(n) = 8*T(n/2) + n^2 z wykorzystaniem twierdzenia o rekurencji uniwersalnej, jaką złożoność asymptotyczną otrzymamy? [cite: 180, 182, 184]",
     "image": "",
     "answers": [
-      { "text": "Pseudo-wielomianowa od Z w M. W rzuca pułapki O(W) pod T na G u P. Jeśli podwoisz limity do nieskończoności z plecaka M u Z to tablica pęknie od rozmiaru W z P dławiąc OOM pod R", "correct": true },
-      { "text": "Krzyżuje n log n z Tabu u komiwojażera M", "correct": false },
-      { "text": "Prawa Amdahla z wyżarzaniem pod det<0 Z P", "correct": false },
-      { "text": "Drzewiasta rekursja z 2-opt TSP w T G", "correct": false }
+      { "text": "O(n^2)", "correct": false },
+      { "text": "O(n^3)", "correct": true },
+      { "text": "O(n^2 log n)", "correct": false },
+      { "text": "O(8^n)", "correct": false }
     ]
   },
   {
-    "question": "W jaki sposób P z M od T ucinają ujemne skręty w CCW na G u R?",
+    "question": "Dlaczego naiwna wersja rekurencyjna bez zapamiętywania wyników przy obliczaniu współczynników dwumianowych jest nieefektywna? [cite: 11, 18]",
     "image": "",
     "answers": [
-      { "text": "CCW to z uśmiechem matematyki Skręt na lewą Mańkę z Plusem det>0. Ujemne rzuty na z góry rzucają skosem na Prawo (CW z Z od M u P). Dławiąc trygonometrię w C++ u T bez ułamków na R.", "correct": true },
-      { "text": "Zrównoleglają Prawo Amdahla pod krzyżówkę TSP P", "correct": false },
-      { "text": "Wyżarzają Tabu od komiwojażera w 2-opt Z M", "correct": false },
-      { "text": "Drzewo z mutacją rzuca n! pod plecak G T", "correct": false }
+      { "text": "Wymaga sortowania danych wejściowych przed uruchomieniem", "correct": false },
+      { "text": "Tworzy cykle nieskończone w grafie wywołań", "correct": false },
+      { "text": "Złożoność pamięciowa rośnie wykładniczo z powodu zbyt głębokiego stosu", "correct": false },
+      { "text": "Wielokrotnie rozwiązuje te same nakładające się podproblemy", "correct": true }
     ]
   },
   {
-    "question": "Metropolis u wyżarzania od P z T w M rzuca szanse na akcept na Z od G?",
+    "question": "Zgodnie z definicją asymptotycznie dokładnego oszacowania, co musi zachodzić, aby algorytm posiadał złożoność Theta(f(n))? [cite: 203]",
     "image": "",
     "answers": [
-      { "text": "Tyle daje z P u M co mu wrzucisz w delta P i e^-1 na R. Obniżenie chłodzi układ na zero, zaciskając ułamki na ucieczki z Z u G. Odcinając Tabu dla rzutu zachłannego M w T.", "correct": true },
-      { "text": "Komiwojażer z krzyżówki TSP ucina orientację P M", "correct": false },
-      { "text": "Prawo Amdahla z 2-opt pod drzewo plecaka Z T", "correct": false },
-      { "text": "O(N!) u mutacji z DP wyrzuca n log n G R", "correct": false }
+      { "text": "Złożoność zależy wyłącznie od początkowego ułożenia danych", "correct": false },
+      { "text": "Musi zachodzić nierówność O(f(n)) != Omega(f(n))", "correct": false },
+      { "text": "Funkcja złożoności musi być ograniczona tylko z góry", "correct": false },
+      { "text": "Musi zachodzić równość O(f(n)) = Omega(f(n))", "correct": true }
     ]
   },
   {
-    "question": "Drzewo Huffman P z T rzuca na M prefiksem od Z pod G by obciąć u R?",
+    "question": "Który z poniższych ciągów funkcji jest poprawnie uporządkowany rosnąco według rzędu wielkości? [cite: 189, 190]",
     "image": "",
     "answers": [
-      { "text": "Obcina M u Z na strzępy od P w T u G na R z O(1). Znaki spycha w liście z M pod G i gasi u P błędy z odczytu z Z u T, bo nie trzeba spacji do oddzielania znaków w R", "correct": true },
-      { "text": "TSP rzuca komiwojażera w Tabu u wyżarzania P M", "correct": false },
-      { "text": "Orientuje wektory z Prawa Amdahla pod krzyżówkę Z T", "correct": false },
-      { "text": "DP plecak z 2-opt dławi mutację na G R", "correct": false }
+      { "text": "sqrt(n), log(n^4), 3^n, 2^(2n), n!", "correct": false },
+      { "text": "log(n^4), sqrt(n), 3^n, 2^(2n), n!", "correct": true },
+      { "text": "log(n^4), sqrt(n), 2^(2n), 3^n, n!", "correct": false },
+      { "text": "sqrt(n), 3^n, log(n^4), n!, 2^(2n)", "correct": false }
     ]
   },
   {
-    "question": "Krzyżowanie M w T u P od G rzuca ruletką na Z by obalić R z P?",
+    "question": "Jaki wpływ ma obniżanie temperatury na działanie algorytmu symulowanego wyżarzania? [cite: 94, 103]",
     "image": "",
     "answers": [
-      { "text": "Rozwiązuje Z z uśmiechem na twarzy u M i T od P z rzutem na G. Im wyższy Fitness F(x) z P u R, tym szerszy banan na ruletce u Z w M. Śmieciowe rozwiązania dławi ucięciami szans na P w T.", "correct": true },
-      { "text": "Wyżarza Tabu z Prawa Amdahla pod komiwojażera P M", "correct": false },
-      { "text": "Orientuje z 2-opt krzyżówki na drzewach TSP Z T", "correct": false },
-      { "text": "Plecak z DP wyrzuca n! pod mutację OOM G R", "correct": false }
+      { "text": "Algorytm staje się zachłanny i drastycznie spada szansa na akceptację gorszych rozwiązań", "correct": true },
+      { "text": "Zwiększa się prawdopodobieństwo wyjścia z optimum lokalnego", "correct": false },
+      { "text": "Algorytm częściej eksploruje nowe, suboptymalne rozwiązania", "correct": false },
+      { "text": "Złożoność pamięciowa algorytmu maleje proporcjonalnie do temperatury", "correct": false }
     ]
   },
   {
-    "question": "Jak zrzucasz M z P w Tabu od T u G pod Z na TSP u komiwojażera z R?",
+    "question": "Jakie jest główne zadanie funkcji przystosowania w algorytmie ewolucyjnym dla problemu kolorowania grafu? [cite: 117]",
     "image": "",
     "answers": [
-      { "text": "Ograniczasz rzuty w P z M by FIFO od Z u T na TSP nie wylało u G. 3 bana zdejmujesz gdy wjeżdża 4 ty od ułamka na R u P z M w Z. Ucieka to z minimum lokalnego od T bez błędów w C++.", "correct": true },
-      { "text": "Drzewo z Huffmana u wyżarzenia od Prawa Amdahla P M", "correct": false },
-      { "text": "Orientuje wektor z 2-opt z DP na plecaku Z T", "correct": false },
-      { "text": "Mutacja na krzyż ucinana przez rekursję n! G R", "correct": false }
+      { "text": "Zmienianie kolorów wybranych wierzchołków", "correct": false },
+      { "text": "Wymiana fragmentów rozwiązań między dwoma osobnikami", "correct": false },
+      { "text": "Ocena jakości osobnika, np. na podstawie liczby konfliktów barw na krawędziach", "correct": true },
+      { "text": "Gwarantowanie wyjścia z optimum lokalnego", "correct": false }
     ]
   },
   {
-    "question": "W jaki sposób rozwiązujesz P z M u T na Z u Prawa Amdahla od G w R?",
+    "question": "W dyskretnym problemie plecakowym 0-1 odtwarzanie składu optymalnego plecaka (backtracking) opiera się na: [cite: 46, 53]",
     "image": "",
     "answers": [
-      { "text": "Dajesz T1/T8 na zrównolegleniu P z M i M na Z od G. Obliczasz szklany sufit od P u R w T z ułamkami f_seq w Z z M. I rzucasz w twarz błędem jak spadek ułamków idzie od P z M na T w G poniżej 54% u R w Z.", "correct": true },
-      { "text": "TSP rzuca komiwojażera w Tabu z krzyżówek P M", "correct": false },
-      { "text": "Plecak z DP wyżarza orientację z 2-opt Z T", "correct": false },
-      { "text": "Drzewo rzuca n log n od mutacji na G R", "correct": false }
+      { "text": "Wybieraniu najlżejszych przedmiotów aż do wyczerpania pojemności", "correct": false },
+      { "text": "Sprawdzaniu, czy wartość w danej komórce tablicy różni się od wartości w wierszu powyżej", "correct": true },
+      { "text": "Dzieleniu wartości przedmiotów przez ich wagę", "correct": false },
+      { "text": "Akceptowaniu gorszych rozwiązań z pewnym prawdopodobieństwem", "correct": false }
     ]
   },
   {
-    "question": "Jeżeli Tablica M na Z rzuca P u T w G dla TSP na R od 2-opt...",
+    "question": "Jaką regułę stosuje algorytm zachłanny podczas budowania optymalnego drzewa dla kodu Huffmana? [cite: 36, 38]",
     "image": "",
     "answers": [
-      { "text": "Rozwiązuje P z T u M w Z na G od R ucinając krawędzie i krzyżując na Z by obciąć P. I sprawdza czy wykręcił W od M w T na Z z G. Jak tak, to uśmiech u P z M na T w R z Z", "correct": true },
-      { "text": "Wyżarza Prawa Amdahla u komiwojażera Tabu P M", "correct": false },
-      { "text": "Drzewo DP plecaka rzuca zmutowanym n! Z T", "correct": false },
-      { "text": "Orientacja u wektora wyrzuca ułamek z krzyżówek G R", "correct": false }
+      { "text": "Zawsze łączy węzły o największej częstości występowania", "correct": false },
+      { "text": "Dzieli zbiór znaków na dwie równe połowy", "correct": false },
+      { "text": "W każdym kroku łączy dwa węzły/poddrzewa o najmniejszej sumarycznej wadze", "correct": true },
+      { "text": "Koduje znaki alfabetycznie przy pomocy stałej liczby bitów", "correct": false }
     ]
   },
   {
-    "question": "Wektory u P z M na Z rzucają T w G od R przy det z C++ na P u M?",
+    "question": "Co mówi prawo Amdahla o maksymalnym przyspieszeniu programu równoległego? [cite: 131, 132]",
     "image": "",
     "answers": [
-      { "text": "M z P u Z wypluwają T od G w R na P i ucinają M od Z z T na ułamkach od G z R u P. I rzucasz W w M na Z u T od G z P w R dla CCW u Z na M z T u G na P od R w Z. I rozwiązujesz M na P u Z w T od G u R z P na Z w M", "correct": true },
-      { "text": "Komiwojażer rzuca w 2-opt Tabu u wyżarzenia P M", "correct": false },
-      { "text": "Prawa Amdahla obcinają TSP z krzyżówki w Z T", "correct": false },
-      { "text": "Plecak z DP wyrzuca n! pod drzewo mutacji G R", "correct": false }
+      { "text": "Przyspieszenie jest zawsze równe liczbie użytych procesorów", "correct": false },
+      { "text": "Przyspieszenie nigdy nie będzie większe niż odwrotność ułamka części sekwencyjnej programu", "correct": true },
+      { "text": "Przyspieszenie zależy tylko i wyłącznie od prędkości komunikacji między wątkami", "correct": false },
+      { "text": "Efektywność programu zawsze rośnie wraz z liczbą rdzeni", "correct": false }
     ]
   },
   {
-    "question": "Ostatnie pytanie od G z M u P na Z w T od R przy TSP na M u G z P?",
+    "question": "Aby generator liczb pseudolosowych oparty na metodzie addytywnej (np. z opóźnieniami j=2, k=5) zaczął działać, ile co najmniej początkowych elementów (ziaren) musi posiadać? [cite: 192]",
     "image": "",
     "answers": [
-      { "text": "Rozwiązujesz G w Z u M na T od P z R i rzucasz w M z P u G na Z od T w R. PK to top u M w Z na P od G u T w R z M na Z u P. Z G od T w R na M u Z z P. I ucinasz M na P u G z Z od T w R na M u P w G", "correct": true },
-      { "text": "Zrównolegla Prawo Amdahla pod wyżarzanie Tabu P M", "correct": false },
-      { "text": "Mutacja na krzyż ucinana przez wektor orientacji Z T", "correct": false },
-      { "text": "DP od plecaka rzuca O(1) pod drzewiaste błędy G R", "correct": false }
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "5", "correct": true },
+      { "text": "8", "correct": false }
     ]
   }
 ]

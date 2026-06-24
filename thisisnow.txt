@@ -1,0 +1,36 @@
+Obliczenia równoległe — przyspieszenie i efektywność
+Program sekwencyjny wykonuje się w czasie:
+T1 = 80 s.
+Ten sam problem został rozwiązany programem równoległym na 8 procesorach. Czas wykonania
+wynosi:
+T8 = 14 s.
+Wykonaj następujące polecenia:
+a) Oblicz przyspieszenie S8 = T1 / T8.
+b) Oblicz efektywność E8 = S8 / 8.
+c) Zinterpretuj otrzymaną efektywność procentowo.
+d) Oceń, czy wykorzystanie procesorów można uznać za dobre. Odpowiedź uzasadnij.
+e) Wyjaśnij, jakie czynniki mogą powodować, że przyspieszenie nie jest równe liczbie procesorów.
+f) Wyjaśnij sens prawa Amdahla i opisz, jaki wpływ na maksymalne przyspieszenie ma część
+sekwencyjna programu.
+
+S8 = 5,714
+E8 = 0,714
+
+E8 (procentowo) = 71%
+co oznacza że każdy procesor jest wykorzystywany w 71%
+
+wykorzystanie można uznać za dobre, chodź nie najlepsze.
+w idealnym świecie każdy procesor byłby wykorzystywany w 100%, co jednak nie jest możliwe z powodu np. na konieczność komunikacji między procesorami
+czy fakt, iż jeden procesor może dostać bardziej wymagające zadanie od innego, co spowoduje że będzie pracował ciężej podczas gdy inny ukończy swoje zadanie szybciej i będzie w stanie idle.
+Niemniej jednak wynik 71% jest akceptowalny.
+
+Przyspieszenie nie będzie równe liczbie procesorów na przykład z powodu że nie każdy program da się podzielić tylko na części równoległe.
+ponieważ mamy doczynienia z nieomijalnymi sekwencyjnymi zadaniami, jak na przykład ładowanie pliku czy otwieranie programu, które z racji że nie da się ich rozbic na osobne podproblemy które mogą być pojedyńczo obliczone przez nasze procesory są zmusze być wykonane tylko na jednym
+
+prawo amdahala mówi nam że przyśpieszenie nigdy nie będzie większe niż odwrotność części sekwencyjnej programu.
+Smax = 1/Seq
+gdzie Seq to % programu, który musi być wykonany sekwencyjnie,
+
+przypuśćmy że 10% naszego programu to kod sekwencyjny, wtedy Seq = 0.1
+Smax = 1/0.1 = 10
+nasz program zatem można przyśpieszyć maksymalnie 10-krotnie.
